@@ -30,12 +30,12 @@ def prob_5(x,y):
 	return np.arccos((x**2+y**2-(4*bignum*x+3*bignum*y))/np.sqrt((x**2+(3*bignum-y)**2)*(y**2+(4*bignum-x)**2)))/(2*np.pi)
 	
 count = 0
-prob_sum = 0
+prob_s = 0
 for x in x_coordinates:
 	for y in y_coordinates:
 		if in_triangle(x,y):
 			count += 1
-			prob_sum += prob_5(x,y)
+			prob_s += prob_5(x,y)
 	
 
 print (time.clock())

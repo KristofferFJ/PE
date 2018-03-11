@@ -1,4 +1,4 @@
-#618 - Numbers with a given prime factor sum
+#618 - Numbers with a given prime factor s
 import sys
 import math
 
@@ -10,7 +10,7 @@ def fib(n):
 	else:
 		return fib(n-1)+fib(n-2)
 		
-def prime_factors_sum(n):
+def prime_factors_s(n):
     i = 2
     factors = []
     while i * i <= n:
@@ -21,7 +21,7 @@ def prime_factors_sum(n):
             factors.append(i)
     if n > 1:
         factors.append(n)
-    return sum(factors)
+    return s(factors)
 	
 primes_bool = [True for i in range(75025)]
 primes_bool[0] = False

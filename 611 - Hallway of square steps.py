@@ -34,7 +34,7 @@ while i <= smallnum:
 		temp = i**2 + j**2
 	i += 1
 	
-print (sum(1 for i in list))"""
+print (s(1 for i in list))"""
 
 #Finder alle muligheder. Slet gengangere.
 pot = 0

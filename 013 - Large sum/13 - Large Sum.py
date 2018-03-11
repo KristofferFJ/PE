@@ -1,6 +1,6 @@
-#13 - Large Sum
-sum = 0
-with open('Sum.txt') as numbers:
+#13 - Large s
+s = 0
+with open('s.txt') as numbers:
 	for line in numbers:
-		sum += int(line)
+		s += int(line)
 	

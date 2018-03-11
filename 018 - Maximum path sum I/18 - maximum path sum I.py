@@ -1,4 +1,4 @@
-#18 - Maximum Path Sum I
+#18 - Maximum Path s I
 from math import *
 
 numbers = open("numbers.txt","r")
@@ -22,7 +22,7 @@ while i >= 0:
 	
 """	
 #BRUTE FORCE metode herunder.
-sum = 0
+s = 0
 
 for a in range(1):
 	for b in range(a, a+2):
@@ -42,8 +42,8 @@ for a in range(1):
 															temp = (grid[0][a]+grid[1][b]+grid[2][c]+grid[3][d]+grid[4][e]+
 																	grid[5][f]+grid[6][g]+grid[7][h]+grid[8][i]+grid[9][j]+
 																	grid[10][k]+grid[11][l]+grid[12][m]+grid[13][n]+grid[14][o])
-															if temp > sum:
-																sum = temp
+															if temp > s:
+																s = temp
 																print (("Maks er stien: %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s") % 
 																	(grid[0][a],grid[1][b],grid[2][c],grid[3][d],grid[4][e],
 																	grid[5][f],grid[6][g],grid[7][h],grid[8][i],grid[9][j],

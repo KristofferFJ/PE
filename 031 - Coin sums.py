@@ -1,4 +1,4 @@
-#31 - Coin sums
+#31 - Coin ss
 #Jeg brute-forcer den.
 #Rækkefølgen af variable er: 1p, 2p, 5p, 10p, 20p, 50p, 1P, 2P
 #Brute-force virkede, men var super ineffektivt.
@@ -24,7 +24,7 @@ def foo(rest, i = 0):
     if i == len (coins) - 1:
         return rest % coins[i] == 0
     else:
-        return sum (foo (rest - j*coins[i], i + 1)
+        return s (foo (rest - j*coins[i], i + 1)
                     for j in range(rest // coins[i] + 1))
 
 print (foo(200))

@@ -1,5 +1,5 @@
 #Goldbach's other conjecture:
-#Kan ethvert ulige tal skrives som summen af 2*kvadrat + primtal?
+#Kan ethvert ulige tal skrives som smen af 2*kvadrat + primtal?
 
 import timeit
 start = timeit.default_timer()

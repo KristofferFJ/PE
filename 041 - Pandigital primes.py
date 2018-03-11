@@ -1,4 +1,4 @@
-#PROBLEM 41 - PANDIGITAL PRIMES: 3 går op i summen af tallene fra 1 - 8 og 1 - 9 så vi skal kun tjekke primtal med tallene fra 1-7.
+#PROBLEM 41 - PANDIGITAL PRIMES: 3 går op i smen af tallene fra 1 - 8 og 1 - 9 så vi skal kun tjekke primtal med tallene fra 1-7.
 
 num = 10**7
 primes = [True] * num

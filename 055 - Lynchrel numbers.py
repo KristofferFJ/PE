@@ -8,7 +8,7 @@ def is_palindrome(n):
 	else:
 		return False
 
-def flip_sum(n):
+def flip_s(n):
 	list = [int(i) for i in str(n)]
 	m = 0
 	for i in range(len(list)):
@@ -20,7 +20,7 @@ for i in range(10000):
 	k = i
 	Lyncrel = True
 	for j in range(50):
-		i = i + flip_sum(i)
+		i = i + flip_s(i)
 		if is_palindrome(i):
 			Lyncrel = False
 			break

@@ -21,7 +21,7 @@ def finder(n):
 			break
 		else:
 			k += 1
-			min = sum(plist[k+j] for j in range(n))
+			min = s(plist[k+j] for j in range(n))
 
 while record < 10**4:
 	finder(record+2)

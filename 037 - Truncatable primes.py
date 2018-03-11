@@ -7,7 +7,7 @@ list = primes(num)
 plist = [i for i in range(10,len(list)) if list[i]]
 
 count = 0
-sum = 0
+s = 0
 for p in plist:
 	prime = True
 	a,b = p,p
@@ -24,8 +24,8 @@ for p in plist:
 			break
 	if prime:
 		count += 1
-		sum += p
+		s += p
 		print (p)
 
 print (count)
-print (sum)
+print (s)

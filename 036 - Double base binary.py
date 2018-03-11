@@ -10,14 +10,14 @@ def is_palindrome(n):
 		return True
 
 count = 0	
-sum = 0	
+s = 0	
 for i in range(1,10**9):
 	if is_palindrome(i):
 		if is_palindrome(dec_to_bin(i)):
 			print (i)
 			print (dec_to_bin(i))
 			count += 1
-			sum += i
+			s += i
 			
 print (count)
-print (sum)
+print (s)

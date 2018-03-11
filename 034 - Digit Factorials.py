@@ -18,10 +18,10 @@ for i in range(3):
 							
 def digit_factorial(n):
 	j = str(n)
-	fact_sum = 0
+	fact_s = 0
 	for k in range(len(j)):
-		fact_sum += fact(int(j[k]))
-	if fact_sum == n:
+		fact_s += fact(int(j[k]))
+	if fact_s == n:
 		print ("Det dur for n ="+str(n))
 		return True
 		
@@ -32,6 +32,6 @@ def digit_factorial(n):
 factorials = [1,1,2,6,24,120,720,5040,40320,362880]
 s = 0
 for i in range(3,100000):
-	if i==sum(factorials[int(j)] for j in str(i)):
+	if i==s(factorials[int(j)] for j in str(i)):
 		s += i
 print (s)

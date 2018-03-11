@@ -1,4 +1,4 @@
-#67 - Maximum path sum II
+#67 - Maximum path s II
 
 from math import *
 

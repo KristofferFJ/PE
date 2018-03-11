@@ -2,27 +2,30 @@ import timeit
 
 start = timeit.default_timer()
 
-def divisor_sum(n):
-	sum = 0
-	for i in range(1,n):
-		if n % i == 0:
-			sum += i
-	return sum
+
+def divisor_s(n):
+    s = 0
+    for i in range(1,n):
+        if n % i == 0:
+            s += i
+    return s
+
 
 def amicable(n):
-	if divisor_sum(n) != n:
-		if divisor_sum(divisor_sum(n)) == n:
-			return True
-		else:
-			return False
-	else:
-		return False
+    if divisor_s(n) != n:
+        if divisor_s(divisor_s(n)) == n:
+            return True
+        else:
+            return False
+    else:
+        return False
 
-sum = 0		
+
+s = 0		
 for i in (range(10000)):
-	if amicable(i):
-		sum += i
+    if amicable(i):
+        s += i
 
-print (sum)
-		
+print (s)
+
 print (timeit.default_timer() - start)
