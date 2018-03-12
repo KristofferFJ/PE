@@ -34,8 +34,10 @@ lengths = [0,2]
 for i in range(2, bignum + 1):
     lengths.append(lengths[i-1] + sieve[2*(i-1)] + sieve[2*i - 1])
 
+
 def slope_to(n):
     return (heights[n] - heights[n-1]) / (lengths[n] - lengths[n-1])
+
 
 def main(n):
     start = time.time()
@@ -66,6 +68,7 @@ def main(n):
         print("Efter %s er vi oppe på %s" % (i, peaks))
     return (peaks + 7, time.time() - start)
 
+
 def peak(n):
     peaks = 0
     slope = 10**12
@@ -77,7 +80,8 @@ def peak(n):
             slope = slope_to_i
     return peaks
 
-print (time.time() - start)
-#New peak-counter which only check the lowest
 
-#print (s(peak(i) for i in range(2,bignum + 1)), time.time() - start)
+print(time.time() - start)
+# New peak-counter which only check the lowest
+
+# print (s(peak(i) for i in range(2,bignum + 1)), time.time() - start)

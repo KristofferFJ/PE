@@ -15,7 +15,7 @@ Hver af de næste skal gentages med det forriges spring #gange, før de blive re
 
 
 def s_of_squares(n):
-    # summen af 1^2 + 2^2 + ... + n^2 udover at jeg ikke dividerer med 6.
+    # Summen af 1^2 + 2^2 + ... + n^2 udover at jeg ikke dividerer med 6.
     # Gemmer det til sidste for kun at dividere én gang.
     return int(n*(n+1)*(2*n+1))
 

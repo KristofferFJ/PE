@@ -51,7 +51,7 @@ def best_frac_below(num,limit):
             cfrac.append(x//1)
             x = 1 / (x- x//1)
             frac = simp(chain_to_frac(cfrac))
-            #vi skal bruge en ny "while" der tjekker hele vejen op til tallet..? Lyder langt
+            # vi skal bruge en ny "while" der tjekker hele vejen op til tallet..? Lyder langt
     print ("fra %s fik vi %s" % (num, denom))
     return denom
 

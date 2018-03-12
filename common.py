@@ -33,7 +33,7 @@ def fact(n):
 
 
 def anagram(n, m):
-    a,b = str(n), str(m)
+    a, b = str(n), str(m)
     value = True
     for i in range(10):
         if a.count(str(i)) != b.count(str(i)):

@@ -6,8 +6,8 @@ start = timeit.default_timer()
 # Primtalsliste
 num = 10**7
 primes = [True]*(num+1)
-primes[0]=primes[1]=False
-for i in range(2,int((num**.5))+1):
+primes[0] = primes[1] = False
+for i in range(2, int((num**.5))+1):
     ii = i**2
     if primes[i]:
         while ii <= num:
@@ -15,24 +15,23 @@ for i in range(2,int((num**.5))+1):
             ii += i
 
 
-def primes_check(a,b):
-    cons = 0
+def primes_check(a, b):
     prime = True
-    i=-1
+    i = 1
     while prime:
-        i+=1
-        if primes[i**2 + a*i + b] == False:
+        i += 1
+        if not primes[i**2 + a*i + b]:
             prime = False
     return i
 
 
 record = 0
-coef = (1,1)
-for i in range(-999,1000):
-    for j in range(-1000,1001):
-        if primes_check(i,j) > record:
-            record = primes_check(i,j)
-            coef = (i,j)
+coef = (1, 1)
+for i in range(-999, 1000):
+    for j in range(-1000, 1001):
+        if primes_check(i, j) > record:
+            record = primes_check(i, j)
+            coef = (i, j)
 
 print(record)
 print(coef)
