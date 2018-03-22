@@ -1,8 +1,8 @@
 # PRIME PERMUTATIONS
 
-from common import primes
+from Library.primes import primes_bool_up_to
 
-pl = primes(10000)
+pl = primes_bool_up_to(10000)
 list = [p for p in range(1000, 10000) if pl[p]]
 
 

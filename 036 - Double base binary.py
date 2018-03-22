@@ -7,8 +7,8 @@ def dec_to_bin(n):
 
 
 def is_palindrome(n):
-    list = [i for i in str(n)]
-    if list == list[::-1]:
+    digit_list = [i for i in str(n)]
+    if digit_list == digit_list[::-1]:
         return True
 
 
@@ -17,8 +17,8 @@ s = 0
 for i in range(1, 10**9):
     if is_palindrome(i):
         if is_palindrome(dec_to_bin(i)):
-            print (i)
-            print (dec_to_bin(i))
+            print(i)
+            print(dec_to_bin(i))
             count += 1
             s += i
 
