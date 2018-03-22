@@ -2,7 +2,7 @@
 # med omkreds x? Find x med flest hvor x <= 1000.
 
 
-def check_right(a,b,c):
+def check_right(a, b, c):
     if c**2 == b**2 + a**2:
         return True
     else:

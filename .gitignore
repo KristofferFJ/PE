@@ -1,1 +1,7 @@
 test.py
+.idea/ProjectEuler.iml
+.idea/codeStyles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+Library/__pycache__/

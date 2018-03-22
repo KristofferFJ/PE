@@ -12,4 +12,4 @@ def largest_prime(n):
     return p
 
 
-print (largest_prime(600851475143))
+print(largest_prime(600851475143))
