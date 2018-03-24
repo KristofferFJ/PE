@@ -42,7 +42,7 @@ print (s(1 for i in list))"""
 
 # Finder alle muligheder. Slet gengangere.
 pot = 0
-for i in range(1,int((bignum/2)**0.5)):
+for i in range(1, int((bignum/2)**0.5)):
     pot += int((bignum - i**2)**0.5) - (i)
 
 print (pot)
