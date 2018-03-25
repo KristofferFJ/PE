@@ -12,18 +12,28 @@
 # configuration after exactly 8 shuffles, and the sum of all values of n that satisfy s(n)=8 is 412.
 # Find the sum of all values of n that satisfy s(n)=60.
 
+import time
 import Library.common as cm
 
 
 def main():
-    bignum = 2**60 - 1
-    print(bignum)
-    factor_list = cm.factors(bignum)
-    print(factor_list[-1])
-    print(len(factor_list))
-    print(factor_list)
-    print(bignum == cm.)
+    power_of_2 = 60
+    bignum = 2**power_of_2-1
+    factors = cm.factors(bignum)
+    lower_number_of_shuffles = [2**i - 1 for i in range(1, power_of_2)]
+    primitive_divisors = []
+    for divisor in factors:
+        primitive_divisor = True
+        for number in lower_number_of_shuffles:
+            if number % divisor == 0:
+                primitive_divisor = False
+        if primitive_divisor:
+            primitive_divisors.append(divisor + 1)
+
+    print("Summen af alle tal, der kræver 60 riffle shuffles for at vende tilbage til normal er %s" % sum(primitive_divisors))
 
 
 if __name__ == '__main__':
+    start = time.time()
     main()
+    print("Løsningen tog %s sekunder" % (time.time() - start))
