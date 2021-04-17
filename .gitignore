@@ -5,3 +5,4 @@ test.py
 .idea/modules.xml
 .idea/workspace.xml
 Library/__pycache__/
+.vscode
