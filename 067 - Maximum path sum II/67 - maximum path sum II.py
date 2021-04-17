@@ -1,7 +1,5 @@
 #67 - Maximum path s II
 
-from math import *
-
 numbers = open("triangle.txt","r")
 grid = []
 

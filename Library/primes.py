@@ -1,4 +1,4 @@
-from math import *
+from math import ceil, log
 
 
 def primes_up_to(n):
