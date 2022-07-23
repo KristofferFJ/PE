@@ -17,7 +17,7 @@ def _get_title(soup):
 
 
 def _remove_hashtag(title: str):
-    return title[1:]
+    return title.replace("#", "")
 
 
 def _remove_project_euler(title: str):
