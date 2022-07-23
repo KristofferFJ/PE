@@ -1,6 +1,6 @@
 #42 - Coded triangle numbers
 
-text = open("words.txt","r")
+text = open("../../resources/42.txt", "r")
 words = []
 for line in text:
 	words = [word.strip('"') for word in line.split(",")]

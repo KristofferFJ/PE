@@ -2,7 +2,7 @@
 import time
 
 
-text = open("names.txt", "r")
+text = open("../../resources/22.txt", "r")
 names = []
 for name in text:
 	names = name.split(",")

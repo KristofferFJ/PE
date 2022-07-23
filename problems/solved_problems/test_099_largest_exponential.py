@@ -3,7 +3,7 @@ import math
 from sympy import Symbol
 start = timeit.default_timer()
 
-F = open("p099_base_exp.txt","r")
+F = open("../../resources/99.txt", "r")
 
 def log2(n,m):
 	return m * math.log(n)

@@ -1,7 +1,7 @@
 #18 - Maximum Path s I
 from math import *
 
-numbers = open("numbers.txt","r")
+numbers = open("../../resources/18.txt", "r")
 grid = []
 
 for line in numbers:

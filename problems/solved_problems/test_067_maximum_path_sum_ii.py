@@ -1,6 +1,6 @@
 #67 - Maximum path s II
 
-numbers = open("triangle.txt","r")
+numbers = open("../../resources/67.txt", "r")
 grid = []
 
 for line in numbers:
