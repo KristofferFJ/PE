@@ -37,6 +37,7 @@ def _left_pad_zeros(title: str):
     elif problem_number_length == 1:
         return "00" + title
     else:
+        print(title)
         raise Exception("wtf")
 
 
