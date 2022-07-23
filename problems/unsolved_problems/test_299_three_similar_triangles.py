@@ -1,7 +1,7 @@
 import unittest
 
 # Three similar triangles
-""" 
+"""
 Four points with integer coordinates are selected:A(a, 0), B(b, 0), C(0, c) and D(0, d), 
 with 0 < a < b and 0 < c < d.
 Point P, also with integer coordinates, is chosen on the line AC so that the three triangles ABP, CDP and BDP are all similar.
@@ -12,7 +12,7 @@ Note that the triplets (2,3,4) and (2,4,3) are considered as distinct, although 
 If b+d < 100, there are 92 distinct triplets (a,b,d) such that point P exists.
 If b+d < 100 000, there are 320471 distinct triplets (a,b,d) such that point P exists.
 If b+d < 100 000 000, how many distinct triplets (a,b,d) are there such that point P exists?
-""" 
+"""
 
 
 class Test(unittest.TestCase):

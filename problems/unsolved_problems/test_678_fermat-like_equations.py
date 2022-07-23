@@ -1,7 +1,7 @@
 import unittest
 
 # Fermat-like Equations
-""" 
+"""
 If a triple of positive integers $(a, b, c)$ satisfies $a^2+b^2=c^2$, it is called a Pythagorean triple. No triple $(a, b, c)$ satisfies $a^e+b^e=c^e$ when  $e \ge 3$ (Fermat's Last Theorem). However, if the exponents of the left-hand side and right-hand side differ, this is not true. For example, $3^3+6^3=3^5$.
 
 
@@ -10,7 +10,7 @@ Let $a, b, c, e, f$ be all positive integers, $0 \lt a \lt b$, $e \ge 2$, $f \ge
 
 Find $F(10^{18})$.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

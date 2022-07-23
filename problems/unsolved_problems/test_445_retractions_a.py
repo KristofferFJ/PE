@@ -1,7 +1,7 @@
 import unittest
 
 # Retractions A
-""" 
+"""
 
 For every integer $n>1$, the family of functions $f_{n,a,b}$ is defined 
 by  
@@ -17,7 +17,7 @@ $\displaystyle \sum_{k=1}^{99\,999} R(\binom {100\,000} k)  \equiv 628701600 \mo
 Find $\displaystyle \sum_{k=1}^{9\,999\,999} R(\binom {10\,000\,000} k)$.
 Give your answer modulo $1\,000\,000\,007$.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

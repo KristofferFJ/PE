@@ -1,7 +1,7 @@
 import unittest
 
 # Polymorphic Bacteria
-""" 
+"""
 
 If a population starts with a single bacterium of type $\alpha$, then it can be shown that there is a 0.07243802 probability that the population will eventually die out, and a 0.92756198 probability that the population will last forever. These probabilities are given rounded to 8 decimal places.
 
@@ -19,7 +19,7 @@ Let $P_{k,m}$ be the probability that a population of species $S_{k,m}$, startin
 
 Find $P_{500,10}$, and give your answer rounded to 8 decimal places.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

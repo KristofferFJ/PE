@@ -1,7 +1,7 @@
 import unittest
 
 # Odd elimination
-""" 
+"""
 
 Start from an ordered list of all integers from 1 to n. Going from left to right, remove the first number and every other number afterward until the end of the list. Repeat the procedure from right to left, removing the right most number and every other number from the numbers left. Continue removing every other numbers, alternating left to right and right to left, until a single number remains.
 
@@ -18,7 +18,7 @@ You are given P(1)=1, P(9) = 6, P(1000)=510, S(1000)=268271.
 
 Find S(1018) mod 987654321.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

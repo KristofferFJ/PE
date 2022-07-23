@@ -1,7 +1,7 @@
 import unittest
 
 # Reciprocal cycles II
-""" 
+"""
 A unit fraction contains 1 in the numerator. The decimal representation of the unit fractions with denominators 2 to 10 are given:
 Where 0.1(6) means 0.166666..., and has a 1-digit recurring cycle. It can be seen that 1/7 has a 6-digit recurring cycle.
 
@@ -14,7 +14,7 @@ You are given that ∑ L(n) for 3 ≤ n ≤ 1 000 000 equals 55535191115.
 
 
 Find ∑ L(n) for 3 ≤ n ≤ 100 000 000.
-""" 
+"""
 
 
 class Test(unittest.TestCase):

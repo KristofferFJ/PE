@@ -1,7 +1,7 @@
 import unittest
 
 # Hybrid Integers
-""" 
+"""
 
 An integer of the form $p^q q^p$ with prime numbers $p \neq q$ is called a hybrid-integer.
 For example, $800 = 2^5 5^2$ is a hybrid-integer.
@@ -13,7 +13,7 @@ You are given $C(800) = 2$ and $C(800^{800}) = 10790$
 
 Find $C(800800^{800800})$
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

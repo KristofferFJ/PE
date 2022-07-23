@@ -1,7 +1,7 @@
 import unittest
 
 # Divisibility of sum of divisors
-""" 
+"""
 Let $\sigma(n)$ be the sum of the divisors of $n$.
 E.g. the divisors of 4 are 1, 2 and 4, so $\sigma(4)=7$.
 
@@ -19,7 +19,7 @@ You are given: $S(10^6,2017)=150850429$ and $S(10^9 , 2017)=249652238344557$.
 
 Find $S(10^{11} , 2017)$
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

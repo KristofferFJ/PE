@@ -1,7 +1,7 @@
 import unittest
 
 # Counting Digits
-""" 
+"""
 Starting from zero the natural numbers are written down in base 10 like this:
 
 0 1 2 3 4 5 6 7 8 9 10 11 12....
@@ -19,7 +19,7 @@ You are given that s(1)=22786974071.
 Find  ∑ s(d) for 1 ≤ d ≤ 9.
 Note: if, for some n, f(n,d)=n
  for more than one value of d this value of n is counted again for every value of d for which f(n,d)=n.
-""" 
+"""
 
 
 class Test(unittest.TestCase):

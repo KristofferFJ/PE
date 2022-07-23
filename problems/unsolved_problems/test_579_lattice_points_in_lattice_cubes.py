@@ -1,7 +1,7 @@
 import unittest
 
 # Lattice points in lattice cubes
-""" 
+"""
 A lattice cube is a cube in which all vertices have integer coordinates. Let C(n) be the number of different lattice cubes in which the coordinates of all vertices range between (and including) 0 and n. Two cubes are hereby considered different if any of their vertices have different coordinates.
 For example, C(1)=1, C(2)=9, C(4)=100, C(5)=229, C(10)=4469 and C(50)=8154671.
 
@@ -16,7 +16,7 @@ In contrast, the cube with the vertices
 Let S(n) be the sum of the lattice points contained in the different lattice cubes in which the coordinates of all vertices range between (and including) 0 and n.
 For example, S(1)=8, S(2)=91, S(4)=1878, S(5)=5832, S(10)=387003 and S(50)=29948928129.
 Find S(5000) mod 109.
-""" 
+"""
 
 
 class Test(unittest.TestCase):

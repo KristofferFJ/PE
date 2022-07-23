@@ -1,7 +1,7 @@
 import unittest
 
 # Stone Game
-""" 
+"""
 A game is played with three piles of stones and two players.
 On each player's turn, the player may remove one or more stones from the piles. However, if the player takes stones from more than one pile, then the same number of stones must be removed from each of the selected piles.
 In other words, the player chooses some $N \gt 0$ and removes:
@@ -13,7 +13,7 @@ For example, $(0,1,2)$ and $(1,3,3)$ are losing configurations: any legal move l
 Consider all losing configurations $(x_i, y_i, z_i)$ where $x_i \le y_i \le z_i \le 100$.
 We can verify that $\sum (x_i + y_i + z_i) = 173895$ for these.
 Find $\sum (x_i + y_i + z_i)$ where $(x_i, y_i, z_i)$ ranges over the losing configurations with $x_i \le y_i \le z_i \le 1000$.
-""" 
+"""
 
 
 class Test(unittest.TestCase):

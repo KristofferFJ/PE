@@ -1,7 +1,7 @@
 import unittest
 
 # A polynomial modulo the square of a prime
-""" 
+"""
 
 Let f(n) = n2 - 3n - 1.
 Let p be a prime.
@@ -13,7 +13,7 @@ Let SR(L) be ∑ R(p) for all primes not exceeding L.
 
 Find SR(107).
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

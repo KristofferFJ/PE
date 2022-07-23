@@ -1,7 +1,7 @@
 import unittest
 
 # Shifted Multiples
-""" 
+"""
 
 For a positive integer $n$, let $s(n)$ be the integer obtained by shifting the leftmost digit of the decimal representation of $n$ to the rightmost position.
 For example, $s(142857)=428571$ and $s(10)=1$.
@@ -14,7 +14,7 @@ Let $T(M)$ be the sum of $N(u^3/v^3)$ where $(u,v)$ ranges over all ordered pair
 For example, $T(3)\equiv 262429173 \pmod {1\,000\,000\,007}$.
 
 Find $T(200)$. Give your answer modulo $1\,000\,000\,007$. 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

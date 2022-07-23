@@ -1,7 +1,7 @@
 import unittest
 
 # Turán's water heating system
-""" 
+"""
 
 Turan has the electrical water heating system outside his house in a shed. The electrical system uses two fuses in series, one in the house and one in the shed. (Nowadays old fashioned fuses are often replaced with reusable mini circuit breakers, but Turan's system still uses old fashioned fuses.)
 For the heating system to work both fuses must work.
@@ -18,7 +18,7 @@ $L(10^3)=3281346$
 
 Find $L(10^7)$.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

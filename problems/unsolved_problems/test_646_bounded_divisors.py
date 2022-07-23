@@ -1,7 +1,7 @@
 import unittest
 
 # Bounded Divisors
-""" 
+"""
 
 Let $n$ be a natural number and  $p_1^{\alpha_1}\cdot p_2^{\alpha_2}...p_k^{\alpha_k}$ its prime factorisation.
 Define the Liouville function $\lambda(n)$ as $\lambda(n) = (-1)^{\sum\limits_{i=1}^{k}\alpha_i}$.
@@ -16,7 +16,7 @@ $\bullet\, S(30!,10^8, 10^{12}) = 9766732243224$.
 
 Find $S(70!,10^{20}, 10^{60})$ and give your answer modulo $1\,000\,000\,007$.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

@@ -1,7 +1,7 @@
 import unittest
 
 # Numbers of the form $a^2b^3$
-""" 
+"""
 
 Define $F(n)$ to be the number of integers $x≤n$ that can be written in the form $x=a^2b^3$, where $a$ and $b$ are integers not necessarily different and both greater than 1.
 
@@ -13,7 +13,7 @@ Further you are given $F(2\times 10^4)=130$ and $F(3\times 10^6)=2014$.
 
 Find $F(9\times 10^{18})$.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

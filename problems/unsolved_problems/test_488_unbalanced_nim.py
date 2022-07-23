@@ -1,7 +1,7 @@
 import unittest
 
 # Unbalanced Nim
-""" 
+"""
 Alice and Bob have enjoyed playing Nim every day. However, they finally got bored of playing ordinary three-heap Nim.
 So, they added an extra rule:
 - Must not make two heaps of the same size.
@@ -17,7 +17,7 @@ For an integer N, we define F(N) as the sum of a+b+c for all the losing position
 For example, F(8) = 42, because there are 4 losing positions for the next player, (1,3,5), (1,4,6), (2,3,6) and (2,4,5).
 We can also verify that F(128) = 496062.
 Find the last 9 digits of F(1018).
-""" 
+"""
 
 
 class Test(unittest.TestCase):

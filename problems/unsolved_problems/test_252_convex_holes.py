@@ -1,7 +1,7 @@
 import unittest
 
 # Convex Holes
-""" 
+"""
 
 Given a set of points on a plane, we define a convex hole to be a convex polygon having as vertices any of the given points and not containing any of the given points in its interior (in addition to the vertices, other given points may lie on the perimeter of the polygon). 
 
@@ -18,7 +18,7 @@ i.e. (527, 144), (−488, 732), (−454, −947), …
 
 What is the maximum area for a convex hole on the set containing the first 500 points in the pseudo-random sequence? Specify your answer including one digit after the decimal point.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

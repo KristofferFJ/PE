@@ -1,7 +1,7 @@
 import unittest
 
 # Prime Frog
-""" 
+"""
 Susan has a prime frog.
 Her frog is jumping around over 500 squares numbered 1 to 500.
 He can only jump one square to the left or to the right, with equal probability, and he cannot jump outside the range [1;500].(if it lands at either end, it automatically jumps to the only available square on the next move.)
@@ -13,7 +13,7 @@ When he is on a square with a number on it that is not a prime he croaks 'P' wit
 
 Given that the frog's starting position is random with the same probability for every square, and given that she listens to his first 15 croaks, what is the probability that she hears the sequence PPPPNNPPPNPPNPN?
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

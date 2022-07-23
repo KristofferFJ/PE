@@ -1,7 +1,7 @@
 import unittest
 
 # Divisor Nim
-""" 
+"""
 
 Anton and Bertrand love to play three pile Nim.
 However, after a lot of games of Nim they got bored and changed the rules somewhat.
@@ -15,7 +15,7 @@ Let S(n) be the number of winning positions for the next player for 1 ≤ a, b, 
 
 Find S(123456787654321) modulo 1234567890.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

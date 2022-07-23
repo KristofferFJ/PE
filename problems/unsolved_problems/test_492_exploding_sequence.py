@@ -1,7 +1,7 @@
 import unittest
 
 # Exploding sequence
-""" 
+"""
 Define the sequence a1, a2, a3, ... as:
 
 Examples:
@@ -19,7 +19,7 @@ B(109, 103, 103) = 23674718882
 B(109, 103, 1015) = 20731563854
 
 Find B(109, 107, 1015).
-""" 
+"""
 
 
 class Test(unittest.TestCase):

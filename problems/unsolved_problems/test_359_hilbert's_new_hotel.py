@@ -1,7 +1,7 @@
 import unittest
 
 # Hilbert's New Hotel
-""" 
+"""
 
 An infinite number of people (numbered 1, 2, 3, etc.) are lined up to get a room at Hilbert's newest infinite hotel. The hotel contains an infinite number of floors (numbered 1, 2, 3, etc.), and each floor contains an infinite number of rooms (numbered 1, 2, 3, etc.). 
 
@@ -29,7 +29,7 @@ P(99, 100) = 19454
 
 Find the sum of all P(f, r) for all positive f and r such that f × r = 71328803586048 and give the last 8 digits as your answer.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

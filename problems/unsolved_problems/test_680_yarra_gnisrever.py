@@ -1,7 +1,7 @@
 import unittest
 
 # Yarra Gnisrever
-""" 
+"""
 Let $N$ and $K$ be two positive integers.
 $F_n$ is the $n$-th Fibonacci number: $F_1 = F_2 = 1$, $F_n = F_{n - 1} + F_{n - 2}$ for all $n \geq 3$.
 Let $s_n = F_{2n - 1} \mod N$ and let $t_n = F_{2n} \mod N$.
@@ -17,7 +17,7 @@ Step 4 - Reverse $A[3]$ to $A[1]$: $(2, 0, 1, 3, 4)$
 $R(5, 4) = 0 \times 2 + 1 \times 0 + 2 \times 1 + 3 \times 3 + 4 \times 4 = 27$
 Also, $R(10^2, 10^2) = 246597$ and $R(10^4, 10^4) = 249275481640$.
 Find $R(10^{18}, 10^6)$ giving your answer modulo $10^9$.
-""" 
+"""
 
 
 class Test(unittest.TestCase):

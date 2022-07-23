@@ -1,7 +1,7 @@
 import unittest
 
 # Consecutive die throws
-""" 
+"""
 Let n be a positive integer.
 A 6-sided die is thrown n times. Let c be the number of pairs of consecutive throws that give the same value.
 For example, if n = 7 and the values of the die throws are (1,1,5,6,6,6,3), then the following pairs of consecutive throws give the same value:
@@ -15,7 +15,7 @@ Define S(L) as ∑ C(n) for 1 ≤ n ≤ L.
 For example, S(50) mod 1 000 000 007 = 832833871.
 Find S(50 000 000) mod 1 000 000 007.
  1 π denotes the prime-counting function, i.e. π(n) is the number of primes ≤ n.
-""" 
+"""
 
 
 class Test(unittest.TestCase):

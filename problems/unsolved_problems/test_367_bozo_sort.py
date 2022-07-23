@@ -1,7 +1,7 @@
 import unittest
 
 # Bozo sort
-""" 
+"""
 
 Bozo sort, not to be confused with the slightly less efficient bogo sort, consists out of checking if the input sequence is sorted and if not swapping randomly two elements. This is repeated until eventually the sequence is sorted.
 
@@ -21,7 +21,7 @@ Averaged over all 11! input sequences, what is the expected number of shuffles t
 
 Give your answer rounded to the nearest integer.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

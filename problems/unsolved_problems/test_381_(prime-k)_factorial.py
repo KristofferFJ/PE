@@ -1,7 +1,7 @@
 import unittest
 
 # (prime-k) factorial
-""" 
+"""
 
 For a prime p let S(p) = (∑ (p-k)!) mod(p) for 1 ≤ k ≤ 5.
 
@@ -16,7 +16,7 @@ It can be verified that ∑ S(p) = 480 for 5 ≤ p < 100.
 
 Find ∑ S(p) for 5 ≤ p < 108.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

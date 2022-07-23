@@ -1,7 +1,7 @@
 import unittest
 
 # Squarefree factors
-""" 
+"""
 
 Consider the number 54.
 54 can be factored in 7 distinct ways into one or more factors larger than 1:
@@ -21,7 +21,7 @@ S(100)=193.
 
 Find S(10 000 000 000). 
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

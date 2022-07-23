@@ -1,7 +1,7 @@
 import unittest
 
 # Idempotents
-""" 
+"""
 
 If we calculate a2 mod 6 for 0 ≤ a ≤ 5 we get: 0,1,4,3,4,1.
 
@@ -13,7 +13,7 @@ So M(6) = 4.
 
 Find ∑ M(n) for 1 ≤ n ≤ 107.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

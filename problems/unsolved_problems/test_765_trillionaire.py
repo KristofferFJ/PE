@@ -1,7 +1,7 @@
 import unittest
 
 # Trillionaire
-""" 
+"""
 
 Starting with 1 gram of gold you play a game. Each round you bet a certain amount of your gold: if you have $x$ grams you can bet $b$ grams for any $0 \le b \le x$. You then toss an unfair coin: with a probability of $0.6$ you double your bet (so you now have $x+b$), otherwise you lose your bet (so you now have $x-b$).
 
@@ -11,7 +11,7 @@ Choosing your bets to maximize your probability of having at least a trillion $(
 
 All computations are assumed to be exact (no rounding), but give your answer rounded to 10 digits behind the decimal point.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

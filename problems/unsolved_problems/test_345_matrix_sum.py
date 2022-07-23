@@ -1,7 +1,7 @@
 import unittest
 
 # Matrix Sum
-""" 
+"""
 We define the Matrix Sum of a matrix as the maximum possible sum of matrix elements such that none of the selected elements share the same row or column.
 For example, the Matrix Sum of the matrix below equals 3315 ( = 863 + 383 + 343 + 959 + 767):
 
@@ -27,7 +27,7 @@ Find the Matrix Sum of:
  34 124   4 878 450 476 712 914 838 669 875 299 823 329 699
 815 559 813 459 522 788 168 586 966 232 308 833 251 631 107
 813 883 451 509 615  77 281 613 459 205 380 274 302  35 805
-""" 
+"""
 
 
 class Test(unittest.TestCase):

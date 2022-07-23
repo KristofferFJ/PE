@@ -1,7 +1,7 @@
 import unittest
 
 # Bézier Curves
-""" 
+"""
 A cubic Bézier curve is defined by four points: $P_0, P_1, P_2,$ and $P_3$.
 The curve is constructed as follows:
 On the segments $P_0 P_1$, $P_1 P_2$, and $P_2 P_3$ the points $Q_0, Q_1,$ and $Q_2$ are drawn such that $\dfrac{P_0 Q_0}{P_0 P_1} = \dfrac{P_1 Q_1}{P_1 P_2} = \dfrac{P_2 Q_2}{P_2 P_3} = t$, with $t$ in $[0, 1]$.
@@ -16,7 +16,7 @@ The value $v \gt 0$ is chosen such that the area enclosed by the lines $O P_0, O
 By how many percent does the length of the curve differ from the length of the quarter circle?
 That is, if $L$ is the length of the curve, calculate $100 \times \dfrac{L - \frac{\pi}{2}}{\frac{\pi}{2}}$
 Give your answer rounded to 10 digits behind the decimal point.
-""" 
+"""
 
 
 class Test(unittest.TestCase):

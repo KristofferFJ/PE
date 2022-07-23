@@ -1,7 +1,7 @@
 import unittest
 
 # Peredur fab Efrawg
-""" 
+"""
 
 "And he came towards a valley, through which ran a river; and the borders of the valley were wooded, and on each side of the river were level meadows. And on one side of the river he saw a flock of white sheep, and on the other a flock of black sheep. And whenever one of the white sheep bleated, one of the black sheep would cross over and become white; and when one of the black sheep bleated, one of the white sheep would cross over and become black."en.wikisource.org
 
@@ -14,7 +14,7 @@ Initially each flock consists of n sheep. Each sheep (regardless of colour) is e
 You are given that E(5) = 6.871346 rounded to 6 places behind the decimal point.
 Find E(10 000) and give your answer rounded to 6 places behind the decimal point.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

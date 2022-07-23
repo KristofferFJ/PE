@@ -1,7 +1,7 @@
 import unittest
 
 # An engineers' dream come true
-""" 
+"""
 
 Consider the number 6. The divisors of 6 are: 1,2,3 and 6.
 Every number from 1 up to and including 6 can be written as a sum of distinct divisors of 6:
@@ -20,7 +20,7 @@ We shall call a number n such that :
 
 Find the sum of the first four engineers’ paradises.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

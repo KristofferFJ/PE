@@ -1,7 +1,7 @@
 import unittest
 
 # Symmetric Diophantine equation
-""" 
+"""
 
 Consider the following Diophantine equation:
 $$15  (x^2 + y^2 + z^2) = 34  (xy + yz + zx)$$
@@ -16,7 +16,7 @@ For $N = 10^2$, there are three such solutions - $(1, 7, 16), (8, 9, 39), (11, 2
 
 Find $S(10^9)$.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

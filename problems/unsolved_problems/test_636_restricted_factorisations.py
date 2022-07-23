@@ -1,7 +1,7 @@
 import unittest
 
 # Restricted Factorisations
-""" 
+"""
 Consider writing a natural number as product of powers of natural numbers with given exponents, additionally requiring different base numbers for each power.
 For example, $256$ can be written as a product of a square and a fourth power in three ways such that the base numbers are different.
 That is, $256=1^2\times 4^4=4^2\times 2^4=16^2\times 1^4$
@@ -11,7 +11,7 @@ Let $F(n)$ denote the number of ways in which $n$ can be written as a product of
 You are given that $F(25!)=4933$, $F(100!) \bmod 1\,000\,000\,007=693\,952\,493$,
 and $F(1\,000!) \bmod 1\,000\,000\,007=6\,364\,496$.
 Find $F(1\,000\,000!) \bmod 1\,000\,000\,007$.
-""" 
+"""
 
 
 class Test(unittest.TestCase):

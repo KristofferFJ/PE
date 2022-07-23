@@ -1,7 +1,7 @@
 import unittest
 
 # Constraining the least greatest and the greatest least
-""" 
+"""
 A list of size n is a sequence of n natural numbers. Examples are (2,4,6), (2,6,4), (10,6,15,6), and (11).
 
 
@@ -22,7 +22,7 @@ f(10, 100, 1000) mod 1014 = 3286053.
 
 Find f(106, 1012, 1018) mod 1014.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

@@ -1,7 +1,7 @@
 import unittest
 
 # Integer-valued polynomials
-""" 
+"""
 
 It can be shown that the polynomial n4 + 4n3 + 2n2 + 5n is a multiple of 6 for every integer n. It can also be shown that 6 is the largest integer satisfying this property.
 
@@ -22,7 +22,7 @@ Fk = Fk-1 + Fk-2 for k ≥ 2.
 
 Find the last 9 digits of ∑ S(Fk) for 2 ≤ k ≤ 1234567890123.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

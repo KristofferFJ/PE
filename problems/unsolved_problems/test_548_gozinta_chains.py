@@ -1,7 +1,7 @@
 import unittest
 
 # Gozinta Chains
-""" 
+"""
 
 A gozinta chain for n is a sequence {1,a,b,...,n} where each element properly divides the next.
 There are eight gozinta chains for 12:
@@ -12,7 +12,7 @@ g(48)=48 and g(120)=132.
 
 Find the sum of the numbers n  not exceeding 1016 for which g(n)=n.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

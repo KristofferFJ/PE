@@ -1,7 +1,7 @@
 import unittest
 
 # Drone Delivery
-""" 
+"""
 A depot uses $n$ drones to disperse packages containing essential supplies along a long straight road.
 Initially all drones are stationary, loaded with a supply package.
 Every second, the depot selects a drone at random and sends it this instruction:
@@ -10,7 +10,7 @@ Eventually, there will only be one drone left at the depot waiting to receive it
 Let $E(n)$ be the expected distance in centimetres from the depot that the supply packages land.
 For example, $E(2) = \frac{7}{2}$, $E(5) = \frac{12019}{720}$, and $E(100) \approx 1427.193470$.
 Find $E(10^8)$. Give your answer rounded to the nearest integer.
-""" 
+"""
 
 
 class Test(unittest.TestCase):

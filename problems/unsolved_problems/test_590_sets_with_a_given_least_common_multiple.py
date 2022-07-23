@@ -1,7 +1,7 @@
 import unittest
 
 # Sets with a given Least Common Multiple
-""" 
+"""
 
 Let H(n) denote the number of sets of positive integers such that the least common multiple of the integers in the set equals n.
 E.g.:
@@ -20,7 +20,7 @@ You are given HL(4)=H(12)=44.
 
 Find HL(50000). Give your answer modulo 109.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

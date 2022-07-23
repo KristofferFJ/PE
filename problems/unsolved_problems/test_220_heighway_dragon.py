@@ -1,7 +1,7 @@
 import unittest
 
 # Heighway Dragon
-""" 
+"""
 Let D0 be the two-letter string "Fa".  For n≥1, derive Dn from Dn-1 by the string-rewriting rules:
 "a" → "aRbFR"
 "b" → "LFaLb"
@@ -10,7 +10,7 @@ These strings can be interpreted as instructions to a computer graphics program,
 Then Dn is an exotic drawing known as the Heighway Dragon of order n.  For example, D10 is shown below; counting each "F" as one step, the highlighted spot at (18,16) is the position reached after 500 steps.
 What is the position of the cursor after 1012 steps in D50 ?
 Give your answer in the form x,y with no spaces.
-""" 
+"""
 
 
 class Test(unittest.TestCase):

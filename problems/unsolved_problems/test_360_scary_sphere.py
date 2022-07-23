@@ -1,7 +1,7 @@
 import unittest
 
 # Scary Sphere
-""" 
+"""
 
 Given two points (x1,y1,z1) and (x2,y2,z2) in three dimensional space, the Manhattan distance  between those points is defined as  |x1-x2|+|y1-y2|+|z1-z2|.
 
@@ -16,7 +16,7 @@ E.g. S(45)=34518.
 
 Find S(1010).
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

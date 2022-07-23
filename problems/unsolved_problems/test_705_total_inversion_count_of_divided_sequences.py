@@ -1,7 +1,7 @@
 import unittest
 
 # Total Inversion Count of Divided Sequences
-""" 
+"""
 
 The inversion count of a sequence of digits is the smallest number of adjacent pairs that must be swapped to sort the sequence.
 For example, 34214 has inversion count of 5:
@@ -22,7 +22,7 @@ You are given $F(20) = 3312$ and $F(50) = 338079744$.
 
 Find $F(10^8)$. Give your answer modulo $1\,000\,000\,007$.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

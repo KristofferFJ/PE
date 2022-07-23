@@ -1,7 +1,7 @@
 import unittest
 
 # Maximum product of parts
-""" 
+"""
 Let N be a positive integer and let N be split into k equal parts, r = N/k, so that N = r + r + ... + r.
 Let P be the product of these parts, P = r × r × ... × r = rk.
 For example, if 11 is split into five equal parts, 11 = 2.2 + 2.2 + 2.2 + 2.2 + 2.2, then P = 2.25 = 51.53632.
@@ -11,7 +11,7 @@ However, for N = 8 the maximum is achieved by splitting it into three equal part
 Let D(N) = N if M(N) is a non-terminating decimal and D(N) = -N if M(N) is a terminating decimal.
 For example, ∑ D(N) for 5 ≤ N ≤ 100 is 2438.
 Find ∑ D(N) for 5 ≤ N ≤ 10000.
-""" 
+"""
 
 
 class Test(unittest.TestCase):

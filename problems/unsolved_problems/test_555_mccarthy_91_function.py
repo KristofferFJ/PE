@@ -1,7 +1,7 @@
 import unittest
 
 # McCarthy 91 function
-""" 
+"""
 
 The McCarthy 91 function is defined as follows:
 $$
@@ -43,7 +43,7 @@ For example, $S(10, 10) = 225$ and $S(1000, 1000)=208724467$.
 
 Find $S(10^6, 10^6)$.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

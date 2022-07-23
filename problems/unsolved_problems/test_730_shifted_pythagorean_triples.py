@@ -1,7 +1,7 @@
 import unittest
 
 # Shifted Pythagorean Triples
-""" 
+"""
 
 For a non-negative integer $k$, the triple $(p,q,r)$ of positive integers is called a $k$-shifted Pythagorean triple if $$p^2 + q^2 + k = r^2$$
 
@@ -19,7 +19,7 @@ You are given that $S(10,10^4) = 10956$.
 
 Find $S(10^2,10^8)$
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

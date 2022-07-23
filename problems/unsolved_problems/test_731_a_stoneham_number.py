@@ -1,7 +1,7 @@
 import unittest
 
 # A Stoneham Number
-""" 
+"""
 
 $$A=\sum_{i=1}^{\infty} \frac{1}{3^i 10^{3^i}}$$
 
@@ -12,7 +12,7 @@ For example, $A(100) = 4938271604$ and $A(10^8)=2584642393$.
 
 Find $A(10^{16})$
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

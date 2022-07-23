@@ -1,7 +1,7 @@
 import unittest
 
 # Ellipses inside triangles
-""" 
+"""
 
 For any triangle T in the plane, it can be shown that there is a unique ellipse with largest area that is completely inside T.
 
@@ -25,7 +25,7 @@ Find A(1 000 000 000).
 
 1The foci (plural of focus) of an ellipse are two points A and B such that for every point P on the boundary of the ellipse, AP + PB is constant.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

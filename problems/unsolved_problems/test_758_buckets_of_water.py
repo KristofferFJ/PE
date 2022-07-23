@@ -1,7 +1,7 @@
 import unittest
 
 # Buckets of Water
-""" 
+"""
 
 There are 3 buckets labelled $S$ (small) of 3 litres, $M$ (medium) of 5 litres and $L$ (large) of 8 litres.
 Initially $S$ and $M$ are full of water and $L$ is empty.
@@ -23,7 +23,7 @@ Also, $P(7, 31)=20$ and $P(1234, 4321)=2780$.
 Find the sum of $P(2^{p^5}-1, 2^{q^5}-1)$ for all pairs of prime numbers $p,q$ such that $p < q < 1000$.
 Give your answer modulo $1\,000\,000\,007$.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

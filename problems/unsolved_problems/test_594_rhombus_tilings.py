@@ -1,7 +1,7 @@
 import unittest
 
 # Rhombus Tilings
-""" 
+"""
 
 For a polygon $P$, let $t(P)$ be the number of ways in which $P$ can be tiled using rhombi and squares with edge length 1. Distinct rotations and reflections are counted as separate tilings.
 
@@ -19,7 +19,7 @@ You are given that $t(O_{1,1})=8$, $t(O_{2,1})=76$ and $t(O_{3,2})=456572$.
 
 Find $t(O_{4,2})$.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

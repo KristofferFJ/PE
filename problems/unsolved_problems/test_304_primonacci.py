@@ -1,7 +1,7 @@
 import unittest
 
 # Primonacci
-""" 
+"""
 
 For any positive integer n the function next_prime(n) returns the smallest prime p  such that p>n.
 
@@ -25,7 +25,7 @@ Give your answer mod 1234567891011.
 
 
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

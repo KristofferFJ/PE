@@ -1,7 +1,7 @@
 import unittest
 
 # Chinese leftovers II
-""" 
+"""
 
 Let An be the smallest positive integer satisfying  An mod pi = i  for all 1 ≤ i ≤ n, where pi is the
 i-th prime.
@@ -17,7 +17,7 @@ For example, S(50) = 69 = 5 + 23 + 41, since 5 divides A2, 23 divides A3 and 41 
 
 
 Find S(300000).
-""" 
+"""
 
 
 class Test(unittest.TestCase):

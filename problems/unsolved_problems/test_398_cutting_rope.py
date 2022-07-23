@@ -1,7 +1,7 @@
 import unittest
 
 # Cutting rope
-""" 
+"""
 
 Inside a rope of length n, n-1 points are placed with distance 1 from each other and from the endpoints. Among these points, we choose m-1 points at random and cut the rope at these points to create m segments.
 
@@ -14,7 +14,7 @@ Note that if multiple segments have the same shortest length the length of the s
 Find E(107, 100).
 Give your answer rounded to 5 decimal places behind the decimal point.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

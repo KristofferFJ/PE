@@ -1,7 +1,7 @@
 import unittest
 
 # Subsets with a unique sum
-""" 
+"""
 For any set A of numbers, let sum(A) be the sum of the elements of A.
 Consider the set B = {1,3,6,8,10,11}. There are 20 subsets of B containing three elements, and their sums are:
 
@@ -30,7 +30,7 @@ For a set A, let U(A,k) be the set of unique sums of k-element subsets of A, in 
 Now consider the 100-element set S = {12, 22, ... , 1002}.
 S has 100891344545564193334812497256 50-element subsets.
 Determine the sum of all integers which are the sum of exactly one of the 50-element subsets of S, i.e. find sum(U(S,50)).
-""" 
+"""
 
 
 class Test(unittest.TestCase):

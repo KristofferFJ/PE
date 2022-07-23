@@ -1,7 +1,7 @@
 import unittest
 
 # Linear Combinations of Semiprimes
-""" 
+"""
 
 Given the values of integers $1 < a_1 < a_2 < \dots < a_n$, consider the linear combination
 $q_1 a_1+q_2 a_2 + \dots + q_n a_n=b$, using only integer values $q_k \ge 0$. 
@@ -16,7 +16,7 @@ In fact, $23$ is the largest impossible value of $b$ for $a_1=5$ and $a_2=7$. We
 
 Find $\displaystyle \sum f( p\, q,p \, r, q \, r)$, where $p$, $q$ and $r$ are prime numbers and $p < q < r < 5000$.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

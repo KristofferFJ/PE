@@ -1,7 +1,7 @@
 import unittest
 
 # Stone Game III
-""" 
+"""
 
 Two players, Anton and Bernhard, are playing the following game.
 There is one pile of n stones.
@@ -28,7 +28,7 @@ Let M(n) be the maximum number of stones the first player can take from a winnin
 Find  ∑ M(n) for n≤1018.
 Give your answer modulo 108.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

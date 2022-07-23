@@ -1,7 +1,7 @@
 import unittest
 
 # Triffle Numbers
-""" 
+"""
 
 Let $\sigma(n)$ be the sum of all the divisors of the positive integer $n$, for example:
 $\sigma(10) = 1+2+5+10 = 18$.
@@ -15,7 +15,7 @@ You are given $T(100) = 270$ and $T(10^6) = 26089287$.
 
 Find $T(10^{14})$.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

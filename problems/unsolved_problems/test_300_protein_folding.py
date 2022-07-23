@@ -1,7 +1,7 @@
 import unittest
 
 # Protein folding
-""" 
+"""
 In a very simplified form, we can consider proteins as strings consisting of hydrophobic (H) and polar (P) elements, e.g. HHPPHHHPHHPH. 
 For this problem, the orientation of a protein is important; e.g. HPP is considered distinct from PPH. Thus, there are 2n distinct proteins consisting of n elements.
 When one encounters these strings in nature, they are always folded in such a way that the number of H-H contact points is as large as possible, since this is energetically advantageous.
@@ -13,7 +13,7 @@ On the other hand, the folding on the right has nine H-H contact points, which i
 Assuming that H and P elements are equally likely to occur in any position along the string, the average number of H-H contact points in an optimal folding of a random protein string of length 8 turns out to be 850 / 28=3.3203125.
 What is the average number of H-H contact points in an optimal folding of a random protein string of length 15?
 Give your answer using as many decimal places as necessary for an exact result.
-""" 
+"""
 
 
 class Test(unittest.TestCase):

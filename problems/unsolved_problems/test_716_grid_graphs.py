@@ -1,7 +1,7 @@
 import unittest
 
 # Grid Graphs
-""" 
+"""
 
 Consider a directed graph made from an orthogonal lattice of $H\times W$ nodes. 
 The edges are the horizontal and vertical connections between adjacent nodes.
@@ -25,7 +25,7 @@ Define $C(H,W)$ to be the sum of $S(\mathcal{G})$ for all possible graphs on a g
 
 Find $C(10\,000,20\,000)$ giving your answer modulo $1\,000\,000\,007$.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

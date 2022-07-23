@@ -1,7 +1,7 @@
 import unittest
 
 # Not Zeckendorf
-""" 
+"""
 
 Consider the Fibonacci sequence $\{1,2,3,5,8,13,21,\ldots\}$.
 
@@ -18,7 +18,7 @@ You are given $S(100) = 415$ and $S(10^4) = 312807$.
 
 Find $\displaystyle S(10^{13})$.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

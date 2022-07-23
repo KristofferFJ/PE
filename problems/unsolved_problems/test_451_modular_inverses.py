@@ -1,7 +1,7 @@
 import unittest
 
 # Modular inverses
-""" 
+"""
 
 Consider the number 15.
 There are eight positive numbers less than 15 which are coprime to 15: 1, 2, 4, 7, 8, 11, 13, 14.
@@ -19,7 +19,7 @@ So I(15)=11.
 Also I(100)=51 and I(7)=1.
 
 Find ∑ I(n) for 3≤n≤2×107
-""" 
+"""
 
 
 class Test(unittest.TestCase):

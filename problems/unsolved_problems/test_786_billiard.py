@@ -1,7 +1,7 @@
 import unittest
 
 # Billiard
-""" 
+"""
 
 The following diagram shows a billiard table of a special quadrilateral shape.
 The four angles $A, B, C, D$ are $120^\circ, 90^\circ, 60^\circ, 90^\circ$ respectively, and the lengths $AB$ and $AD$ are equal.
@@ -22,7 +22,7 @@ For example, $B(10) = 6$, $B(100) = 478$, $B(1000) = 45790$.
 
 Find $B(10^9)$.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

@@ -1,7 +1,7 @@
 import unittest
 
 # Coin Loops
-""" 
+"""
 
 A game is played with many identical, round coins on a flat table.
 
@@ -23,7 +23,7 @@ Also, $154$ coins are needed to loop two times around the line, and $6947$ coins
 
 Calculate the number of coins needed to loop $2020$ times around the line.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

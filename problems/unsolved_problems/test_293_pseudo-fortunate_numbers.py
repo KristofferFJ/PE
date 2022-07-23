@@ -1,7 +1,7 @@
 import unittest
 
 # Pseudo-Fortunate Numbers
-""" 
+"""
 
 An even positive integer N will be called admissible, if it is a power of 2 or its distinct prime factors are consecutive primes.
 The first twelve admissible numbers are 2,4,6,8,12,16,18,24,30,32,36,48.
@@ -17,7 +17,7 @@ It can also be seen that the pseudo-Fortunate number for 16 is 3.
 
 Find the sum of all distinct pseudo-Fortunate numbers for admissible numbers N less than 109.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

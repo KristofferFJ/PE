@@ -1,7 +1,7 @@
 import unittest
 
 # Retractions B
-""" 
+"""
 
 For every integer $n>1$, the family of functions $f_{n,a,b}$ is defined 
 by  
@@ -17,7 +17,7 @@ $F(1024)=77532377300600$.
 Find $F(10^7)$.
 Give your answer modulo $1\,000\,000\,007$.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

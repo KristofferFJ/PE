@@ -1,7 +1,7 @@
 import unittest
 
 # Infinite string tour
-""" 
+"""
 Create a sequence of numbers using the "Blum Blum Shub" pseudo-random number generator:
 Concatenate these numbers  s0s1s2… to create a string w of infinite length.
 Then, w = 14025256741014958470038053646…
@@ -21,7 +21,7 @@ start at position 3, hence p(2) = p(9) = … = 3.
 Note that substring 025 starting at position 3, has a sum of digits equal to 7, but there was an earlier substring (starting at position 1) with a sum of digits equal to 7, so p(7) = 1, not 3.
 We can verify that, for 0 < k ≤ 103, ∑ p(k) = 4742.
 Find ∑ p(k), for 0 < k ≤ 2×1015.
-""" 
+"""
 
 
 class Test(unittest.TestCase):

@@ -1,7 +1,7 @@
 import unittest
 
 # The incenter of a triangle
-""" 
+"""
 
 ABC is an integer sided triangle with incenter I and perimeter p.
 The segments IA, IB and IC have integral length as well. 
@@ -15,7 +15,7 @@ Let S(P) = ∑ L for all such triangles where p ≤ P. For example, S(103) = 3
 
 Find S(107).
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

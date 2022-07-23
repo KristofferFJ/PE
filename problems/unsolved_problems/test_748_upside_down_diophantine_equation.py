@@ -1,7 +1,7 @@
 import unittest
 
 # Upside down Diophantine equation
-""" 
+"""
 
 Upside Down is a modification of the famous Pythagorean equation:
 \begin{align}
@@ -19,7 +19,7 @@ It can be checked that $S(10^3)=1470$ and $S(10^5)=2340084$.
 
 Find $S(10^{16})$ and give the last 9 digits as your answer.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

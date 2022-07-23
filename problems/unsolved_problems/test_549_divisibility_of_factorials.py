@@ -1,7 +1,7 @@
 import unittest
 
 # Divisibility of factorials
-""" 
+"""
 
 The smallest number m such that 10 divides m! is m=5.
 The smallest number m such that 25 divides m! is m=10.
@@ -14,7 +14,7 @@ S(100)=2012.
 
 Find S(108).
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

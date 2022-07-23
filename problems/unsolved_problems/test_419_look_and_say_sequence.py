@@ -1,7 +1,7 @@
 import unittest
 
 # Look and say sequence
-""" 
+"""
 
 The look and say sequence goes 1, 11, 21, 1211, 111221, 312211, 13112221, 1113213211, ...
 The sequence starts with 1 and all other members are obtained by describing the previous member in terms of consecutive digits.
@@ -22,7 +22,7 @@ Find A(n), B(n) and C(n) for n = 1012.
 Give your answer modulo 230 and separate your values for A, B and C by a comma. 
 E.g. for n = 40 the answer would be 31254,20259,11625
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

@@ -1,7 +1,7 @@
 import unittest
 
 # Darts
-""" 
+"""
 In the game of darts a player throws three darts at a target board which is split into twenty equal sized sections numbered one to twenty.
 The score of a dart is determined by the number of the region that the dart lands in. A dart landing outside the red/green outer ring scores zero. The black and cream regions inside this ring represent single scores. However, the red/green outer ring and middle ring score double and treble scores respectively.
 At the centre of the board are two concentric circles called the bull region, or bulls-eye. The outer bull is worth 25 points and the inner bull is a double, worth 50 points.
@@ -12,7 +12,7 @@ Note that D1 D2 is considered different to D2 D1 as they finish on different dou
 In addition we shall not include misses in considering combinations; for example, D3 is the same as 0 D3 and 0 0 D3.
 Incredibly there are 42336 distinct ways of checking out in total.
 How many distinct ways can a player checkout with a score less than 100?
-""" 
+"""
 
 
 class Test(unittest.TestCase):

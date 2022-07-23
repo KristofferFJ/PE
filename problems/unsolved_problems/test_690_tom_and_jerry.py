@@ -1,7 +1,7 @@
 import unittest
 
 # Tom and Jerry
-""" 
+"""
 
 Tom (the cat) and Jerry (the mouse) are playing on a simple graph $G$.
 
@@ -29,7 +29,7 @@ We have $T(3) = 3$, $T(7) = 37$, $T(10) = 328$ and $T(20) = 1416269$.
 
 Find $T(2019)$ giving your answer modulo $1\,000\,000\,007$.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

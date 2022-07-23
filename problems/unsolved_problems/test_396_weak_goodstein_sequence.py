@@ -1,7 +1,7 @@
 import unittest
 
 # Weak Goodstein sequence
-""" 
+"""
 
 For any positive integer n, the nth weak Goodstein sequence {g1, g2, g3, ...} is defined as:
 
@@ -19,7 +19,7 @@ It can also be verified that ∑ G(n) = 2517 for 1 ≤ n < 8.
 
 Find the last 9 digits of ∑ G(n) for 1 ≤ n < 16.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

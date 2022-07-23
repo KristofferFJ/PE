@@ -1,7 +1,7 @@
 import unittest
 
 # Reciprocal Pairs
-""" 
+"""
 
 Let's call a pair of positive integers $p$, $q$ ($p \lt q$) reciprocal, if there is a positive integer $r\lt p$ such that $r$ equals both the inverse of $p$ modulo $q$ and the inverse of $q$ modulo $p$.
 
@@ -12,7 +12,7 @@ $F(5)=59$ due to these four reciprocal pairs $(3,5)$, $(4,11)$, $(5,7)$ and $(5,
 You are also given $F(10^2) = 697317$.
 
 Find $F(2\cdot 10^6)$.
-""" 
+"""
 
 
 class Test(unittest.TestCase):

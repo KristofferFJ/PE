@@ -1,7 +1,7 @@
 import unittest
 
 # Prime connection
-""" 
+"""
 
 Two positive numbers A and B are said to be connected (denoted by "A ↔ B") if one of these conditions holds:
 (1) A and B have the same length and differ in exactly one digit; for example, 123 ↔ 173.
@@ -22,7 +22,7 @@ We can verify that F(103) = 431 and F(104) = 78728.
 
 Find F(107).
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

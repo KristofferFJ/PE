@@ -1,7 +1,7 @@
 import unittest
 
 # Collatz prefix families
-""" 
+"""
 
 The Collatz sequence is defined as:
 $a_{i+1} = \left\{  \large{\frac {a_i} 2 \atop 3 a_i+1} {\text{if }a_i\text{ is even} \atop \text{if }a_i\text{ is odd}} \right.$.
@@ -22,7 +22,7 @@ You are given f(5) = 5, f(10) = 55, f(20) = 6771.
 
 Find f(90).
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

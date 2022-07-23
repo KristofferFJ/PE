@@ -1,7 +1,7 @@
 import unittest
 
 # Cutting triangles
-""" 
+"""
 
 A triangle is cut into four pieces by two straight lines, each starting at one vertex and ending on the opposite edge. This results in forming three smaller triangular pieces, and one quadrilateral.  If the original triangle has an integral area, it is often possible to choose cuts such that all of the four pieces also have integral area.  For example, the diagram below shows a triangle of area 55 that has been cut in this way.
 
@@ -16,7 +16,7 @@ Define S(n) as the sum of the area of the uncut triangles represented by all val
 
 Find S(10000).
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

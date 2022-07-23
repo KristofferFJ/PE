@@ -1,7 +1,7 @@
 import unittest
 
 # Incremental Random Sort
-""" 
+"""
 
 A deck of cards numbered from 1 to n is shuffled randomly such that each permutation is equally likely.
 
@@ -14,7 +14,7 @@ The cards are to be sorted into ascending order using the following technique:
 
 Find S(52), and give your answer rounded to 8 decimal places.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

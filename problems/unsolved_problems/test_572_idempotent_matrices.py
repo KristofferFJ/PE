@@ -1,7 +1,7 @@
 import unittest
 
 # Idempotent matrices
-""" 
+"""
 
 A matrix $M$ is called idempotent if $M^2 = M$.
 Let $M$ be a three by three matrix : 
@@ -18,7 +18,7 @@ C(1)=164 and C(2)=848.
 
 Find C(200).
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

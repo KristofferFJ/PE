@@ -1,7 +1,7 @@
 import unittest
 
 # Angular Bisectors
-""" 
+"""
 Given is an integer sided triangle ABC with sides a ≤ b ≤ c. 
 (AB = c, BC = a and AC = b).
 The angular bisectors of the triangle intersect the sides at points E, F and G (see picture below).
@@ -14,7 +14,7 @@ However, there exist triangles for which some or all of these ratios are integra
 
 How many triangles ABC with perimeter≤100,000,000 exist so that the ratio area(ABC)/area(AEG) is integral?
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

@@ -1,7 +1,7 @@
 import unittest
 
 # Eating pie
-""" 
+"""
 
 Jeff eats a pie in an unusual way.
 The pie is circular. He starts with slicing an initial cut in the pie along a radius.
@@ -19,7 +19,7 @@ It can be verified that  E(1) = 1, E(2) ≈ 1.2676536759, and E(7.5) ≈ 2.12157
 
 Find E(40) rounded to 10 decimal places behind the decimal point.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

@@ -1,7 +1,7 @@
 import unittest
 
 # Lowest-cost Search
-""" 
+"""
 We are trying to find a hidden number selected from the set of integers {1, 2, ..., n} by asking questions. 
 Each number (question) we ask, has a cost equal to the number asked and we get one of three possible answers:
 Given the value of n, an optimal strategy minimizes the total cost (i.e. the sum of all the questions asked) for the worst possible case. E.g.
@@ -18,7 +18,7 @@ Let C(n) be the worst-case cost achieved by an optimal strategy for n, as descri
 Thus C(1) = 0, C(2) = 1, C(3) = 2 and C(8) = 12.
 Similarly, C(100) = 400 and $\sum \limits_{n = 1}^{100} {C(n)} = 17575$.
 Find $\sum \limits_{n = 1}^{200000} {C(n)}$ .
-""" 
+"""
 
 
 class Test(unittest.TestCase):

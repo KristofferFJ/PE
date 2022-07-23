@@ -1,7 +1,7 @@
 import unittest
 
 # Lenticular holes
-""" 
+"""
 We call the convex area enclosed by two circles a lenticular hole if:
 
 Consider the circles:
@@ -22,7 +22,7 @@ We can verify that L(10) = 30 and L(100) = 3442.
 
 Find L(100 000).
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

@@ -1,7 +1,7 @@
 import unittest
 
 # Irrational base
-""" 
+"""
 Let r be the real root of the equation x3 = x2 + 1.
 Every positive integer can be written as the sum of distinct increasing powers of r.
 If we require the number of terms to be finite and the difference between any two exponents to be three or more, then the representation is unique.
@@ -13,7 +13,7 @@ under the conditions that:bk is 0 or 1 for all k;bk + bk+1 + bk+2 ≤ 1 fo
 Let S(m) = $\displaystyle \sum_{j=1}^{m}$ w(j2).
 You are given S(10) = 61 and S(1000) = 19403.
 Find S(5 000 000).
-""" 
+"""
 
 
 class Test(unittest.TestCase):

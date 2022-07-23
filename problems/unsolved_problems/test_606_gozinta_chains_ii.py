@@ -1,7 +1,7 @@
 import unittest
 
 # Gozinta Chains II
-""" 
+"""
 
 A gozinta chain for n is a sequence {1,a,b,...,n} where each element properly divides the next. 
 For example, there are eight distinct gozinta chains for 12: 
@@ -14,7 +14,7 @@ You are given S(106)=8462952 and S(1012)=623291998881978.
 
 Find S(1036), giving the last nine digits of your answer.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

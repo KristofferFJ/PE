@@ -1,7 +1,7 @@
 import unittest
 
 # Triangles containing the origin II
-""" 
+"""
 Define:xn = (1248n mod 32323) - 16161yn = (8421n mod 30103) - 15051
 Pn = {(x1, y1), (x2, y2), ..., (xn, yn)}
 
@@ -15,7 +15,7 @@ C(40 000) = 2666610948988
 
 Find C(2 000 000).
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

@@ -1,7 +1,7 @@
 import unittest
 
 # Range of periodic sequence
-""" 
+"""
 Consider the sequence of real numbers $a_n$ defined by the starting value $a_0$ and the recurrence
 $\displaystyle a_{n+1}=a_n-\frac 1 {a_n}$ for any $n  \ge 0$.
 
@@ -16,7 +16,7 @@ You are given $S(3) \approx 14.6461$ and $S(5) \approx 124.1056$.
 
 
 Find $S(25)$, rounded to 4 decimal places.
-""" 
+"""
 
 
 class Test(unittest.TestCase):

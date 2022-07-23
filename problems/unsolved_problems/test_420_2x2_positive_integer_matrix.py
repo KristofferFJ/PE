@@ -1,7 +1,7 @@
 import unittest
 
 # 2x2 positive integer matrix
-""" 
+"""
 A positive integer matrix is a matrix whose elements are all positive integers.
 Some positive integer matrices can be expressed as a square of a positive integer matrix in two different ways. Here is an example:
 
@@ -11,7 +11,7 @@ We can verify that F(50) = 7 and F(1000) = 1019.
 
 Find F(107).
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

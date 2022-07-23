@@ -1,7 +1,7 @@
 import unittest
 
 # Two heads are better than one
-""" 
+"""
 
 An unbiased coin is tossed repeatedly until two consecutive heads are obtained. Suppose these occur on the $(M-1)$th and $M$th toss.
 Let $P(n)$ be the probability that $M$ is divisible by $n$. For example, the outcomes HH, HTHH, and THTTHH all count towards $P(2)$, but THH and HTTHH do not.
@@ -13,7 +13,7 @@ For example $Q(P(2), 109) = Q(\frac 3 5, 109) = 66$, because $5 \cdot 66 = 330 \
 Similarly $Q(P(3),109) = 46$.
 
 Find $Q(P(10^{18}),1\,000\,000\,009)$.
-""" 
+"""
 
 
 class Test(unittest.TestCase):

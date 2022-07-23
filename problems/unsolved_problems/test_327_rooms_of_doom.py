@@ -1,7 +1,7 @@
 import unittest
 
 # Rooms of Doom
-""" 
+"""
 A series of three rooms are connected to each other by automatic doors.
 Each door is operated by a security card. Once you enter a room the door automatically closes and that security card cannot be used again. A machine at the start will dispense an unlimited number of cards, but each room (including the starting room) contains scanners and if they detect that you are holding more than three security cards or if they detect an unattended security card on the floor, then all the doors will become permanently locked. However, each room contains a box where you may safely store any number of security cards for use at a later stage.
 If you simply tried to travel through the rooms one at a time then as you entered room 3 you would have used all three cards and would be trapped in that room forever!
@@ -13,7 +13,7 @@ Let M(C,R) be the minimum number of cards required from the dispensing machine t
 For example, M(3,6)=123 and M(4,6)=23.And, ∑ M(C,6)=146 for 3 ≤ C ≤ 4.
 You are given that ∑ M(C,10)=10382 for 3 ≤ C ≤ 10.
 Find ∑ M(C,30) for 3 ≤ C ≤ 40.
-""" 
+"""
 
 
 class Test(unittest.TestCase):

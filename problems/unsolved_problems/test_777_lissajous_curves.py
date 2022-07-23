@@ -1,7 +1,7 @@
 import unittest
 
 # Lissajous Curves
-""" 
+"""
 For coprime positive integers $a$ and $b$, let $C_{a,b}$ be the curve defined by:
 \[
 \begin{align}
@@ -16,7 +16,7 @@ For example, in the case of $C_{2,5}$ illustrated above, the curve crosses itsel
 Let $s(m) = \sum d(a,b)$, where this sum is over all pairs of coprime integers $a,b$ with $2\le a\le m$ and $2\le b\le m$.
 You are given that $s(10) = 1602.5$ and $s(100) = 24256505$.
 Find $s(10^6)$. Give your answer in scientific notation rounded to 10 significant digits; for example $s(100)$ would be given as 2.425650500e7.
-""" 
+"""
 
 
 class Test(unittest.TestCase):

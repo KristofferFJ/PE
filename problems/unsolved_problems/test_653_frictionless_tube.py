@@ -1,7 +1,7 @@
 import unittest
 
 # Frictionless Tube
-""" 
+"""
 Consider a horizontal frictionless tube with length $L$ millimetres, and a diameter of 20 millimetres. The east end of the tube is open, while the west end is sealed. The tube contains $N$ marbles of diameter 20 millimetres at designated starting locations, each one initially moving either westward or eastward with common speed $v$.
 Since there are marbles moving in opposite directions, there are bound to be some collisions. We assume that the collisions are perfectly elastic, so both marbles involved instantly change direction and continue with speed $v$ away from the collision site. Similarly, if the west-most marble collides with the sealed end of the tube, it instantly changes direction and continues eastward at speed $v$. On the other hand, once a marble reaches the unsealed east end, it exits the tube and has no further interaction with the remaining marbles.
 To obtain the starting positions and initial directions, we use the pseudo-random sequence $r_j$ defined by:
@@ -13,7 +13,7 @@ For example, with $N=3$, the sequence specifies gaps of 117, 432, and 173 millim
 Under this setup, and with a five metre tube ($L=5000$), it turns out that the middle (second) marble travels 5519 millimetres before its centre reaches the east-most end of the tube.
 Let $d(L, N, j)$ be the distance in millimetres that the $j$th marble travels before its centre reaches the eastern end of the tube. So $d(5000, 3, 2) = 5519$. You are also given that $d(10\,000, 11, 6) = 11\,780$ and $d(100\,000, 101, 51) = 114\,101$.
 Find $d(1\,000\,000\,000, 1\,000\,001, 500\,001)$.
-""" 
+"""
 
 
 class Test(unittest.TestCase):

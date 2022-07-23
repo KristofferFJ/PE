@@ -1,7 +1,7 @@
 import unittest
 
 # Divisor Pairs
-""" 
+"""
 
 Let $S(n)$ be the number of pairs $(a,b)$ of distinct divisors of $n$ such that $a$ divides $b$.
 For $n=6$ we get the following pairs: $(1,2), (1,3), (1,6),( 2,6)$ and $(3,6)$. So $S(6)=5$.
@@ -14,7 +14,7 @@ $Q(8)=2714886$.
 
 Evaluate $Q(10^{12})$. 
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

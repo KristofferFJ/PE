@@ -1,7 +1,7 @@
 import unittest
 
 # Divisibility streaks
-""" 
+"""
 
 For every positive number $n$ we define the function  $streak(n)=k$   as the smallest positive integer $k$ such that $n+k$ is not divisible by $k+1$.
 E.g:
@@ -23,7 +23,7 @@ So $P(3, 14) = 1$ and $P(6, 10^6) = 14286$.
 
 Find the sum, as $i$ ranges from 1 to 31, of $P(i, 4^i)$.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

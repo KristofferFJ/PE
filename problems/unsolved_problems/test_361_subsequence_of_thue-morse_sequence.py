@@ -1,7 +1,7 @@
 import unittest
 
 # Subsequence of Thue-Morse sequence
-""" 
+"""
 The Thue-Morse sequence {Tn} is a binary sequence satisfying:
 
 The first several terms of {Tn} are given as follows:
@@ -20,7 +20,7 @@ We can also verify that A100 = 3251 and A1000 = 80852364498.
 
 Find the last 9 digits of $\sum \limits_{k = 1}^{18} {A_{10^k}}$.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

@@ -1,7 +1,7 @@
 import unittest
 
 # Friend numbers
-""" 
+"""
 
 Let's call two numbers  friend numbers if their representation in base 10 has at least one common digit. E.g. 1123 and 3981 are friend numbers. 
 
@@ -12,7 +12,7 @@ $f(100)=1539$.
 
 Find $f(10^{18})$ mod $1000267129$.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

@@ -1,7 +1,7 @@
 import unittest
 
 # Squarefree Fibonacci Numbers
-""" 
+"""
 
 The first 15 fibonacci numbers are:
 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610.
@@ -27,7 +27,7 @@ For this problem, assume that for every prime p, the first fibonacci number divi
 If it happens that the conjecture is false, then the accepted answer to this problem isn't guaranteed to be the 100 000 000th squarefree fibonacci number, rather it represents only a lower bound for that number.
 
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

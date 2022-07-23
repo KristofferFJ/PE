@@ -1,7 +1,7 @@
 import unittest
 
 # Digital root clocks
-""" 
+"""
 
 Sam and Max are asked to transform two digital clocks into two "digital root" clocks.
 A digital root clock is a digital clock that calculates digital roots step by step.
@@ -19,7 +19,7 @@ For number 137, Max's clock requires:
 Of course, Max's clock consumes less power than Sam's one.
 The two clocks are fed all the prime numbers between A = 107 and B = 2×107. 
 Find the difference between the total number of transitions needed by Sam's clock and that needed by Max's one.
-""" 
+"""
 
 
 class Test(unittest.TestCase):

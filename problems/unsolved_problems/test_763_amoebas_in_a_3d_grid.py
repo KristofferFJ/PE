@@ -1,7 +1,7 @@
 import unittest
 
 # Amoebas in a 3D grid
-""" 
+"""
 
 Consider a three dimensional grid of cubes. An amoeba in cube $(x, y, z)$ can divide itself into three amoebas to occupy the cubes $(x + 1, y, z)$, $(x, y + 1, z)$ and $(x, y, z + 1)$, provided these cubes are empty.
 
@@ -14,7 +14,7 @@ For example, $D(2) = 3$, $D(10) = 44499$, $D(20)=9204559704$ and the last nine d
 
 Find $D(10\,000)$, enter the last nine digits as your answer.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):

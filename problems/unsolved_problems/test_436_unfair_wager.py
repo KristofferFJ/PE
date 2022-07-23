@@ -1,7 +1,7 @@
 import unittest
 
 # Unfair wager
-""" 
+"""
 Julie proposes the following wager to her sister Louise.
 She suggests they play a game of chance to determine who will wash the dishes.
 For this game, they shall use a generator of independent random numbers uniformly distributed between 0 and 1.
@@ -15,7 +15,7 @@ Since y > x, the second player wins.
 Louise thinks about it for a second, and objects: "That's not fair".
 What is the probability that the second player wins?
 Give your answer rounded to 10 places behind the decimal point in the form 0.abcdefghij
-""" 
+"""
 
 
 class Test(unittest.TestCase):

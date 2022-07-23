@@ -1,7 +1,7 @@
 import unittest
 
 # The Ackermann function
-""" 
+"""
 
 For non-negative integers $m$, $n$, the Ackermann function $A(m,n)$ is defined as follows:
 
@@ -17,7 +17,7 @@ For example $A(1,0) = 2$, $A(2,2) = 7$ and $A(3,4) = 125$.
 
 
 Find $\displaystyle\sum_{n=0}^6 A(n,n)$ and give your answer mod $14^8$.
-""" 
+"""
 
 
 class Test(unittest.TestCase):

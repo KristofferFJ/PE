@@ -1,7 +1,7 @@
 import unittest
 
 # High powers of irrational numbers
-""" 
+"""
 
 Given is the function $f(a,n)=\lfloor{(\lceil{\sqrt{a}\:\rceil}+\sqrt{a}\:)^n}\rfloor$.
 $\lfloor{.}\rfloor$ denotes the floor function and $\lceil{.}\rceil$ denotes the ceiling function.
@@ -12,7 +12,7 @@ $G(n) = \displaystyle \sum_{a=1}^n f(a, a^2).$
 $G(1000) \text{ mod  } 999\,999\,937=163861845. $
 Find $G(5\,000\,000).$ Give your answer modulo $999\,999\,937$.
 
-""" 
+"""
 
 
 class Test(unittest.TestCase):
