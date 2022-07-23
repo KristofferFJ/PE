@@ -1,7 +1,7 @@
 #TRUNCATABLE PRIMES: Primtal, der stadig er primtal når man fjerner
 #cifre fra højre og venstre. 2,3 og 7 tæller ikke.
 
-from Library.common import primes
+from library.common import primes
 num = 10**6
 list = primes(num)
 plist = [i for i in range(10,len(list)) if list[i]]

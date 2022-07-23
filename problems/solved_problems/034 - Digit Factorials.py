@@ -1,6 +1,6 @@
 # DIGIT FACTORIALS: Find de numre, hvis cifres fakultet er lige med tallet.
 # Første metode gik galt: Den tog fakultet for en masse 0'er.. ups.
-from Library.common import fact
+from library.common import fact
 
 """
 count = -2

@@ -13,7 +13,7 @@
 # Find the sum of all values of n that satisfy s(n)=60.
 
 import time
-import Library.common as cm
+import library.common as cm
 
 
 def main():

@@ -1,4 +1,4 @@
-from Library.common import primes
+from library.common import primes
 
 primebool = primes(10**6)
 plist = [p for p in range(len(primebool)) if primebool[p]]

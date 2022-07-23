@@ -1,7 +1,7 @@
 # PERMUTED MULTIPLES
 # Find det mindste tal så x, 2x, 3x, 4x, 5x og 6x alle har samme cifre.
 
-from Library.common import anagrams
+from library.common import anagrams
 import timeit
 
 start = timeit.default_timer()
