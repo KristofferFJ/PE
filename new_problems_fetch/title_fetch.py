@@ -9,7 +9,8 @@ def format_title(raw_title: str):
     without_space = _replace_spaces(stripped_of_project_euler)
     left_padded = _left_pad_zeros(without_space)
     test_prepended = _preprend_test(left_padded)
-    return test_prepended.lower() + ".py"
+    without_slash = _replace_slash(test_prepended)
+    return without_slash.lower() + ".py"
 
 
 def _get_title(soup):
@@ -43,3 +44,7 @@ def _left_pad_zeros(title: str):
 
 def _preprend_test(title: str):
     return "test_" + title
+
+
+def _replace_slash(title: str):
+    return title.replace("/", "slash")
