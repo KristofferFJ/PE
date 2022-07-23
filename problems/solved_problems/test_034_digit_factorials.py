@@ -1,7 +1,5 @@
 # DIGIT FACTORIALS: Find de numre, hvis cifres fakultet er lige med tallet.
 # Første metode gik galt: Den tog fakultet for en masse 0'er.. ups.
-from library.common import fact
-
 """
 count = -2
 for i in range(3):
@@ -15,13 +13,14 @@ for i in range(3):
                             if fact(i)+fact(j)+fact(k)+fact(l)+fact(m)+fact(n)+fact(o) == 1*o + 10*n + 10**2*m + 10**3*l+10**4*k+10**5*j+10**6*i:
                                 count +=1
                             """
+from library.common import Common
 
 
 def digit_factorial(n):
     j = str(n)
     fact_s = 0
     for k in range(len(j)):
-        fact_s += fact(int(j[k]))
+        fact_s += Common.fact(int(j[k]))
     if fact_s == n:
         print("Det dur for n ="+str(n))
         return True
