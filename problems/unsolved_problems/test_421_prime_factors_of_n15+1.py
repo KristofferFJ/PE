@@ -12,6 +12,7 @@ Find ∑ s(n,108) for 1 ≤ n ≤ 1011.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

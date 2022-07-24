@@ -14,6 +14,7 @@ It can be verified that LC(3, 0) = 42, LC(5, 3) = 250250, LC(6, 3) = 40602902
 Find LC(10000, 5000) mod 76543217.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -46,6 +46,7 @@ Find $S(10^6, 10^6)$.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

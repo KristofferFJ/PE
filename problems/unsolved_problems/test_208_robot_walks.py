@@ -10,6 +10,7 @@ Given that the robot starts facing North, how many journeys of 70 arcs in length
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -16,6 +16,7 @@ Find S(100 000 000!) modulo 1 000 000 009.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

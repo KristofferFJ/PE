@@ -24,6 +24,7 @@ Find $G(23416728348467685)$.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

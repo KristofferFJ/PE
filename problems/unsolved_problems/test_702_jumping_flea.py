@@ -12,6 +12,7 @@ You are given that $S(3) = 42$, $S(5) = 126$, $S(123) = 167178$, and $S(12345) =
 Find $S(123456789)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -10,6 +10,7 @@ You are given that:
 Find the sum of $|I_d(BQA_d(\pi,10^{13}))|$ for all  non-square positive integers less than 100.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

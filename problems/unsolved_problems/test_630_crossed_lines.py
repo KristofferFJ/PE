@@ -28,6 +28,7 @@ Find $S(L_{2500})$.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

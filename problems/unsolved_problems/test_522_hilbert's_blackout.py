@@ -14,6 +14,7 @@ Let F(n) be the sum of the minimum number of floor rewirings needed over all pos
 Find F(12344321) mod 135707531.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

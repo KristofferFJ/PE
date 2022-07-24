@@ -19,6 +19,7 @@ Find $S(70!,10^{20}, 10^{60})$ and give your answer modulo $1\,000\,000\,007$.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

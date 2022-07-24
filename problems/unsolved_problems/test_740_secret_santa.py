@@ -17,6 +17,7 @@ Find $q(100)$ rounded to 10 decimal places.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

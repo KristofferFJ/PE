@@ -26,6 +26,7 @@ How many Strong Achilles numbers are there below 1018?
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -22,6 +22,7 @@ Find $S(10^{16})$ and give the last 9 digits as your answer.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

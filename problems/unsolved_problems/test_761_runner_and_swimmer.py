@@ -12,6 +12,7 @@ At last, both players decide to play the game in a pool in the form of regular h
 Give your answer rounded to 8 digits after the decimal point.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

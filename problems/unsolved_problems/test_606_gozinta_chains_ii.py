@@ -17,6 +17,7 @@ Find S(1036), giving the last nine digits of your answer.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

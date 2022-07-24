@@ -16,6 +16,7 @@ What is the average number of H-H contact points in an optimal folding of a rand
 Give your answer using as many decimal places as necessary for an exact result.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

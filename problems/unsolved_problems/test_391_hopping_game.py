@@ -18,6 +18,7 @@ It can be verified that $\sum{M(n)^3} = 8150$ for $1 \le n \le 20$.
 Find $\sum{M(n)^3}$ for $1 \le n \le 1000$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -12,6 +12,7 @@ For example, $F(2) = 120$, $F(5) = 45876$, and $F(100)\equiv 53275818 \pmod{1\,0
 Find $F(10^{16}) \bmod 1\,000\,004\,321$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

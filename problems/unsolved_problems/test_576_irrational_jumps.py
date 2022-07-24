@@ -16,6 +16,7 @@ $M(10, 0.01)=266.9010 \dots$
 Find $M(100, 0.00002)$, rounded to 4 decimal places.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

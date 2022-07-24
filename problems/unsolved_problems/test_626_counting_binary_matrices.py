@@ -10,6 +10,7 @@ Define $c(n)$ to be the maximum number of $n\times n$ binary matrices that can b
 Find $c(20)$, and give your answer modulo $1\,001\,001\,011$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

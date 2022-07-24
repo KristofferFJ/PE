@@ -24,6 +24,7 @@ You are given that S(10000)=950007619.
 Find  S(5678027) + S(7208785).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

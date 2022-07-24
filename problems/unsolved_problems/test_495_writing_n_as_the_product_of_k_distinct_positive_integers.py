@@ -11,6 +11,7 @@ Furthermore, W(100!,10) modulo 1 000 000 007 = 287549200.
 Find W(10000!,30) modulo 1 000 000 007.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

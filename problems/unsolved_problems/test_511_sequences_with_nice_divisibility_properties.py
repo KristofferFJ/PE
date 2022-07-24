@@ -23,6 +23,7 @@ The last nine digits of Seq(1111,24) are 840643584.
 Find the last nine digits of Seq(1234567898765,4321).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

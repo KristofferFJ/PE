@@ -15,6 +15,7 @@ The sum of the primes q <100 such that P(q)=1 equals 233.
 Find the sum of the primes q <1000000 such that P(q)=1.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

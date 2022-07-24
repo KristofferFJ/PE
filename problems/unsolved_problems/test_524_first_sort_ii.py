@@ -16,6 +16,7 @@ Let R(k) = min(Q(n, k)) over all n for which Q(n, k) is defined.
 Find R(1212).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -10,6 +10,7 @@ Let N(n) be the number of t ≤ 1000000 such that t is type L(n); for example, N
 What is ∑ N(n) for 1 ≤ n ≤ 10?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -13,6 +13,7 @@ You are given F(2) = 45, F(4) = 4284990, F(100) = 26365463243, F(104) = 
 Find F(108).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

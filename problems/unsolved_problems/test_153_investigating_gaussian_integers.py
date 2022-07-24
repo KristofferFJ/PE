@@ -40,6 +40,7 @@ For $\sum \limits_{n = 1}^{10^5} {s(n)} = 17924657155$.
 What is $\sum \limits_{n = 1}^{10^8} {s(n)}$?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

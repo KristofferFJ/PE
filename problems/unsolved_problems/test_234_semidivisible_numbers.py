@@ -11,6 +11,7 @@ As a further example, the sum of the 92 semidivisible numbers up to 1000 is 3482
 What is the sum of all semidivisible numbers not exceeding 999966663333 ?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

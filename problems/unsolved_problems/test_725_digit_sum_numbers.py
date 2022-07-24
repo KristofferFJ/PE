@@ -17,6 +17,7 @@ Find $S(2020)$. Give your answer modulo $10^{16}$.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

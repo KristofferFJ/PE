@@ -8,6 +8,7 @@ For example, f5(10) = 18, f7(100) = 1003, and f2(103) = 264830889564.
 Find $(\sum_{k=2}^{10}$ fk(1014)$)$ mod (109+7).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

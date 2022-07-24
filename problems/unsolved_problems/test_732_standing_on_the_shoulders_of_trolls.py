@@ -34,6 +34,7 @@ You are given that $Q(5) = 401$ and $Q(15)=941$.
 Find $Q(1000)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

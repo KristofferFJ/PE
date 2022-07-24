@@ -8,6 +8,7 @@ Let $\displaystyle F(N) = \sum_{n=1}^N f(n)$. You are given $F(15)=63$, and $F(1
 Find $F(10^{12})$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

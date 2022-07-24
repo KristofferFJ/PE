@@ -17,6 +17,7 @@ Find E(10 000) and give your answer rounded to 6 places behind the decimal point
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

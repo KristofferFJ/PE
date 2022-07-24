@@ -15,6 +15,7 @@ How many stealthy numbers  are there that don't exceed $10^{14}$?
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

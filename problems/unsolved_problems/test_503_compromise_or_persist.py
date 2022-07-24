@@ -14,6 +14,7 @@ We can also verify that F(4) = 15/8 and F(10) ≈ 2.5579365079.
 Find F(106). Give your answer rounded to 10 decimal places behind the decimal point.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

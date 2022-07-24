@@ -11,6 +11,7 @@ Let $G(n)$ be the expected amount that the winner will receive. For example $G(5
 Find $G(500)$, giving your answer in scientific notation rounded to 9 significant digits.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

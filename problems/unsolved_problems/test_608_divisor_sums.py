@@ -8,6 +8,7 @@ You are given $D(3!,10^2)=3398$ and $D(4!,10^6)=268882292$.
 Find $D(200!,10^{12}) \text{ mod } (10^9 + 7)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

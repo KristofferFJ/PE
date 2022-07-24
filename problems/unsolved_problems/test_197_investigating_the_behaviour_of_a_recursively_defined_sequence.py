@@ -9,6 +9,7 @@ Find un + un+1 for n = 1012.
 Give your answer with 9 digits after the decimal point.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

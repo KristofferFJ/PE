@@ -12,6 +12,7 @@ For example, $G(10) = 754$ and $G(10^2) = 583766$.
 Find $G(10^{18})$. Give your answer modulo $1\,000\,000\,007$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -12,6 +12,7 @@ Find the number of reachable configurations for the puzzle below. Note that the 
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

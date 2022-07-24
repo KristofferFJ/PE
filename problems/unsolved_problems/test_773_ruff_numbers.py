@@ -13,6 +13,7 @@ If $N_k$ is the product of the numbers in $S_k$ then define $F(k)$ to be the sum
 Find $F(97)$, give your answer modulo $1\,000\,000\,007$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

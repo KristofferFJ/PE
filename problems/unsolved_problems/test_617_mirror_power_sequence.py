@@ -10,6 +10,7 @@ You are given that $D(10) = 2$, $D(100) = 21$, $D(1000) = 69$, $D(10^6) = 1303$ 
 Find $D(10^{18})$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

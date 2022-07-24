@@ -14,6 +14,7 @@ Let t = u / v be the sum of all distinct s(x,y,z) for all golden triples (x,y,z)
 Find u + v.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

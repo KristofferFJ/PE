@@ -12,6 +12,7 @@ Find T(1012). Give the last 9 digits of your answer.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

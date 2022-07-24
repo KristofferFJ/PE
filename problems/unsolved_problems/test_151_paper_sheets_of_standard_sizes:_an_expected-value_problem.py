@@ -12,6 +12,7 @@ Excluding the first and last batch of the week, find the expected number of time
 Give your answer rounded to six decimal places using the format x.xxxxxx .
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

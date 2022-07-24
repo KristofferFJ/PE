@@ -12,6 +12,7 @@ Here are base i-1 representations of a few Gaussian integers:
 0+0i → 0
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

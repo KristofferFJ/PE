@@ -16,6 +16,7 @@ un = 1 − n + n2 − n3 + n4 − n5 + n6 − n7 + n8 − n9 + n10
 Find the sum of FITs for the BOPs.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

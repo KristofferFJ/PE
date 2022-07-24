@@ -19,6 +19,7 @@ You are given that $s(10) = 1602.5$ and $s(100) = 24256505$.
 Find $s(10^6)$. Give your answer in scientific notation rounded to 10 significant digits; for example $s(100)$ would be given as 2.425650500e7.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

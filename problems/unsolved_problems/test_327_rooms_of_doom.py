@@ -16,6 +16,7 @@ You are given that ∑ M(C,10)=10382 for 3 ≤ C ≤ 10.
 Find ∑ M(C,30) for 3 ≤ C ≤ 40.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

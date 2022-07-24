@@ -7,6 +7,7 @@ Let us call an integer sided triangle with sides a ≤ b ≤ c barely acute if t
 How many barely acute triangles are there with perimeter ≤ 25,000,000?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

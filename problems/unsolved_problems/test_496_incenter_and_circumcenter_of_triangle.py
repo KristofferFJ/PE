@@ -11,6 +11,7 @@ For example, F(15) = 45 because the triangles ABC with (BC,AC,AB) = (6,4,5), (12
 Find F(109).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

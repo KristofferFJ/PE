@@ -12,6 +12,7 @@ You are given g(200) = 62 + 752 + 892 + 2262 = 64658.
 Find g(10000).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -12,6 +12,7 @@ T(2) = 104
 Find T(36).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -15,6 +15,7 @@ The function mdrs(n) gives the maximum Digital Root Sum of n. So  mdrs(24)=11.
 Find ∑ mdrs(n) for 1 < n < 1,000,000.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

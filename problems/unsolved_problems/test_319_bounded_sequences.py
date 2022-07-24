@@ -21,6 +21,7 @@ Find t(1010) and give your answer modulo 109.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

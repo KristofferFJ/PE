@@ -12,6 +12,7 @@ Find T(1018, 1012-10).
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

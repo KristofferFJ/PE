@@ -15,6 +15,7 @@ $f(10^4,0.3)=0.2857499982$.
 Find $f(10^{11},0.4999)$. Give your answer rounded to 10 places behind the decimal point.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

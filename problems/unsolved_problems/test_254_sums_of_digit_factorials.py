@@ -11,6 +11,7 @@ Further, it can be verified that g(20) is 267 and ∑ sg(i) for 1 ≤ i ≤ 20
 What is ∑ sg(i) for 1 ≤ i ≤ 150?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

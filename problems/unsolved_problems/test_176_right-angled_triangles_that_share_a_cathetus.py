@@ -7,6 +7,7 @@ The four right-angled triangles with sides (9,12,15), (12,16,20), (5,12,13) and 
 Find the smallest integer that can be the length of a cathetus of exactly 47547 different integer sided right-angled triangles.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -13,6 +13,7 @@ You are also given that $f(15)=72863$.
 Find $f(30)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

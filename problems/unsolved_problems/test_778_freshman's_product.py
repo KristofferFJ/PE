@@ -16,6 +16,7 @@ Find $F(234567,765432)$, give your answer modulo $1\,000\,000\,009$
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

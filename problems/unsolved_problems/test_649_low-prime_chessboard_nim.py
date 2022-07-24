@@ -11,6 +11,7 @@ For example, $M(3, 1) = 4$, $M(3, 2) = 40$, and $M(9, 3) = 450304$.
 What are the last $9$ digits of $M(10\,000\,019, 100)$?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

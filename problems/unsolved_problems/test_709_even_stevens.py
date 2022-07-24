@@ -10,6 +10,7 @@ Define $f(n)$ to be the number of possible packings of $n$ bags. Hence $f(4)=5$.
 Find $f(24\,680)$ giving your answer modulo $1\,020\,202\,009$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

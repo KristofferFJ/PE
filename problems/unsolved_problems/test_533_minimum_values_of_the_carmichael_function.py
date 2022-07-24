@@ -10,6 +10,7 @@ For example, L(6) = 241 and L(100) = 20 174 525 281.
 Find L(20 000 000). Give the last 9 digits of your answer.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

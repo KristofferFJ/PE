@@ -9,6 +9,7 @@ Let M(x) represent the number of moves required to return to the initial situati
 Find $\displaystyle \sum_{k=0}^{10^{18}} M(2^k + 1)$. Give your answer modulo 79.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -10,6 +10,7 @@ For example, $G(10)=3053$ and $G(10^5) \equiv 157612967 \pmod{1\,000\,000\,007}$
 Find $G(10^{12})\bmod 1\,000\,000\,007$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

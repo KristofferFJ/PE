@@ -10,6 +10,7 @@ Find how many Panaitopol primes are less than 5×1015.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

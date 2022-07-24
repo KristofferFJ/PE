@@ -15,6 +15,7 @@ Given optimal form and size, what is the biggest pentagonal cocktail table (in t
 Give your answer rounded to 10 digits after the decimal point (if Jack had choosen the square model instead the answer would have been 1.0000000000).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

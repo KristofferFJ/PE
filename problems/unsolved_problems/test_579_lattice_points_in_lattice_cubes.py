@@ -19,6 +19,7 @@ For example, S(1)=8, S(2)=91, S(4)=1878, S(5)=5832, S(10)=387003 and S(50)=29948
 Find S(5000) mod 109.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

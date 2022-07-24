@@ -9,6 +9,7 @@ Although R(10), R(100), or R(1000) are not divisible by 17, R(10000) is divisibl
 Find the sum of all the primes below one-hundred thousand that will never be a factor of R(10n).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

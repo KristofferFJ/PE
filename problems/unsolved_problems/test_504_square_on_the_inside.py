@@ -9,6 +9,7 @@ It can be shown that for m = 4 there are exactly 256 valid ways to construct ABC
 How many quadrilaterals ABCD strictly contain a square number of lattice points for m = 100?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

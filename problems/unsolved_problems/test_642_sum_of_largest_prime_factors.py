@@ -9,6 +9,7 @@ For example $F(10)=32$, $F(100)=1915$ and $F(10000)=10118280$.
 Find $F(201820182018)$. Give your answer modulus $10^9$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

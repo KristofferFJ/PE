@@ -9,6 +9,7 @@ Thus, for instance, f(2,1) = 1, f(2,2) = f(3,1) = 2 and f(3,2) =�
 Find the sum of all f(m,n) such that f(m,n) ≤ 1015.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

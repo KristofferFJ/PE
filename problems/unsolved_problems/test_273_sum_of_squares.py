@@ -11,6 +11,7 @@ Thus S(65) = 1 + 4 = 5.
 Find ∑ S(N), for all squarefree N only divisible by primes of the form 4k+1 with 4k+1 < 150.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

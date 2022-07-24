@@ -17,6 +17,7 @@ Find $E(7, 7)$, rounded to 8 decimal places.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -12,6 +12,7 @@ Only two of these chains start with a prime, their sum is 12.
 What is the sum of all primes less than 40000000 which generate a chain of length 25?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

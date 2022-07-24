@@ -12,6 +12,7 @@ Let $\mathbb{E}(d)$ be the expected value of $d$ when $r_a$, $r_b$ and $r_c$ are
 Find $\mathbb{E}(d)$, rounded to eight places after the decimal point.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -18,6 +18,7 @@ Find C(C(C(10 000))) mod 138.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

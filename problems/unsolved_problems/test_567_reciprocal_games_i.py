@@ -12,6 +12,7 @@ Let $\displaystyle S(m)=\sum_{n=1}^m (J_A(n)+J_B(n))$. For example $S(6)=7.58932
 Find S(123456789), rounded to 8 decimal places.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

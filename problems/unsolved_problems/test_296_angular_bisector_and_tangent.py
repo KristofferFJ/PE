@@ -12,6 +12,7 @@ How many triangles ABC with a perimeter not exceeding 100 000 exist such that BE
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

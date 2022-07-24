@@ -15,6 +15,7 @@ Find the sum of the numbers n  not exceeding 1016 for which g(n)=n.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

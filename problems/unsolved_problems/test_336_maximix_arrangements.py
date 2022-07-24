@@ -12,6 +12,7 @@ It can be verified that there are 24 maximix arrangements for six carriages, of 
 Find the 2011th lexicographic maximix arrangement for eleven carriages.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

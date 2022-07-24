@@ -10,6 +10,7 @@ You are given $A(4) = 1$, $A(8) = 7$, $A(40) = 1039$ and $A(100) = 17473$.
 Find $A(1000)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

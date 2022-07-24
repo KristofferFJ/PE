@@ -12,6 +12,7 @@ How many different ways can the grey tiles in a row measuring fifty units in len
 NOTE: This is related to Problem 117.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -12,6 +12,7 @@ You are given that F(10)=32 and F(1000)=12776.
 Find F(1015).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

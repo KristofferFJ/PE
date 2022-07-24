@@ -11,6 +11,7 @@ Let $G(N)=\sum_{n=1}^N F(n)$. You are given that $G(6)=14$, $G(100)=8090$, and $
 Find $G(10^9)$. Give your answer modulo $1\,000\,000\,007$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

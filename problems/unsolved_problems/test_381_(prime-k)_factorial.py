@@ -19,6 +19,7 @@ Find ∑ S(p) for 5 ≤ p < 108.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

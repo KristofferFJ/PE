@@ -8,6 +8,7 @@ It can be shown that f(10000) = 36.
 What is the sum of all positive integers N ≤ 1011 such that f(N) = 420 ?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

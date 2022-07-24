@@ -11,6 +11,7 @@ For example, $S(10) \equiv 399291975 \pmod {1\,000\,000\,007}$
 Find $S(2021)$. Give your answer modulo $1\,000\,000\,007$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

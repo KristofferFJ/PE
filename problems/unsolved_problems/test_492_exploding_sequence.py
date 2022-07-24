@@ -22,6 +22,7 @@ B(109, 103, 1015) = 20731563854
 Find B(109, 107, 1015).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

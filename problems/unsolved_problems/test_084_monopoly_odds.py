@@ -13,6 +13,7 @@ Statistically it can be shown that the three most popular squares, in order, are
 If, instead of using two 6-sided dice, two 4-sided dice are used, find the six-digit modal string.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

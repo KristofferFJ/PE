@@ -14,6 +14,7 @@ LAOO LAOA LAAO
 How many "prize" strings exist over a 30-day period?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

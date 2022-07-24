@@ -12,6 +12,7 @@ Find the last eight digits of $\sum \limits_{i = 1}^{30} {\left \lfloor a_i^{987
 Note: $\lfloor a \rfloor$ represents the floor function.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

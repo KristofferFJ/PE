@@ -34,6 +34,7 @@ Find $\displaystyle \sum N(p,q) \,\, \text{ for } p+q \le 2011$.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

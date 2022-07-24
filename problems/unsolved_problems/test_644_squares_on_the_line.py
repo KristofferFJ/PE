@@ -21,6 +21,7 @@ You are given $f(2,10)=2.61969775$, being reached for $L= 7.82842712$, and $f(10
 Find $f(200,500)$, rounded to 8 digits after the decimal point.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

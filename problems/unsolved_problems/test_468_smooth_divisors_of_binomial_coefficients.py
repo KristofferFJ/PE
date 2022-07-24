@@ -17,6 +17,7 @@ $F(111\,111) \mod 1\,000\,000\,993 = 22156169$
 Find $F(11\,111\,111)  \mod 1\,000\,000\,993$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

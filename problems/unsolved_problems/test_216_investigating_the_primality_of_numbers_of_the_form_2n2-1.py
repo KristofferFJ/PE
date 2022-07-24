@@ -10,6 +10,7 @@ For n ≤ 10000 there are 2202 numbers t(n)  that are prime.
 How many numbers t(n) are prime for n ≤ 50,000,000 ?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

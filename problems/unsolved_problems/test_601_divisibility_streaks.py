@@ -26,6 +26,7 @@ Find the sum, as $i$ ranges from 1 to 31, of $P(i, 4^i)$.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

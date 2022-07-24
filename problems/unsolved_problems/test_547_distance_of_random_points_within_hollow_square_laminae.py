@@ -15,6 +15,7 @@ For example, S(3) = 1.6514 and S(4) = 19.6564, rounded to four digits after the 
 Find S(40) rounded to four digits after the decimal point.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

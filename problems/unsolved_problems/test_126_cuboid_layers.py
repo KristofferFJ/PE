@@ -11,6 +11,7 @@ It turns out that 154 is the least value of n for which C(n) = 10.
 Find the least value of n for which C(n) = 1000.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

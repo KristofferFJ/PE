@@ -8,6 +8,7 @@ There are exactly eleven palindromes below one-thousand that can be written as c
 Find the sum of all the numbers less than 108 that are both palindromic and can be written as the sum of consecutive squares.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

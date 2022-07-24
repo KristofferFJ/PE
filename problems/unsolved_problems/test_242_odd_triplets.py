@@ -11,6 +11,7 @@ There are exactly five odd-triplets with n ≤ 10, namely:
 How many odd-triplets are there with n ≤ 1012 ?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

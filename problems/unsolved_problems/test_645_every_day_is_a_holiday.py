@@ -9,6 +9,7 @@ You are given $E(2)=1$, $E(5)=31/6$, $E(365)\approx 1174.3501$.
 Find $E(10000)$. Give your answer rounded to 4 digits after the decimal point.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

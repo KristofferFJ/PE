@@ -18,6 +18,7 @@ For N=5, the first player's eight winning first moves are:
 Find W(106).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

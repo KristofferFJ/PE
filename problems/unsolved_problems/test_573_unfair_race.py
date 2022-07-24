@@ -12,6 +12,7 @@ You are given that $E_4=2.21875$, $E_5=2.5104$ and $E_{10}=3.66021568$.
 Find $E_{1000000}$ rounded to 4 digits after the decimal point.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -23,6 +23,7 @@ and for B the next hundred digits:
 Find ∑n = 0,1,...,17   10n× DA,B((127+19n)×7n) .
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

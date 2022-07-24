@@ -11,6 +11,7 @@ You are given M(7) = 719102.
 Find M(137).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

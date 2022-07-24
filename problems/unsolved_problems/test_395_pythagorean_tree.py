@@ -17,6 +17,7 @@ Find the smallest area possible for such a bounding rectangle, and give your ans
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

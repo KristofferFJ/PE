@@ -22,6 +22,7 @@ Find f(10000). Give the last 18 digits of your answer.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

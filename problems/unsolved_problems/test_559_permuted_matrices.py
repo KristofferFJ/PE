@@ -11,6 +11,7 @@ For example, P(1, 2, 3) = 19, P(2, 4, 6) = 65508751 and  P(7, 5, 30) mod 1000000
 Find Q(50000) mod 1000000123.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

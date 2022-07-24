@@ -11,6 +11,7 @@ You are given $G(100) = 474$ and $G(10^4) = 2819236$.
 Find $G(10^7)$
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

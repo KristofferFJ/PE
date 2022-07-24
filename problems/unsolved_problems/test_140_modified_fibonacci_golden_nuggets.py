@@ -10,6 +10,7 @@ We shall call $A_G(x)$ a golden nugget if $x$ is rational, because they become i
 Find the sum of the first thirty golden nuggets.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -11,6 +11,7 @@ Including the number $1$, there are $29$ square root smooth numbers not exceedin
 How many square root smooth numbers are there not exceeding $10\,000\,000\,000$?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

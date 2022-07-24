@@ -20,6 +20,7 @@ We can verify that E(1) = 103, E(2) = 520447, E(10) mod 118 = 82608406 and E(5
 Find E(10 000 000) mod 118.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

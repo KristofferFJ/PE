@@ -12,6 +12,7 @@ Surprisingly, no more than $17$ points can be chosen by this procedure.
 Find $F(17)$ and give your answer rounded to 12 decimal places.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

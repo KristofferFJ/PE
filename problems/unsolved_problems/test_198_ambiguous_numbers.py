@@ -9,6 +9,7 @@ We shall call a real number $x$ ambiguous, if there is at least one denominator 
 How many ambiguous numbers $x=\frac p q, 0 < x < \frac 1 {100}$, are there whose denominator $q$ does not exceed $10^8$?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

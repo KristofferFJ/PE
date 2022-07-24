@@ -9,6 +9,7 @@ For example, S(100) = 1035 with the following triples:
 Find S(108).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

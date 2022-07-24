@@ -11,6 +11,7 @@ Hence the Hamming numbers are the generalised Hamming numbers of type 5.
 How many generalised Hamming numbers of type 100 are there which don't exceed 109?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -11,6 +11,7 @@ For example, $H(3)=1$, $H(6)=12$ and $H(20)=966$.
 Find $\displaystyle \sum_{n=3}^{12345} H(n)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

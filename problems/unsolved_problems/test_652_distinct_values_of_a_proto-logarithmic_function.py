@@ -15,6 +15,7 @@ Find $D(10^{18})$, and give the last 9 digits as answer.
 Note: According to the four exponentials conjecture the function $\text{log}_m(n)$ is proto-logarithmic. While this conjecture is yet unproven in general, $\text{log}_m(n)$ can be used to calculate $D(N)$ for small values of $N$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

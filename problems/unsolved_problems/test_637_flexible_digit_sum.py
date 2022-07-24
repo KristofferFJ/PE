@@ -23,6 +23,7 @@ Find $g(10^7,10,3)$
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -16,6 +16,7 @@ You are given S(10) = 61 and S(1000) = 19403.
 Find S(5 000 000).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

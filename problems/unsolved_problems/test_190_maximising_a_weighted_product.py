@@ -8,6 +8,7 @@ For example, it can be verified that [P10] = 4112 ([ ] is the integer part funct
 Find Σ[Pm] for 2 ≤ m ≤ 15.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -18,6 +18,7 @@ Find S(123456787654321) modulo 1234567890.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

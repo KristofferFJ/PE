@@ -11,6 +11,7 @@ Example game:
 Denoting Larry's score by L and Robin's score by R, what is the expected value of |L-R| after 50 turns? Give your answer rounded to eight decimal places using the format x.xxxxxxxx .
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

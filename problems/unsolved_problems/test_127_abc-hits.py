@@ -10,6 +10,7 @@ It turns out that abc-hits are quite rare and there are only thirty-one abc-hits
 Find ∑c for c < 120000.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

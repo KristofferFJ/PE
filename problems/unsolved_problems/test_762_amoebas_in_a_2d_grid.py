@@ -11,6 +11,7 @@ For example, $C(2) = 2$, $C(10) = 1301$, $C(20)=5895236$ and the last nine digit
 Find $C(100\,000)$, enter the last nine digits as your answer.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

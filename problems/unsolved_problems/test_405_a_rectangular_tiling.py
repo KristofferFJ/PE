@@ -20,6 +20,7 @@ Find f(10k) for k = 1018, give your answer modulo 177.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -10,6 +10,7 @@ You are also given that $\sum G(n^3) = 153506976$ for $1 \le n \lt 10^3$.
 Find $\sum G(n^3)$ for $1 \le n \lt 10^6$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

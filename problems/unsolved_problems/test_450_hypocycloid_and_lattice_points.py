@@ -18,6 +18,7 @@ $T(3) = 10; T(10) = 524; T(100) = 580442; T(10^3) = 583108600$.
 Find $T(10^6)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

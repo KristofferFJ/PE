@@ -21,6 +21,7 @@ Similarly, C(100) = 400 and $\sum \limits_{n = 1}^{100} {C(n)} = 17575$.
 Find $\sum \limits_{n = 1}^{200000} {C(n)}$ .
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

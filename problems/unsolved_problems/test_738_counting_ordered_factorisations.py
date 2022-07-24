@@ -9,6 +9,7 @@ You are given that $D(10, 10) = 153$ and $D(100, 100) = 35384$.
 Find $D(10^{10},10^{10})$ giving your answer modulo $1\,000\,000\,007$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

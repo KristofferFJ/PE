@@ -8,6 +8,7 @@ In fact, with the exception of p1 = 3 and p2 = 5, for every pair of consecutive 
 Find ∑ S for every pair of consecutive primes with 5 ≤ p1 ≤ 1000000.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

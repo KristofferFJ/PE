@@ -7,6 +7,7 @@ The smallest positive integer n for which the numbers n2+1, n2+3, n2+7, n2+9, n2
 What is the sum of all such integers n below 150 million?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

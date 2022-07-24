@@ -16,6 +16,7 @@ Let $d(L, N, j)$ be the distance in millimetres that the $j$th marble travels be
 Find $d(1\,000\,000\,000, 1\,000\,001, 500\,001)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

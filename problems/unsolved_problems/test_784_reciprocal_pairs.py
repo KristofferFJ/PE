@@ -15,6 +15,7 @@ You are also given $F(10^2) = 697317$.
 Find $F(2\cdot 10^6)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

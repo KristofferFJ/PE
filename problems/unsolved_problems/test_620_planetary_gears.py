@@ -12,6 +12,7 @@ Let $G(n) = \sum_{s+p+q\le n} g(s+p+q,s,p,q)$ where the sum only includes cases 
 Find $G(500)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

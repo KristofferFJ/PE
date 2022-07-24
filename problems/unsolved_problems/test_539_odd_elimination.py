@@ -21,6 +21,7 @@ Find S(1018) mod 987654321.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

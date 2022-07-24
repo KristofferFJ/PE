@@ -14,6 +14,7 @@ Calculate $\displaystyle{\sum M(10^{18},10^9,p\cdot q\cdot r)}$ for $1000\lt p\l
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

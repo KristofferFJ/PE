@@ -25,6 +25,7 @@ Find g(350) and write the answer in scientific notation rounded to 10 significan
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

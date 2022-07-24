@@ -24,6 +24,7 @@ Find ∑ f(k3) for 1 ≤ k ≤ 2×106.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

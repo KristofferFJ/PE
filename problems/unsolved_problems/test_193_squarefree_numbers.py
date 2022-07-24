@@ -7,6 +7,7 @@ A positive integer n is called squarefree, if no square of a prime divides n, th
 How many squarefree numbers are there below 250?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

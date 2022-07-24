@@ -20,6 +20,7 @@ Find the sum of all distinct pseudo-Fortunate numbers for admissible numbers N l
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

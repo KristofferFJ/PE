@@ -12,6 +12,7 @@ The result is Pascal's pyramid and the numbers at each level n are the coefficie
 How many coefficients in the expansion of (x + y + z)200000 are multiples of 1012?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

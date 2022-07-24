@@ -10,6 +10,7 @@ Let M(n) be the minimal area that can be manufactured in exactly n variants with
 Find $ \sum_{n=2}^{100} M(n)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

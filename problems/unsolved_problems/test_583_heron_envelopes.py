@@ -17,6 +17,7 @@ You are given that S(104) = 884680.  Find S(107).
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

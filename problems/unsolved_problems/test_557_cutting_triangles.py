@@ -19,6 +19,7 @@ Find S(10000).
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

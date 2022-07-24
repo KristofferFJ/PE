@@ -12,6 +12,7 @@ We can verify that F(10) = 9, F(103) = 389 and F(107) = 277674.
 Find F(1019).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

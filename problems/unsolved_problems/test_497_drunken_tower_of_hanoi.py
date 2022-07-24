@@ -14,6 +14,7 @@ Interestingly enough, the result is always an integer. For example, E(2,5,1,3,5)
 Find the last nine digits of ∑1≤n≤10000 E(n,10n,3n,6n,9n).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -31,6 +31,7 @@ There is only one cyclic number for which, the eleven leftmost digits are 000000
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

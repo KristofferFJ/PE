@@ -22,6 +22,7 @@ Find $S(10^2,10^8)$
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

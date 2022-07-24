@@ -16,6 +16,7 @@ Hence, by considering minimal solutions in x for D ≤ 7, the largest x is obtai
 Find the value of D ≤ 1000 in minimal solutions of x for which the largest value of x is obtained.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

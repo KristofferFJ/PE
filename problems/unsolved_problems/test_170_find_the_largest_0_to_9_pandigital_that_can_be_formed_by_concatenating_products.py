@@ -11,6 +11,7 @@ The same can be done for 0 to 9 pandigital numbers.
 What is the largest 0 to 9 pandigital 10-digit concatenated product of an integer with two or more other integers, such that the concatenation of the input numbers is also a 0 to 9 pandigital 10-digit number?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

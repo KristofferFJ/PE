@@ -22,6 +22,7 @@ Find S(100), give your answer modulo 1000000033.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -16,6 +16,7 @@ Find S(100 000 000,100 000).
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

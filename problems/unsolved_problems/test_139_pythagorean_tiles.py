@@ -9,6 +9,7 @@ However, if (5, 12, 13) triangles were used then the hole would measure 7 by 7 a
 Given that the perimeter of the right triangle is less than one-hundred million, how many Pythagorean triangles would allow such a tiling to take place?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

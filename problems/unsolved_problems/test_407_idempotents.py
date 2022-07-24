@@ -16,6 +16,7 @@ Find ∑ M(n) for 1 ≤ n ≤ 107.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -10,6 +10,7 @@ As n increases, the proportion of bouncy numbers below n increases such that the
 How many numbers below a googol (10100) are not bouncy?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

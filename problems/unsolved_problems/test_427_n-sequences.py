@@ -12,6 +12,7 @@ For example, f(3) = 45, f(7) = 1403689 and f(11) = 481496895121.
 Find f(7 500 000) mod 1 000 000 009.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -12,6 +12,7 @@ It can be verified that P(5) = 252, P(16) = 596994440 and P(1000) mod 1 000 00
 Find P(10 000 000) mod 1 000 000 007.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

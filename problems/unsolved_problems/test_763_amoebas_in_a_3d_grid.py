@@ -17,6 +17,7 @@ Find $D(10\,000)$, enter the last nine digits as your answer.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

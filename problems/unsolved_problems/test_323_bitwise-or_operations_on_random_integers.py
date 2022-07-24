@@ -11,6 +11,7 @@ Find the expected value of N.
 Give your answer rounded to 10 digits after the decimal point.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

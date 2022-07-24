@@ -18,6 +18,7 @@ You are given that the sum of the strong, right truncatable Harshad primes less 
 Find the sum of the strong, right truncatable Harshad primes less than 1014.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

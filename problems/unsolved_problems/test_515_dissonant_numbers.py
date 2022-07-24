@@ -10,6 +10,7 @@ You are given:
 Find D(109,105,105).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -9,6 +9,7 @@ For example, F(1, 3) = 4, F(1, 4) = 15, F(1, 5) = 46, F(2, 3) = 16 and F(2, 100)
 Find the last 9 digits of F(10, 1012).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

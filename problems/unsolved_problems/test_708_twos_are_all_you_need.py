@@ -9,6 +9,7 @@ Let $\displaystyle S(N)=\sum_{n=1}^{N} f(n)$. You are given $S(10^8)=9613563919$
 Find $S(10^{14})$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

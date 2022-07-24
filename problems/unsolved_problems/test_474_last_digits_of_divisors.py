@@ -15,6 +15,7 @@ Find F(106!, 65432) modulo (1016 + 61).
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

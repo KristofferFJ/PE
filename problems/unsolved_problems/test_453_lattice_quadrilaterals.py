@@ -11,6 +11,7 @@ It can also be verified that Q(3, 7) = 39590, Q(12, 3) = 309000 and Q(123, 45) =
 Find Q(12345, 6789) mod 135707531.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

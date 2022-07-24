@@ -9,6 +9,7 @@ You are given S(2) = R(1, 1, 1) ≈ 0.31998, S(5) ≈ 1.25899.
 Find S(1803) rounded to 5 decimal places behind the decimal point.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -10,6 +10,7 @@ We shall call $A_F(x)$ a golden nugget if $x$ is rational, because they become i
 Find the 15th golden nugget.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

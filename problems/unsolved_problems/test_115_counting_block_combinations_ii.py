@@ -12,6 +12,7 @@ In the same way, for m = 10, it can be verified that F(10, 56) = 880711 and F(10
 For m = 50, find the least value of n for which the fill-count function first exceeds one million.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

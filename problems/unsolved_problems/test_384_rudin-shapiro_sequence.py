@@ -23,6 +23,7 @@ Define GF(t)=g(F(t),F(t-1)).
 Find $\sum$ GF(t) for 2≤t≤45.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

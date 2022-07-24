@@ -9,6 +9,7 @@ With $b = 272$ and $L = 305$, we get $h = 273$, which is one more than the base 
 Find $\sum L$ for the twelve smallest isosceles triangles for which $h = b \pm 1$ and $b$, $L$ are positive integers.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

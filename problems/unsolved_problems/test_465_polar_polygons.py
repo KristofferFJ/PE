@@ -15,6 +15,7 @@ For example, P(1) = 131, P(2) = 1648531, P(3) = 1099461296175 and P(343) mod 1 
 Find P(713) mod 1 000 000 007.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

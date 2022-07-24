@@ -8,6 +8,7 @@ For example, if a = 7 and n = 3, then r = 42: 63 + 83 = 728 ≡ 42 mod 49. And a
 For 3 ≤ a ≤ 1000, find ∑ rmax.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

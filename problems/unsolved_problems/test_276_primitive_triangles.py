@@ -9,6 +9,7 @@ How many primitive integer sided triangles exist with a perimeter not exceeding 
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -22,6 +22,7 @@ Find $S(10^{16})$. Give your answer modulo $10^9$.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

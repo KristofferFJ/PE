@@ -9,6 +9,7 @@ Let C be the circle with centre $\left ( \frac{1}{4}, \frac{1}{2} \right )$ and 
 What area under the blancmange curve is enclosed by C?Give your answer rounded to eight decimal places in the form 0.abcdefgh
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

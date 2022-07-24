@@ -21,6 +21,7 @@ In fact, s = 1320 is the smallest room-size s for which T(s) = 5.
 Find the smallest room-size s for which T(s) = 200.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

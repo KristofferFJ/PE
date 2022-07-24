@@ -15,6 +15,7 @@ You are given that $f(100) = 1164$ and $f(1000) = 117002$.
 Find $f(10^7)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

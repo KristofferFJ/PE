@@ -16,6 +16,7 @@ Similarly $Q(P(3),109) = 46$.
 Find $Q(P(10^{18}),1\,000\,000\,009)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

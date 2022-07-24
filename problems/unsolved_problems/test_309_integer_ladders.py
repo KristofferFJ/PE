@@ -11,6 +11,7 @@ In fact, for integer values x, y, h and 0 < x < y < 200, there are only five tri
 For integer values x, y, h and 0 < x < y < 1 000 000, how many triplets (x,y,h) produce integer solutions for w?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

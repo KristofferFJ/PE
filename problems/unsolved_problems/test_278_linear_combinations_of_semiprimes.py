@@ -19,6 +19,7 @@ Find $\displaystyle \sum f( p\, q,p \, r, q \, r)$, where $p$, $q$ and $r$ are p
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

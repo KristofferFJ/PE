@@ -10,6 +10,7 @@ What is the least value of $n$ for which the number of distinct solutions exceed
 NOTE: This problem is a much more difficult version of Problem 108 and as it is well beyond the limitations of a brute force approach it requires a clever implementation.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -7,6 +7,7 @@ Let us call an integer sided triangle with sides a ≤ b ≤ c barely obtuse if 
 How many barely obtuse triangles are there with perimeter ≤ 75,000,000?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

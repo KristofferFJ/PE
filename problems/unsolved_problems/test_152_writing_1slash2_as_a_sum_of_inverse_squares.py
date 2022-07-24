@@ -12,6 +12,7 @@ In fact, only using integers between 2 and 45 inclusive, there are exactly three
 How many ways are there to write the number 1/2 as a sum of inverse squares using distinct integers between 2 and 80 inclusive?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

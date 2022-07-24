@@ -11,6 +11,7 @@ For example, $S_1(10)=41$, $S_1(100)=3512$, $S_2(100)=208090$, $S_1(10000)=35252
 Find $\displaystyle \sum_{k=1}^{50} S_k(10^{12}) \bmod 1\,000\,000\,007$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

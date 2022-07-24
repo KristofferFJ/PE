@@ -9,6 +9,7 @@ Let us define the perfection quotient of a positive integer as $p(n) = \dfrac{\s
 Find the sum of all positive integers $n \le 10^{18}$ for which $p(n)$ has the form $k + \dfrac{1}{2}$, where $k$ is an integer.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -11,6 +11,7 @@ $S(8)=22$ and $S(100)=3604$.
 Find $S(3^{37})$. Give the last 9 digits of your answer.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

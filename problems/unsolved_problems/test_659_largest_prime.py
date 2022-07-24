@@ -18,6 +18,7 @@ Find the last 18 digits of $\displaystyle \sum_{k=1}^{10\,000\,000} P(k)$.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

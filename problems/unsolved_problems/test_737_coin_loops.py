@@ -26,6 +26,7 @@ Calculate the number of coins needed to loop $2020$ times around the line.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

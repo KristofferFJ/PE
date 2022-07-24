@@ -32,6 +32,7 @@ Find the sum of all P(f, r) for all positive f and r such that f × r = 71328803
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

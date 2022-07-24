@@ -25,6 +25,7 @@ Find f(106, 1012, 1018) mod 1014.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

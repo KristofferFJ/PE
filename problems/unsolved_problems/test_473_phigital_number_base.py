@@ -24,6 +24,7 @@ The sum of the positive integers not exceeding 1000 whose phigital representatio
 Find the sum of the positive integers not exceeding $10^{10}$ whose phigital representation is palindromic.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

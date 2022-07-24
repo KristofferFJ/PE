@@ -9,6 +9,7 @@ There are exactly 5482 grids for which S(m,n) = p2, where p < 100 is prime.
 How many grids does S(m,n) = p2, where p < 106 is prime?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

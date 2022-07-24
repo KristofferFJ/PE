@@ -11,6 +11,7 @@ Let $F(n, k) = \sum_{i=1}^{n-k+1} M(i, i + k - 1)$. For example, $F(100, 10) = 4
 Find $F(10^7, 10^5)$. If the sum is not an integer, use $.5$ to denote a half. Otherwise, use $.0$ instead.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

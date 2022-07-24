@@ -8,6 +8,7 @@ You are given that T(2) = 89, T(5) = 3121, T(100) = 493490641 and T(104) = 49348
 Find T(108) mod 1000000007.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

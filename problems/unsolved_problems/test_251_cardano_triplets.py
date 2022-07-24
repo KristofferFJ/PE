@@ -17,6 +17,7 @@ Find how many Cardano Triplets exist such that a+b+c ≤ 110,000,000.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

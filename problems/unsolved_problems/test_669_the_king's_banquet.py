@@ -13,6 +13,7 @@ Now suppose there are $n=99\,194\,853\,094\,755\,497$ knights and the same numbe
 Find the number of the knight sitting in the $10\,000\,000\,000\,000\,000$th chair from the king’s left.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -8,6 +8,7 @@ It turns out that F541, which contains 113 digits, is the first Fibonacci number
 Given that Fk is the first Fibonacci number for which the first nine digits AND the last nine digits are 1-9 pandigital, find k.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

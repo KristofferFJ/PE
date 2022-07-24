@@ -11,6 +11,7 @@ Let Fi be the ith Fibonacci number defined as F1 = F2 = 1 and Fi = Fi-1 +
 Find $\displaystyle \left( \sum_{i=2}^{90} C(F_i) \right) \text{mod } (10^8+7)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

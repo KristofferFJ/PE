@@ -16,6 +16,7 @@ Find S(1 000 000) mod 1018.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

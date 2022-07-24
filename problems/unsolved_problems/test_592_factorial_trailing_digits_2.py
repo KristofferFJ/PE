@@ -9,6 +9,7 @@ so f(20) is the digit sequence 21C3677C82B4.
 Find f(20!). Give your answer as twelve hexadecimal digits, using uppercase for the digits A to F.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

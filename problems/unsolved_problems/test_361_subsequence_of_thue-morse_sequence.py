@@ -23,6 +23,7 @@ Find the last 9 digits of $\sum \limits_{k = 1}^{18} {A_{10^k}}$.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

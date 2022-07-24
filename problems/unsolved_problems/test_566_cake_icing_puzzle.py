@@ -16,6 +16,7 @@ You are also given G(11) = 60, G(14) = 58020 and G(17) = 1269260.
 Find G(53).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

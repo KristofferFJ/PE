@@ -12,6 +12,7 @@ For example, D(107) = 0 and D(5·109) = 51.
 Find D(1018).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

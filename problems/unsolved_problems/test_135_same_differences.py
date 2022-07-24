@@ -9,6 +9,7 @@ It turns out that n = 1155 is the least value which has exactly ten solutions.
 How many values of n less than one million have exactly ten distinct solutions?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -10,6 +10,7 @@ For example $X(1,2,3) = 0$ because, no matter what the current player does, the 
 For how many positive integers $n \le 2^{30}$ does $X(n,2n,3n) = 0$ ?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

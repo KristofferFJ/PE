@@ -12,6 +12,7 @@ Calling S(N) the sum of the unique numeric representations, we can see that S(3)
 Find S(5).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

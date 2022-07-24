@@ -9,6 +9,7 @@ The least value of n for which the remainder first exceeds 109 is 7037.
 Find the least value of n for which the remainder first exceeds 1010.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

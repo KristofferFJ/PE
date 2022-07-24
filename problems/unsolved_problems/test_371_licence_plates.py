@@ -22,6 +22,7 @@ Note: We assume that each licence plate seen is equally likely to have any three
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

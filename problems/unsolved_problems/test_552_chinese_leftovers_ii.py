@@ -20,6 +20,7 @@ For example, S(50) = 69 = 5 + 23 + 41, since 5 divides A2, 23 divides A3 and 41 
 Find S(300000).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

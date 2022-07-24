@@ -24,6 +24,7 @@ Find $S(10^4)$ and give your answer modulo $1\,000\,000\,033$.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

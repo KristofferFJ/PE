@@ -7,6 +7,7 @@ For a positive integer n, let σ2(n) be the sum of the squares of its divisors. 
 Find the sum of all n, 0 < n < 64,000,000 such that σ2(n) is a perfect square.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

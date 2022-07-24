@@ -15,6 +15,7 @@ The animation on the right shows the first 10 reflections of the beam.
 How many times does the beam hit the internal surface of the white cell before exiting?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

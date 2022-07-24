@@ -12,6 +12,7 @@ Find $R(2\cdot10^6, 10^9)$.
 Note: $\lfloor x\rfloor$ represents the floor function.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

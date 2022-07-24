@@ -16,6 +16,7 @@ Find the sum of all numbers n, 1 < n < 1010 such that φ(n2) is a cube.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

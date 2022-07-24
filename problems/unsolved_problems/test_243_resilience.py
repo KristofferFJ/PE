@@ -13,6 +13,7 @@ In fact, d = 12 is the smallest denominator having a resilience R(d) < 4/10 
 Find the smallest denominator d, having a resilience R(d) < 15499/94744 .
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

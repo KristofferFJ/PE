@@ -9,6 +9,7 @@ and $S_n$ the character string $c_0\ldots c_{n-1}$. You are given that $L(2,S_{1
 Find the sum of non-zero $L(k,S_{5000000})$ for $k\ge 1$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

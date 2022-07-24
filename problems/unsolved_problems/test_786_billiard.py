@@ -25,6 +25,7 @@ Find $B(10^9)$.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

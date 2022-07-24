@@ -14,6 +14,7 @@ Find S(1012) mod 109.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

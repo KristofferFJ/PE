@@ -13,6 +13,7 @@ Starting with a grid that is entirely white, how many squares are black after 10
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

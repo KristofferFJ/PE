@@ -8,6 +8,7 @@ For example:
 Find ∑ f(n), 2 ≤ n ≤ 106.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

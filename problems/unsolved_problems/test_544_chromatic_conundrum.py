@@ -10,6 +10,7 @@ For example, S(4,4,15) mod 109+7 = 325951319.
 Find S(9,10,1112131415) mod 109+7.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

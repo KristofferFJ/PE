@@ -11,6 +11,7 @@ Interestingly, $S(n)$ is always an integer. For example, $S(4) = 51160$.
 Find $S(10^6)$ modulo $1\,000\,000\,007$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

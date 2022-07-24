@@ -14,6 +14,7 @@ If people on your planet were to enter a very large room one by one, what will b
 What would be the answer (rounded to eight places after the decimal point) the people of Earth have to enter into the device for a year with 365 days? Ignore leap years. Also assume that all birthdays are equally likely and independent of each other.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

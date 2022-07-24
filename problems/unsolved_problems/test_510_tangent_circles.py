@@ -12,6 +12,7 @@ You are also given S(100) = 3072.
 Find S(109).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

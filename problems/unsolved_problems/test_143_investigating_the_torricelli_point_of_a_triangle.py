@@ -10,6 +10,7 @@ If the sum is minimised and a, b, c, p, q and r are all positive integers we sha
 Find the sum of all distinct values of p + q + r ≤ 120000 for Torricelli triangles.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

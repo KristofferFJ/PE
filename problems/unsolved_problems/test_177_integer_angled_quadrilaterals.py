@@ -11,6 +11,7 @@ What is the total number of non-similar integer angled quadrilaterals?
 Note: In your calculations you may assume that a calculated angle is integral if it is within a tolerance of 10-9 of an integer value.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -16,6 +16,7 @@ Find the value the series converges to.
 Give your answer rounded to 10 digits behind the decimal point.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

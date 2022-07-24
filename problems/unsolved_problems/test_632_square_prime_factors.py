@@ -8,6 +8,7 @@ Let $C_k(N)$ be the number of integers between $1$ and $N$ inclusive with exactl
 Find the product of all non-zero $C_k(10^{16})$. Give the result reduced modulo $1\,000\,000\,007$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

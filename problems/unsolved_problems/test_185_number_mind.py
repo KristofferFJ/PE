@@ -39,6 +39,7 @@ Based on the following guesses,
 Find the unique 16-digit secret sequence.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

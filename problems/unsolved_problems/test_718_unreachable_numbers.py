@@ -11,6 +11,7 @@ Define $G(p)$ to be the sum of all unreachable values of $n$ for the given value
 Find $G(6)$. Give your answer modulo $1\,000\,000\,007$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

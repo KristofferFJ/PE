@@ -18,6 +18,7 @@ You are given that the sum of the answers for the first 10 puzzles in the file i
 Find the sum of the answers for the 200 puzzles.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

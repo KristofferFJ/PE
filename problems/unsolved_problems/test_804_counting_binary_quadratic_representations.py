@@ -8,6 +8,7 @@ Define $\displaystyle T(N)=\sum_{n=1}^{N}g(n)$. You are given $T(10^3)=474$ and 
 Find $T(10^{16})$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

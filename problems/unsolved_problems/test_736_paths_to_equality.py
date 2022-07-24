@@ -11,6 +11,7 @@ This is a path to equality for $(45,90)$ and is of length 10 with final value 14
 Find the unique path to equality for $(45,90)$ with smallest odd length. Enter the final value as your answer.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

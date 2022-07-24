@@ -10,6 +10,7 @@ for all 6-bit inputs (a, b, c, d, e, f)?
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

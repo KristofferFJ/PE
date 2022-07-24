@@ -22,6 +22,7 @@ Calculate the sum of $H_{100}(\sqrt \beta)$ for  $\beta \in T$. Give the last 15
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

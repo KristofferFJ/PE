@@ -9,6 +9,7 @@ You are given a106 = 31054319.
 Find a1015.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

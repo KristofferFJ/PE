@@ -30,6 +30,7 @@ S(1 000 000) mod 109 = 363486179
 Find S(1014) mod 109.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

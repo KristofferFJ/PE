@@ -10,6 +10,7 @@ Using three bots, Bob finds that every bot will draw a line of length 2.84, resu
 In order to show off a little with his presents, Bob decides to use just enough bots to make sure that the line each bot draws is longer than 1000. What is the total length of all lines drawn with this number of bots, rounded to two decimal places?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

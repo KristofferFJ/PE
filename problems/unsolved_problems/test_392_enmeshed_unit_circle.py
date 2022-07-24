@@ -20,6 +20,7 @@ Give as your answer the area occupied by the red cells rounded to 10 digits behi
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

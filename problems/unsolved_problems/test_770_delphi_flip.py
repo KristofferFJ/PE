@@ -17,6 +17,7 @@ Find $g(1.9999)$.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

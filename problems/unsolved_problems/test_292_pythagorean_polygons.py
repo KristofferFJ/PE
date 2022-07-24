@@ -10,6 +10,7 @@ You are given that P(4) = 1, P(30) = 3655 and P(60) = 891045.
 Find P(120).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

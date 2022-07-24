@@ -14,6 +14,7 @@ For example, $\mathbb{E}(\Delta|k,100,50) = 2525/1326 \approx 1.904223$ and $\ma
 Find $\mathbb{E}(\Delta|\varphi(k),12345678,12345)$ rounded to six places after the decimal point.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

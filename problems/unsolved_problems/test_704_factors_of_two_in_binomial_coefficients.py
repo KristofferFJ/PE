@@ -16,6 +16,7 @@ Find $S(10^{16})$.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -17,6 +17,7 @@ How many triangles ABC with perimeter≤100,000,000 exist so that the ratio area
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

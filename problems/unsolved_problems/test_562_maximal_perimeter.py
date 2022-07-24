@@ -10,6 +10,7 @@ You are given T(10) ~ 97.26729 and T(100) ~ 9157.64707.
 Find T(107). Give your answer rounded to the nearest integer.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

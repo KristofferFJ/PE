@@ -16,6 +16,7 @@ Find $g(5 \times 10^8)$.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -9,6 +9,7 @@ Adding those to the 37 of the 3x2 grid, a total of 72 different rectangles could
 How many different rectangles could be situated within 47x43 and smaller grids?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

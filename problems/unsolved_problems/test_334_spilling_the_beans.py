@@ -27,6 +27,7 @@ If we start with $b_1$ and $b_2$ beans in two adjacent bowls, $3419100$ moves wo
 Consider now $1500$ adjacent bowls containing $b_1, b_2, \ldots, b_{1500}$ beans respectively, all other bowls being empty. Find how many moves it takes before the game ends.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

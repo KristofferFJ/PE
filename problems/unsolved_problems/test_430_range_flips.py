@@ -15,6 +15,7 @@ Find E(1010, 4000).
 Give your answer rounded to 2 decimal places behind the decimal point.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

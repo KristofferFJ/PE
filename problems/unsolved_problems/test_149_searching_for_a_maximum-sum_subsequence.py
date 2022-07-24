@@ -13,6 +13,7 @@ The terms of s are then arranged in a 2000×2000 table, using the first 2000 num
 Finally, find the greatest sum of (any number of) adjacent entries in any direction (horizontal, vertical, diagonal or anti-diagonal).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -19,6 +19,7 @@ Let f(n) be the smallest positive integer that is a common superinteger of Pn an
 Find f(10 000) mod 1 000 000 007.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

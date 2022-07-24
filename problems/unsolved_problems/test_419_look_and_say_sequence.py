@@ -25,6 +25,7 @@ E.g. for n = 40 the answer would be 31254,20259,11625
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

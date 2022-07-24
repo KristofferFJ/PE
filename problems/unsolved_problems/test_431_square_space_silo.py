@@ -10,6 +10,7 @@ Fred's eyes light up with delight at this elegant resolution, but on closer insp
 If Quick thinking Quentin is to satisfy frustratingly fussy Fred the farmer's appetite for all things square then determine the values of $x$ for all possible square space wastage options and calculate $\sum x$ correct to 9 decimal places.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -16,6 +16,7 @@ Give your answer modulo 1000000007.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

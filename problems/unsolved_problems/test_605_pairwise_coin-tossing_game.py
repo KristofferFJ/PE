@@ -11,6 +11,7 @@ Let $M_n(k)$ be the product of the reduced numerator and denominator of $P_n(k)$
 Find the last $8$ digits of $M_{10^8+7}(10^4+7)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

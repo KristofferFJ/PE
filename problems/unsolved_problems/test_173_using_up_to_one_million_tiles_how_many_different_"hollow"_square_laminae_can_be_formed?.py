@@ -8,6 +8,7 @@ With one-hundred tiles, and not necessarily using all of the tiles at one time, 
 Using up to one million tiles how many different square laminae can be formed?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

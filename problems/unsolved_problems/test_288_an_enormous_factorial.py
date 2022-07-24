@@ -22,6 +22,7 @@ You are given that NF(3,10000) mod 320=624955285.
 Find NF(61,107) mod 6110
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

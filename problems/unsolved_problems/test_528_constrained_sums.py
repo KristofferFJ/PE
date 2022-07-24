@@ -8,6 +8,7 @@ For example, S(14,3,2) = 135, S(200,5,3) = 12949440, and S(1000,10,5) mod 1 000 
 Find (∑10 ≤ k ≤ 15 S(10k,k,k)) mod 1 000 000 007.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

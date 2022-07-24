@@ -14,6 +14,7 @@ Find the number of losing positions for the next player if 0≤a≤b≤c≤100 0
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

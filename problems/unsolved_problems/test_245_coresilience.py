@@ -10,6 +10,7 @@ The coresilience of a prime $p$ is $C(p) = \dfrac{1}{p - 1}$.
 Find the sum of all composite integers $1 \lt n \le 2 \times 10^{11}$, for which $C(n)$ is a unit fraction.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

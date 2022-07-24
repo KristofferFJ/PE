@@ -11,6 +11,7 @@ $S(10^6)=18018206$.
 Find $S(10^{10})$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

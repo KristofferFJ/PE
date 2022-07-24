@@ -23,6 +23,7 @@ Find  $\sum_{k=1}^{18}Q(10^k) $.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

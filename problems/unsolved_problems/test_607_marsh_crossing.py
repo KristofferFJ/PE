@@ -17,6 +17,7 @@ Find the shortest possible time required to travel from point A to B, and give y
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

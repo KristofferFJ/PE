@@ -11,6 +11,7 @@ You are given T(1) = 1, T(20) = 86, T(103) = 364089 and T(109) = 4986765
 Find T(1018). Give the last 9 digits of your answer.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

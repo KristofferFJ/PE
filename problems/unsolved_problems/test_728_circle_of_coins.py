@@ -11,6 +11,7 @@ You are also given that $S(3) = 22$, $S(10) = 10444$ and $S(10^3) \equiv 8538370
 Find $S(10^7)$. Give your answer modulo $1\,000\,000\,007$
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

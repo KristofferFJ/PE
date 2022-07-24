@@ -18,6 +18,7 @@ You are given $F(3,4) = 278$ and $F(10,10) = 215846462$.
 Find $F(10\,000,10\,000) \bmod 1\,000\,000\,007$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

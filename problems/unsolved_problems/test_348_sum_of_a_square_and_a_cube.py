@@ -13,6 +13,7 @@ For example, 5229225 is a palindromic number and it can be expressed in exactly 
 Find the sum of the five smallest such palindromic numbers.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -12,6 +12,7 @@ Find Pn for n = 1114 in the following format:If Pn = (a/b, c/d) where the fracti
 For n = 7, the answer would have been: 806236837.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

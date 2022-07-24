@@ -11,6 +11,7 @@ Let $F(n) = \sum_{k=0}^n a_k$. You are given that $F(10) = 53964$ and $F(50) \eq
 Find $F(1000)$, and give your answer modulo $10^9$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

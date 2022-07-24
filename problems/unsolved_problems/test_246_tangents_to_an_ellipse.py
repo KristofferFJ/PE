@@ -19,6 +19,7 @@ For how many lattice points P is angle RPS greater than 45 degrees?
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

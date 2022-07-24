@@ -21,6 +21,7 @@ What is the maximum area for a convex hole on the set containing the first 500 p
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

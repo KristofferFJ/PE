@@ -13,6 +13,7 @@ For every n, p(n) is the number of strings of length n for which exactly one cha
 What is the maximum value of p(n)?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -11,6 +11,7 @@ Find $G(10^{11})$. Give your answer modulo 998244353
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

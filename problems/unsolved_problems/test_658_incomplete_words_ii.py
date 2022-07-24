@@ -17,6 +17,7 @@ Find $S(10^7,10^{12})$. Give your answer modulo $1\,000\,000\,007$.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

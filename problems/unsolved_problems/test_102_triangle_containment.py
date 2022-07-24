@@ -12,6 +12,7 @@ Using triangles.txt (right click and 'Save Link/Target As...'), a 27K text file 
 NOTE: The first two examples in the file represent the triangles in the example given above.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

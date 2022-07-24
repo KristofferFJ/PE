@@ -12,6 +12,7 @@ For example, with a single suit and tiles numbered up to 4, we have $w(4, 1, 1) 
 Find $w(10^8, 10^8, 30)$. Give your answer modulo $1\,000\,000\,007$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -14,6 +14,7 @@ If we create a sequence based on the values of n for which M(n) is a triangle nu
 Find the sum of the first forty terms of this sequence.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

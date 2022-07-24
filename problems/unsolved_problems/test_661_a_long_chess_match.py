@@ -13,6 +13,7 @@ For example $H(3) \approx 6.8345$, rounded to 4 digits after the decimal point.
 Find $H(50)$, rounded to 4 digits after the decimal point.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

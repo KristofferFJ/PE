@@ -10,6 +10,7 @@ You are given:
 Find h(1016).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

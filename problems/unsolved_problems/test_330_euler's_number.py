@@ -13,6 +13,7 @@ For example, $a(10) = \dfrac{328161643e - 652694486}{10!}$.
 Find $A(10^9) + B(10^9)$ and give your answer mod 77 777 777.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

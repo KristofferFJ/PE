@@ -18,6 +18,7 @@ Find $G(12345678)$.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

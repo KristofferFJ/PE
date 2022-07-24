@@ -15,6 +15,7 @@ For example, L(1,2) = 2, L(2,2) = 37 and L(3,3) = 104290.
 Find L(6,10) mod 1010.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

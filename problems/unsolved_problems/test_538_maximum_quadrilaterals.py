@@ -15,6 +15,7 @@ It can also be shown that ∑ f(Un) = 234761 for 4 ≤ n ≤ 150.
 Find ∑ f(Un) for 4 ≤ n ≤ 3 000 000.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

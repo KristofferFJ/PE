@@ -18,6 +18,7 @@ You are given $C(0) = 30621295449583788$, $C(1) =  30613048345941659$, $C(10) = 
 Find $C(10^5)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

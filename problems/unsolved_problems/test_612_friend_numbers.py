@@ -15,6 +15,7 @@ Find $f(10^{18})$ mod $1000267129$.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

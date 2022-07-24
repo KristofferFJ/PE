@@ -12,6 +12,7 @@ You are also given that $f(4, 5) = 32$ and $f(10, 25) = 294\,400$.
 Find $f(10^{18}, 40)$ modulo $1\,000\,000\,007$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

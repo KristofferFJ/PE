@@ -20,6 +20,7 @@ How many essentially distinct colourings are there with 10 different colours ava
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

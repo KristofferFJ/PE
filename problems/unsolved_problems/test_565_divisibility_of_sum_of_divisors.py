@@ -22,6 +22,7 @@ Find $S(10^{11} , 2017)$
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

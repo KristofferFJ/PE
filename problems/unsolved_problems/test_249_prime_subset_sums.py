@@ -8,6 +8,7 @@ Find the number of subsets of S, the sum of whose elements is a prime number.
 Enter the rightmost 16 digits as your answer.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

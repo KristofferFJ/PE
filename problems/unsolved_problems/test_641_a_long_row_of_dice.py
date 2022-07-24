@@ -9,6 +9,7 @@ Let $f(n)$ be the number of dice that are showing a 1 when the process finishes.
 Find $f(10^{36})$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

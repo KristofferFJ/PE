@@ -24,6 +24,7 @@ Find the starting index of the first occurrence of the substring "LuckyText" in 
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

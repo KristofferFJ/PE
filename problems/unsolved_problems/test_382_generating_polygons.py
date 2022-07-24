@@ -25,6 +25,7 @@ Find the last 9 digits of f(1018).
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

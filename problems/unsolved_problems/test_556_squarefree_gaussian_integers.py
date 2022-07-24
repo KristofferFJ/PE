@@ -25,6 +25,7 @@ You are given f(102) = 54, f(104) = 5218 and f(108) = 52126906.
 Find f(1014).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

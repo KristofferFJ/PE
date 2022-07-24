@@ -11,6 +11,7 @@ You are given that g(1 000) = 2524 and g(1 000 000) = 2624152.
 Find g(1015).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

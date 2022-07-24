@@ -11,6 +11,7 @@ A colouring C' which is obtained from a colouring C by rotation or reflection is
 How many distinct valid colourings are there for the above configuration?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

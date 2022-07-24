@@ -14,6 +14,7 @@ For a positive integer N, define DN as the 2N×2N image with the following color
 What is the length of the minimal sequence describing D24 ?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

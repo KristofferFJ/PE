@@ -9,6 +9,7 @@ What's the expected number of steps until all seeds have been dropped in the top
 Give your answer rounded to 6 decimal places.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

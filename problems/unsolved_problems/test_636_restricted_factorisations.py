@@ -14,6 +14,7 @@ and $F(1\,000!) \bmod 1\,000\,000\,007=6\,364\,496$.
 Find $F(1\,000\,000!) \bmod 1\,000\,000\,007$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

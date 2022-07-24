@@ -10,6 +10,7 @@ Let be $P(n)$ the number of special integer partitions of $n$. You are given tha
 Find $\displaystyle \sum_{i=1}^{10^7}{P(i)}$. Give the result modulo $10^9+7$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

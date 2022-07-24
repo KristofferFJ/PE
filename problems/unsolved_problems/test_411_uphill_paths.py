@@ -23,6 +23,7 @@ Find ∑ S(k5) for 1 ≤ k ≤ 30.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -9,6 +9,7 @@ There are eight ways of forming a crack-free 9×3 wall, written W(9,3) = 8.
 Calculate W(32,10).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

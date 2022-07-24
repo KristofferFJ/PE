@@ -15,6 +15,7 @@ You are given $E(2,2) = 9.6$
 Find $E(10^6,10)$. Round your answer to the nearest whole number.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

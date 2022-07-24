@@ -16,6 +16,7 @@ We can verify that G(10) = 55, G(103) = 971745 and G(105) = 9992617687.
 Find G(1012). Give your answer modulo 108.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

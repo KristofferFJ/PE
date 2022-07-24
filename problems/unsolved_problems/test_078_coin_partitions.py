@@ -7,6 +7,7 @@ Let p(n) represent the number of different ways in which n coins can be separate
 Find the least value of n for which p(n) is divisible by one million.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

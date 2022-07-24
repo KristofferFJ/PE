@@ -10,6 +10,7 @@ You are given that T(4) = 48 and T(10) = 17760.
 Find the last 9 digits of T(20000).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

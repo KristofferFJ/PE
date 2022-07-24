@@ -10,6 +10,7 @@ Let $C(n, k)$ be the integer formed by concatenating $k$ copies of $P(n)$ togeth
 Evaluate $S(C(10^6, 10^{12}))$ mod $(10^9 + 7)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

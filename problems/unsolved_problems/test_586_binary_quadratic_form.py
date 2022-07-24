@@ -21,6 +21,7 @@ Find $f(10^{15}, 40)$.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

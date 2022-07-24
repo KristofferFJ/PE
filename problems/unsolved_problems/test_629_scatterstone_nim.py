@@ -12,6 +12,7 @@ Let $g(n)$ be the sum of $f(n,k)$ over all $2 \leq k \leq n$. For example, $g(7)
 Find $g(200)$ mod $(10^9 + 7)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

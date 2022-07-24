@@ -11,6 +11,7 @@ You are given that $f(12,4) = 15$ and $f(36, 6) = 876$.
 Find $f(360, 20)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -13,6 +13,7 @@ Let S(n) be v1 + v2 + ... + vn. For example, S(11) = 36120, and S(1000)�
 Find S(1014) mod 123454321.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

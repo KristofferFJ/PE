@@ -11,6 +11,7 @@ It can be verified that T(1) = 11, T(2) = 494, T(4) = 33554178, T(111) mod 108 =
 Find T(1011) mod 108.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

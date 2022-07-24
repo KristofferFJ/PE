@@ -15,6 +15,7 @@ Find $S(16)$.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

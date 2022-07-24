@@ -22,6 +22,7 @@ Note: if, for some n, f(n,d)=n
  for more than one value of d this value of n is counted again for every value of d for which f(n,d)=n.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

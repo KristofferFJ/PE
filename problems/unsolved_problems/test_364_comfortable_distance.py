@@ -10,6 +10,7 @@ We can verify that T(10) = 61632 and T(1 000) mod 100 000 007 = 47255094.
 Find T(1 000 000) mod 100 000 007.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

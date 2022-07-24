@@ -13,6 +13,7 @@ You are given C(106) = 922052.
 Find C(1013).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

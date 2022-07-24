@@ -12,6 +12,7 @@ For example, F(4,2) = 10, F(13,10) = 3729050610636, F(10,13) = 37959702514, and 
 Find (F(1012,100) + F(10000,10000) + F(100,1012)) mod 1 000 000 007.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

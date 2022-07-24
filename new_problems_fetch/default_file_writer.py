@@ -8,6 +8,7 @@ def write_default_text(soup, title: str):
         new_file.write(_get_problem_content(content) + "\n")
         new_file.write('"""\n')
         new_file.write("\n")
+        new_file.write("\n")
         new_file.write("class Test(unittest.TestCase):\n")
         new_file.write("    def test(self):\n")
         new_file.write("        pass\n")

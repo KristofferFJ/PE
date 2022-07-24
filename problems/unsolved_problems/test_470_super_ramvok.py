@@ -12,6 +12,7 @@ Let F(n) = ∑ 4≤d≤n∑ 0≤c≤n S(d, c).
 Calculate F(20), rounded to the nearest integer.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

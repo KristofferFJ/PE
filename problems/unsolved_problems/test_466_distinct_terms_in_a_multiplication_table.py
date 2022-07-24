@@ -14,6 +14,7 @@ P(32,1015) = 13826382602124302.
 Find P(64,1016).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

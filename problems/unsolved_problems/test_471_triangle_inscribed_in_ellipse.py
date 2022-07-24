@@ -15,6 +15,7 @@ Give your answer in scientific notation rounded to 10 significant digits. Use a 
 For G(10) the answer would have been 2.059722222e1.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

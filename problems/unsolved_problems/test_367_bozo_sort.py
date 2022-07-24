@@ -24,6 +24,7 @@ Give your answer rounded to the nearest integer.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

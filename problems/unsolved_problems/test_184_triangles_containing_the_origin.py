@@ -10,6 +10,7 @@ For a radius of 3, there are 360 triangles containing the origin in the interior
 How many triangles are there containing the origin in the interior and having all three vertices in I105?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

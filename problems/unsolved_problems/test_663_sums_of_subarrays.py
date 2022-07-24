@@ -23,6 +23,7 @@ You are given $S(5,100)=2416$, $S(14,100)=3881$ and $S(107,1000)=1618572$.
 Find $S(10\,000\,003,10\,200\,000)-S(10\,000\,003,10\,000\,000)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

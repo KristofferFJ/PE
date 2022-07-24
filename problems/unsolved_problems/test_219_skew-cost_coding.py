@@ -14,6 +14,7 @@ In short, we write Cost(6) = 35.
 What is Cost(109) ?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

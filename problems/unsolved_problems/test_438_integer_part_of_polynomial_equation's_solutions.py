@@ -19,6 +19,7 @@ Find ∑ S(t) for n = 7.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

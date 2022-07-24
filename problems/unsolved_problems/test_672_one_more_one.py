@@ -10,6 +10,7 @@ Define $S(N) = \sum_{n=1}^{N} g(n)$ and $H(K) = S\left(\frac{7^K-1}{11}\right)$.
 Find $H(10^9)$ modulo $1\,117\,117\,717$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

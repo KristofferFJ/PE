@@ -11,6 +11,7 @@ Further let $f_i$ be the Fibonacci sequence defined by $f_0=0, f_1=1$ and $f_i=f
 Find $\displaystyle \sum_{i=2}^{90} S(f_i)$. Give your answer modulo $1\,000\,000\,007$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

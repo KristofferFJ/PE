@@ -11,6 +11,7 @@ You are also given that $S(12) = 54532$ and $S(1234) \equiv 690421393 \pmod{1\,0
 Find $S(12\,345\,678)$. Give your answer modulo $1\,000\,000\,007$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

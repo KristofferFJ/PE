@@ -9,6 +9,7 @@ Some small square-pivots are
 Find the sum of all distinct square-pivots ≤ 1010.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

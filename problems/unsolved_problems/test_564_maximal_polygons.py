@@ -12,6 +12,7 @@ For example, $S(3)=0.433013$, $S(4)=1.732051$, $S(5)=4.604767$ and $S(10)=66.955
 Find $S(50)$, rounded to $6$ decimal places.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

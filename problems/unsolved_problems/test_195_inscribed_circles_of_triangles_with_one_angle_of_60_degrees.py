@@ -11,6 +11,7 @@ Let T(n) be the number of 60-degree triangles for which r ≤ n, so
 Find T(1053779).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

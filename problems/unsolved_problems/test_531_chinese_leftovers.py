@@ -21,6 +21,7 @@ Find ∑ f(n,m) for 1000000 ≤ n < m < 1005000
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

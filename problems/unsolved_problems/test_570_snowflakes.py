@@ -12,6 +12,7 @@ Further, G(500) = 186 and  $\sum_{n=3}^{500}G(n)=5124$
 Find $\displaystyle \sum_{n=3}^{10^7}G(n)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

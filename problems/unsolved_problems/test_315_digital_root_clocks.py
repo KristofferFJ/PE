@@ -22,6 +22,7 @@ The two clocks are fed all the prime numbers between A = 107 and B = 2×107.
 Find the difference between the total number of transitions needed by Sam's clock and that needed by Max's one.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

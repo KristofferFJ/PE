@@ -15,6 +15,7 @@ You are given C(2,1) = 6, C(3,1) = 111, C(4,2) = 486, C(100,10) mod 1 0
 Find C(104,10) mod 1 000 000 007.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

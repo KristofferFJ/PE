@@ -9,6 +9,7 @@ This demonstrates an unusual property of 142857: it is a divisor of its right-ro
 Find the last 5 digits of the sum of all integers n, 10 < n < 10100, that have this property.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

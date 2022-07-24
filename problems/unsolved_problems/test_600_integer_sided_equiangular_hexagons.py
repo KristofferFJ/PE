@@ -10,6 +10,7 @@ Find H(55106).
 Equiangular hexagons with perimeter not exceeding 12
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

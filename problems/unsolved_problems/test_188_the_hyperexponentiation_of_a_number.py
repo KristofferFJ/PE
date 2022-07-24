@@ -11,6 +11,7 @@ Thus we have e.g. 3↑↑2 = 33 = 27, hence 3↑↑3 = 327 = 7625597484987 and 3
 Find the last 8 digits of 1777↑↑1855.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

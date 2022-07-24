@@ -10,6 +10,7 @@ Some progressive numbers, such as 9 and 10404 = 1022, happen to also be perfect 
 Find the sum of all progressive perfect squares below one trillion (1012).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

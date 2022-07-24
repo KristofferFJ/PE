@@ -13,6 +13,7 @@ What is the position of the cursor after 1012 steps in D50 ?
 Give your answer in the form x,y with no spaces.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

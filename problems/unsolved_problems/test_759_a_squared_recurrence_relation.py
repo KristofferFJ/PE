@@ -10,6 +10,7 @@ For example, $S(10)=1530$ and $S(10^2)=4798445$.
 Find $S(10^{16})$. Give your answer modulo $1\,000\,000\,007$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

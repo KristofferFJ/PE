@@ -21,6 +21,7 @@ Find $L(10^7)$.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

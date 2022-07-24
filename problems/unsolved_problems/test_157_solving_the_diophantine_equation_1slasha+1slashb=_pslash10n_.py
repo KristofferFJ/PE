@@ -8,6 +8,7 @@ For n=1 this equation has 20 solutions that are listed below:
 How many solutions has this equation for 1 ≤ n ≤ 9?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

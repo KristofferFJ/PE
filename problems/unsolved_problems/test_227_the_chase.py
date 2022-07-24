@@ -13,6 +13,7 @@ In a game with 100 players, what is the expected number of turns the game lasts?
 Give your answer rounded to ten significant digits.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

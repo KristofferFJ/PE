@@ -10,6 +10,7 @@ Let $p(a)$ be probability that $f(x) \gt a$, given that $x$ is uniformly distrib
 Find $p(0.5)$. Give your answer rounded to 8 digits after the decimal point.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

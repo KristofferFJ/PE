@@ -30,6 +30,7 @@ What is the smallest $a_1 > 10^{15}$ that begins with the sequence "UDDDUdddDDUD
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

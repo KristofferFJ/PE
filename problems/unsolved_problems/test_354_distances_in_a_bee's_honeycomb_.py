@@ -11,6 +11,7 @@ For example, $\text{B}(\sqrt 3)=6$, $\text{B}(\sqrt {21}) = 12$ and $\text{B}(11
 Find the number of $L \le 5 \times 10^{11}$ such that $\text{B}(L) = 450$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

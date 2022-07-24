@@ -23,6 +23,7 @@ Find $S(100)$ and give your answer rounded to 2 decimal places.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

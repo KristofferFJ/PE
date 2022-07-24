@@ -18,6 +18,7 @@ Find the value of $E_{15}(1 - \frac{1}{2^{25}})$.
 Give the answer in scientific notation rounded to twelve digits after the decimal point.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -34,6 +34,7 @@ How many are there for N = 30 ?
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

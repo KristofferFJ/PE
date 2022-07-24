@@ -13,6 +13,7 @@ You are given D(4) = 30 (since a1 = -1/30), D(308) = 20010, F(1) = 308, F(
 Find F(105).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

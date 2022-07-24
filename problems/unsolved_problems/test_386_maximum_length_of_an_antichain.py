@@ -12,6 +12,7 @@ Let N(n) be the maximum length of an antichain of S(n).
 Find ∑ N(n) for 1 ≤ n ≤ 108
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

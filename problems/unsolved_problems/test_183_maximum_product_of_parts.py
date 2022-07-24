@@ -14,6 +14,7 @@ For example, ∑ D(N) for 5 ≤ N ≤ 100 is 2438.
 Find ∑ D(N) for 5 ≤ N ≤ 10000.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

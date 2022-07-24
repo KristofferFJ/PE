@@ -11,6 +11,7 @@ Let E(n) represent the expected number of dishes cooked in a competition with n 
 Find E(14) rounded to 8 decimal places.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -15,6 +15,7 @@ S(4) mod 987 898 789 = 670616280.
 Find S(2000) mod 987 898 789.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

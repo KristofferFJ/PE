@@ -11,6 +11,7 @@ Find W(10 000 000) mod 1 000 000 007.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

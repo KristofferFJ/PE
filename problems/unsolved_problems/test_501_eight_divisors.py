@@ -10,6 +10,7 @@ You are given f(100) = 10, f(1000) = 180 and f(106) = 224427.
 Find f(1012).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

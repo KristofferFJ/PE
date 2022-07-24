@@ -17,6 +17,7 @@ We will call a right angled triangle super-perfect if
 How many perfect right-angled triangles with c≤1016 exist that are not super-perfect?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

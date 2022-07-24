@@ -26,6 +26,7 @@ Note: $G(N)$ is not defined for all values of $N$.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

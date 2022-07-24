@@ -11,6 +11,7 @@ You are given that S(4)=276 and S(5)=3347.
 Find S(14).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

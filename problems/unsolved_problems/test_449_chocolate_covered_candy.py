@@ -12,6 +12,7 @@ If $a = 2$ mm and $b = 1$ mm, the amount of chocolate required is approximately 
 Find the amount of chocolate in mm3 required if $a = 3$ mm and $b  =1$ mm. Give your answer as the number rounded to 8 decimal places behind the decimal point.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

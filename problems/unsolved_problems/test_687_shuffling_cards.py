@@ -10,6 +10,7 @@ It can be seen that the expected number of ranks that are perfect after a random
 Find the probability that the number of perfect ranks is prime. Give your answer rounded to 10 decimal places.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

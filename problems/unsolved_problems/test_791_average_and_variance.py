@@ -10,6 +10,7 @@ Hence $S(5)=48$. You are also given $S(10^3)=37048340$.
 Find $S(10^8)$. Give your answer modulo $433494437$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

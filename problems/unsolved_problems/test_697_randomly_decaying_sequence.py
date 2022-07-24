@@ -9,6 +9,7 @@ Suppose now that $c$ is set to a different value, so that there is precisely a 2
 Find $\log_{10} c$ and give your answer rounded to two places after the decimal point.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

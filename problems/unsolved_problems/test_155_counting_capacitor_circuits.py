@@ -14,6 +14,7 @@ Reminder : When connecting capacitors C1, C2 etc in parallel, the total capacita
 whereas when connecting them in series, the overall capacitance is given by: $\dfrac{1}{C_T} = \dfrac{1}{C_1} + \dfrac{1}{C_2} + ...$
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

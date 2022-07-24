@@ -10,6 +10,7 @@ You are given Q(7) = 287975 and Q(100) mod 1 000 000 123 = 123864868.
 Find (∑1≤u≤39 Q(2u)) mod 1 000 000 123.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

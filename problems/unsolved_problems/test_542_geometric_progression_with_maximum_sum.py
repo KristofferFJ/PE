@@ -9,6 +9,7 @@ Let $T(n) = \sum_{k=4}^n (-1)^k S(k)$.T(1000) = 2268
 Find T(1017).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

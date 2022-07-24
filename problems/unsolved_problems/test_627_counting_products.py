@@ -11,6 +11,7 @@ For example, $F(9, 2) = 36$ and $F(30,2)=308$.
 Find $F(30, 10001)\text{ mod }1\,000\,000\,007$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

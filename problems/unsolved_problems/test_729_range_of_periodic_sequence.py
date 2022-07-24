@@ -19,6 +19,7 @@ You are given $S(3) \approx 14.6461$ and $S(5) \approx 124.1056$.
 Find $S(25)$, rounded to 4 decimal places.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

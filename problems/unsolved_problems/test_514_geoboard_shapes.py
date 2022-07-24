@@ -11,6 +11,7 @@ Let E(N) be the expected area of S given a geoboard of order N. For example, E(1
 Calculate E(100) rounded to five decimal places.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

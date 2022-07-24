@@ -10,6 +10,7 @@ f(442) = 42 + 42 + 22 = 16 + 16 + 4 = 36
 Find the last nine digits of the sum of all n, 0 < n < 1020, such that f(n) is a perfect square.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

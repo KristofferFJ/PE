@@ -19,6 +19,7 @@ Find S(5·106).
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

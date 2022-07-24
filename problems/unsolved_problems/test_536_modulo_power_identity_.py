@@ -15,6 +15,7 @@ Find S(1012).
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

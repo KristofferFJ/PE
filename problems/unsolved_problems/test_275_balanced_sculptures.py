@@ -9,6 +9,7 @@ When counting the sculptures, any arrangements which are simply reflections abou
 There are 964 balanced sculptures of order 10 and 360505 of order 15.How many balanced sculptures are there of order 18?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

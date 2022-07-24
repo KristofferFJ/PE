@@ -15,6 +15,7 @@ We have shown that T(5)=3. You are also given that T(10)=29 and T(1 000)=395253.
 Find $\sum \limits_{i = 3}^{31} {T(2^i - i)}$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

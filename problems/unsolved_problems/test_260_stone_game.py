@@ -16,6 +16,7 @@ We can verify that $\sum (x_i + y_i + z_i) = 173895$ for these.
 Find $\sum (x_i + y_i + z_i)$ where $(x_i, y_i, z_i)$ ranges over the losing configurations with $x_i \le y_i \le z_i \le 1000$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

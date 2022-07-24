@@ -10,6 +10,7 @@ Interestingly, $P(n)$ is always an integer. For example, $P(1) = 2$, $P(2) = 2$,
 Find $P(10^7)$ and give your answer modulo $1\,020\,340\,567$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

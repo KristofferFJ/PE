@@ -10,6 +10,7 @@ Find the sum of all indices n such that T(n) is 47-smooth.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

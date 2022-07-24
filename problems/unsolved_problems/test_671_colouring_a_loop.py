@@ -12,6 +12,7 @@ For example, $F_4(3) = 104$, $F_5(7) = 3327300$, and $F_6(101)\equiv 75309980 \p
 Find $F_{10}(10\,004\,003\,002\,001) \bmod 1\,000\,004\,321$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

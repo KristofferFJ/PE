@@ -15,6 +15,7 @@ Find W(P(legionary) + P(calorimeters) - P(annihilate) + P(orchestrated) - P(flut
 Give your answer using lowercase characters (no punctuation or space).
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

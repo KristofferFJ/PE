@@ -15,6 +15,7 @@ Incredibly there are 42336 distinct ways of checking out in total.
 How many distinct ways can a player checkout with a score less than 100?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

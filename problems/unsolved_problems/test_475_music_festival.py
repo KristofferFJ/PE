@@ -11,6 +11,7 @@ You are given f(12) = 576 and f(24) mod 1 000 000 007 = 509089824.
 Find f(600) mod 1 000 000 007.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

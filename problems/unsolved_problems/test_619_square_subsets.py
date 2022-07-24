@@ -9,6 +9,7 @@ You are given that $C(40,55) =15$, and $C(1000,1234) \text{ mod } 1000000007=975
 Find $C(1000000,1234567) \text{ mod } 1000000007$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

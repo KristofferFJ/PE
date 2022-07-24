@@ -15,6 +15,7 @@ We can verify that $S(10) = 211$ and $S(10^4) = 230312207313$.
 Find $S(10^{16}) \mod 7^{10}$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

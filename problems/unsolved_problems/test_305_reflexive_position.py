@@ -19,6 +19,7 @@ Find ∑ f(3k) for 1≤k≤13.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

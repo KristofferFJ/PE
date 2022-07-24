@@ -10,6 +10,7 @@ In contrast, some lengths of wire, like 20 cm, cannot be bent to form an integer
 Given that L is the length of the wire, for how many values of L ≤ 1,500,000 can exactly one integer sided right angle triangle be formed?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

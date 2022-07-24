@@ -19,6 +19,7 @@ Find S(1012). Give your answer mod 108.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -11,6 +11,7 @@ Given that 1 ≤ t ≤ n for random t, let B(n) be the expected number of guesse
 Find R(1010) − B(1010) rounded to 8 decimal places.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

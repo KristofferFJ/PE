@@ -15,6 +15,7 @@ find all shortest ways to reach configuration (T).
 What is the sum of all checksums for the paths having the minimal length?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

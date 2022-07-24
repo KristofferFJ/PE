@@ -16,6 +16,7 @@ Also, ∑ f(N) = 83 for 1 ≤ N ≤ 20 and  ∑ f(N) = 13343 for 1 ≤�
 Find ∑ f(N) for 1 ≤ N ≤ 1012. Give the last 8 digits of your answer.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

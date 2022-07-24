@@ -11,6 +11,7 @@ Find S(20 000 000) mod 108.
 1 φ denotes Euler's totient function.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -9,6 +9,7 @@ There are 861805 geometric triangles with perimeter ≤ 106 .
 How many geometric triangles exist with perimeter ≤ 2.5·1013 ?
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

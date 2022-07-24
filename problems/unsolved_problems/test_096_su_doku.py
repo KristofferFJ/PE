@@ -9,6 +9,7 @@ The 6K text file, sudoku.txt (right click and 'Save Link/Target As...'), contain
 By solving all fifty puzzles find the sum of the 3-digit numbers found in the top left corner of each solution grid; for example, 483 is the 3-digit number found in the top left corner of the solution grid above.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

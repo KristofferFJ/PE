@@ -22,6 +22,7 @@ Find the last 9 digits of ∑ G(n) for 1 ≤ n < 16.
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

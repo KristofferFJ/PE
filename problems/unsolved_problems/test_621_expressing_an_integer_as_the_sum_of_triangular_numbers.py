@@ -13,6 +13,7 @@ You are given $G(1000) = 78$ and $G(10^6) = 2106$.
 Find $G(17 526 \times 10^9)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

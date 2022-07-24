@@ -20,6 +20,7 @@ Also, $R(10^2, 10^2) = 246597$ and $R(10^4, 10^4) = 249275481640$.
 Find $R(10^{18}, 10^6)$ giving your answer modulo $10^9$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

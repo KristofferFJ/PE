@@ -12,6 +12,7 @@ Give your answer as a hexadecimal number.
 (A,B,C,D,E and F in upper case, without any leading or trailing code that marks the number as hexadecimal and without leading zeroes , e.g. 1A3F and not: 1a3f and not 0x1a3f and not $1A3F and not #1A3F and not 0000001A3F)
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -9,6 +9,7 @@ You are also given that $g(10) = 710249$ and $g(100) \equiv 919747298 \pmod{1\,0
 Find $g(10\,000) \bmod 1\,000\,000\,007$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

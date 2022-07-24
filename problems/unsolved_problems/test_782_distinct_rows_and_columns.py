@@ -21,6 +21,7 @@ You are given $C(5) = 64$, $C(10) = 274$ and $C(20) = 1150$.
 Find $C(10^4)$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

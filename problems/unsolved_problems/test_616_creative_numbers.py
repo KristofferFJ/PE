@@ -13,6 +13,7 @@ An integer $n>1$ is said to be creative if for any integer $m>1$ Alice can obtai
 Find the sum of all creative integers less than or equal to $10^{12}$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

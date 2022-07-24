@@ -10,6 +10,7 @@ You are also given L(10, 5) = 9964, L(10, 10) = 472400303, L(103, 103) m
 Find L(107, 107) mod 1 000 000 007
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

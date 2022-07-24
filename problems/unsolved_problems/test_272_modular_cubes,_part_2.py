@@ -13,6 +13,7 @@ Thus, C(91)=8.
 Find the sum of the positive numbers n≤1011 for which C(n)=242.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

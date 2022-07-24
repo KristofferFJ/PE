@@ -12,6 +12,7 @@ In fact, 630 is the 6th Alexandrian integer,  the first 6 Alexandrian integers b
 Find the 150000th Alexandrian integer.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

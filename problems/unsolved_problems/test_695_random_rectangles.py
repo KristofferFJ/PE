@@ -8,6 +8,7 @@ We are interested in the rectangle with the second biggest area. In the example 
 Find the expected value of the area of the second biggest of the three rectangles. Give your answer rounded to 10 digits after the decimal point.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

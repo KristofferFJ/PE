@@ -11,6 +11,7 @@ We shall call a positive integer with this property a strong repunit. It can be 
 
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

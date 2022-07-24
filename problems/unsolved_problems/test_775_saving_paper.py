@@ -12,6 +12,7 @@ You are given that $G(18) = 530$, and $G(10^6) \equiv 951640919 \pmod {1\,000\,0
 Find $G(10^{16})$. Give your answer modulo $1\,000\,000\,007$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

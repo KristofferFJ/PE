@@ -14,6 +14,7 @@ You are given $C(10^3)=142$ and $C(10^{6})=142463$
 Find $C(10^{14})$.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass

@@ -11,6 +11,7 @@ Thus: T(1) = 45, T(2) = 540 and T(5) = 334795890.
 Find T(47) mod 315
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass
