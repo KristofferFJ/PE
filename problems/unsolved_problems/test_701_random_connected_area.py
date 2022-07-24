@@ -1,7 +1,8 @@
 import unittest
 
-# Random connected area
 """
+Random connected area
+
 
 Consider a rectangle made up of $W \times H$ square cells each with area 1. Each cell is independently coloured black with probability 0.5 otherwise white. Black cells sharing an edge are assumed to be connected.Consider the maximum area of connected cells.
 
@@ -15,7 +16,6 @@ You are also given $E(4, 4) = 5.76487732$, rounded to 8 decimal places.
 Find $E(7, 7)$, rounded to 8 decimal places.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

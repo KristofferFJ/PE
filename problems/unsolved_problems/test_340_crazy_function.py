@@ -1,7 +1,8 @@
 import unittest
 
-# Crazy Function
 """
+Crazy Function
+
 
 For fixed integers a, b, c, define the crazy function F(n) as follows:
 F(n) = n - c for all n > b 
@@ -16,7 +17,6 @@ Also, S(50, 2000, 40) = 5204240.
 Find the last 9 digits of S(217, 721, 127).
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

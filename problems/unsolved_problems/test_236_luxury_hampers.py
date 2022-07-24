@@ -1,7 +1,8 @@
 import unittest
 
-# Luxury Hampers
 """
+Luxury Hampers
+
 Suppliers 'A' and 'B' provided the following numbers of products for the luxury hamper market:
 
 Although the suppliers try very hard to ship their goods in perfect condition, there is inevitably some spoilage - i.e. products gone bad.
@@ -11,7 +12,6 @@ There are thirty-five m>1 for which this surprising result could have occurred, 
 What's the largest possible value of m?
 Give your answer as a fraction reduced to its lowest terms, in the form u/v.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

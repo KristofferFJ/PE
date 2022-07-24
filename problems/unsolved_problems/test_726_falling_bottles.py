@@ -1,7 +1,8 @@
 import unittest
 
-# Falling bottles
 """
+Falling bottles
+
 
 Consider a stack of bottles of wine. There are $n$ layers in the stack with the top layer containing only one bottle and the bottom layer containing $n$ bottles. For $n=4$ the stack looks like the picture below.
 
@@ -22,7 +23,6 @@ You are given $f(1) = 1$, $f(2) = 6$ and $f(3) = 1008$.
 Find $S(10^4)$ and give your answer modulo $1\,000\,000\,033$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# A rectangular tiling
 """
+A rectangular tiling
+
 
 We wish to tile a rectangle whose length is twice its width.
 Let T(0) be the tiling consisting of a single rectangle.
@@ -18,7 +19,6 @@ For example, f(1) = 0, f(4) = 82 and f(109) mod 177 = 126897180.
 Find f(10k) for k = 1018, give your answer modulo 177.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

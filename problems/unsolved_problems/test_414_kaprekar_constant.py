@@ -1,7 +1,8 @@
 import unittest
 
-# Kaprekar constant
 """
+Kaprekar constant
+
 
 6174 is a remarkable number; if we sort its digits in increasing order and subtract that number from the number you get when you sort the digits in decreasing order, we get 7641-1467=6174.
 Even more remarkable is that if we start from any 4 digit number and repeat this process of sorting and subtracting, we'll eventually end up with 6174 or immediately with 0 if all digits are equal. 
@@ -33,7 +34,6 @@ Find the sum of S(6k+3) for 2 ≤ k ≤ 300.
 Give the last 18 digits as your answer.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

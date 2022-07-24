@@ -1,7 +1,8 @@
 import unittest
 
-# Investigating multiple reflections of a laser beam
 """
+Investigating multiple reflections of a laser beam
+
 In laser physics, a "white cell" is a mirror system that acts as a delay line for the laser beam. The beam enters the cell, bounces around on the mirrors, and eventually works its way back out.
 The specific white cell we will be considering is an ellipse with the equation 4x2 + y2 = 100
 The section corresponding to −0.01 ≤ x ≤ +0.01 at the top is missing, allowing the light to enter and exit through the hole.
@@ -13,7 +14,6 @@ The normal line is perpendicular to this tangent line at the point of incidence.
 The animation on the right shows the first 10 reflections of the beam.
 How many times does the beam hit the internal surface of the white cell before exiting?
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

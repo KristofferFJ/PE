@@ -1,7 +1,8 @@
 import unittest
 
-# Criss Cross
 """
+Criss Cross
+
 A 4x4 grid is filled with digits d, 0 ≤ d ≤ 9.
 It can be seen that in the grid
 
@@ -12,7 +13,6 @@ It can be seen that in the grid
 the sum of each row and each column has the value 12. Moreover the sum of each diagonal is also 12.
 In how many ways can you fill a 4x4 grid with the digits d, 0 ≤ d ≤ 9 so that each row, each column, and both diagonals have the same sum?
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

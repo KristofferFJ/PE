@@ -1,7 +1,8 @@
 import unittest
 
-# Proportionate Nim
 """
+Proportionate Nim
+
 Two players play a game with two piles of stones, alternating turns.
 On each turn, the corresponding player chooses a positive integer $n$ and does one of the following:
 The player who removes the last stone wins.
@@ -13,7 +14,6 @@ Let $f(M)$ be the sum of $n+m$ for all losing positions $(n,m)$ with $n\le m$ an
 You are given that $f(100) = 1164$ and $f(1000) = 117002$.
 Find $f(10^7)$.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

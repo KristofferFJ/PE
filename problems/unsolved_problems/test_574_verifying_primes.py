@@ -1,7 +1,8 @@
 import unittest
 
-# Verifying Primes
 """
+Verifying Primes
+
 Let $q$ be a prime and $A \ge B >0$ be two integers with the following properties:
 
 It can be shown that, given these conditions, any sum $A+B<q^2$ and any difference $1<A-B<q^2$ has to be a prime number. Thus you can verify that a number $p$ is prime by showing that either $p=A+B<q^2$ or $p=A-B<q^2$ for some $A,B,q$ fulfilling the conditions listed above.
@@ -15,7 +16,6 @@ Let $S(n)$ be the sum of $V(p)$ for all primes $p<n$. For example, $S(10)=10$ an
 Find $S(3800)$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

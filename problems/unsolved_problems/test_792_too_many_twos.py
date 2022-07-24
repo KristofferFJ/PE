@@ -1,7 +1,8 @@
 import unittest
 
-# Too Many Twos
 """
+Too Many Twos
+
 
 We define $\nu_2(n)$ to be the largest integer $r$ such that $2^r$ divides $n$. For example, $\nu_2(24) = 3$.
 
@@ -19,7 +20,6 @@ Also define $\displaystyle U(N) = \sum_{n = 1}^N u(n^3)$. You are given $U(5) = 
 Find $U(10^4)$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

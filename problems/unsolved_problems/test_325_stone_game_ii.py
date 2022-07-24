@@ -1,7 +1,8 @@
 import unittest
 
-# Stone Game II
 """
+Stone Game II
+
 A game is played with two piles of stones and two players.
 On each player's turn, the player may remove a number of stones from the larger pile.
 The number of stones removed must be a positive multiple of the number of stones in the smaller pile.
@@ -13,7 +14,6 @@ Define $S(N)$ as the sum of $(x_i + y_i)$ for all losing configurations $(x_i, y
 We can verify that $S(10) = 211$ and $S(10^4) = 230312207313$.
 Find $S(10^{16}) \mod 7^{10}$.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

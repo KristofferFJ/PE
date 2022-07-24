@@ -1,7 +1,8 @@
 import unittest
 
-# Counting tuples
 """
+Counting tuples
+
 
 Let π(x) be the prime counting function, i.e. the number of prime numbers less than or equal to x.
 For example, π(1)=0, π(2)=1, π(100)=25.
@@ -22,7 +23,6 @@ You are given T(10,10) = 869 985 and T(103,103) ≡ 578 270 566 (mod 1 004 535 8
 Find T(20 000, 20 000) mod 1 004 535 809.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

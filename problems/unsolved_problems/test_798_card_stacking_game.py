@@ -1,7 +1,8 @@
 import unittest
 
-# Card Stacking Game
 """
+Card Stacking Game
+
 
 Two players play a game with a deck of cards which contains $s$ suits with each suit containing $n$ cards numbered from $1$ to $n$.
 
@@ -19,7 +20,6 @@ For example, $C(3, 2) = 26$ and $C(13, 4) \equiv 540318329 \pmod {1\,000\,000\,0
 
 Find $C(10^7, 10^7)$. Give your answer modulo $1\,000\,000\,007$.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

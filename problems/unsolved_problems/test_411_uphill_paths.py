@@ -1,7 +1,8 @@
 import unittest
 
-# Uphill paths
 """
+Uphill paths
+
 
 Let n be a positive integer. Suppose there are stations at the coordinates (x, y) = (2i mod n, 3i mod n) for 0 ≤ i ≤ 2n. We will consider stations with the same coordinates as the same station.
 
@@ -21,7 +22,6 @@ It can also be verified that S(123) = 14 and S(10000) = 48.
 Find ∑ S(k5) for 1 ≤ k ≤ 30.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

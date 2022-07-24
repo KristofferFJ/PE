@@ -1,7 +1,8 @@
 import unittest
 
-# Ascending subsequences
 """
+Ascending subsequences
+
 
 Let $a_i$ be the sequence defined by $a_i=153^i \bmod 10\,000\,019$ for $i \ge 1$.
 The first terms of $a_i$ are:
@@ -24,7 +25,6 @@ You are given that $S(100)=4465488724217$.
 Find $S(10^6)$ modulo $1\,000\,000\,007$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

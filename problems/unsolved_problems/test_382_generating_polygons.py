@@ -1,7 +1,8 @@
 import unittest
 
-# Generating polygons
 """
+Generating polygons
+
 
 A polygon is a flat shape consisting of straight line segments that are joined to form a closed chain or circuit. A polygon consists of at least three sides and does not self-intersect.
 
@@ -23,7 +24,6 @@ For example, f(5) = 7, f(10) = 501 and f(25) = 18635853.
 Find the last 9 digits of f(1018).
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

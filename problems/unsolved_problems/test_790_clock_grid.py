@@ -1,7 +1,8 @@
 import unittest
 
-# Clock Grid
 """
+Clock Grid
+
 There is a grid of length and width 50515093 points. A clock is placed on each grid point. The clocks are all analogue showing a single hour hand initially pointing at 12.
 A sequence $S_t$ is created where:
 $$
@@ -16,7 +17,6 @@ We define $C(t)$ to be the sum of the hours that the clock hands are pointing to
 You are given $C(0) = 30621295449583788$, $C(1) =  30613048345941659$, $C(10) = 21808930308198471$ and $C(100) = 16190667393984172$.
 Find $C(10^5)$.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

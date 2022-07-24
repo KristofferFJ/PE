@@ -1,7 +1,8 @@
 import unittest
 
-# Integers with decreasing prime powers
 """
+Integers with decreasing prime powers
+
 Any positive integer can be written as a product of prime powers: p1a1 × p2a2 × ... × pkak,
 where pi are distinct prime integers, ai > 0 and pi < pj if i < j.
 A decreasing prime power positive integer is one for which ai ≥ aj if i < j.
@@ -11,7 +12,6 @@ C(100) = 94 since all positive integers not exceeding 100 have decreasing prim
 You are given C(106) = 922052.
 Find C(1013).
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

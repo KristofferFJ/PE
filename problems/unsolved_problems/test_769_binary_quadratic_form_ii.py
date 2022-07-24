@@ -1,7 +1,8 @@
 import unittest
 
-# Binary Quadratic Form II
 """
+Binary Quadratic Form II
+
 Consider the following binary quadratic form:
 A positive integer $q$ has a primitive representation if there exist positive integers $x$ and $y$ such that $q = f(x,y)$ and $\gcd(x,y)=1$.
 We are interested in primitive representations of perfect squares. For example:
@@ -12,7 +13,6 @@ Multiple representations are counted separately, so for example $z=87$ is counte
 You are given $C(10^3)=142$ and $C(10^{6})=142463$ 
 Find $C(10^{14})$.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

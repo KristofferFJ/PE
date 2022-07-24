@@ -1,7 +1,8 @@
 import unittest
 
-# Sums of subarrays
 """
+Sums of subarrays
+
 Let $t_k$ be the tribonacci numbers defined as: 
 $\quad t_0 = t_1 = 0$;
 $\quad t_2 = 1$; 
@@ -21,7 +22,6 @@ Let $\displaystyle S(n,l)=\sum_{i=1}^l M_n(i)$. Thus $S(5,6)=32$.
 You are given $S(5,100)=2416$, $S(14,100)=3881$ and $S(107,1000)=1618572$.
 Find $S(10\,000\,003,10\,200\,000)-S(10\,000\,003,10\,000\,000)$.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

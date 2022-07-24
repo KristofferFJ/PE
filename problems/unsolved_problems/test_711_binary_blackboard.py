@@ -1,7 +1,8 @@
 import unittest
 
-# Binary Blackboard
 """
+Binary Blackboard
+
 Oscar and Eric play the following game. First, they agree on a positive integer $n$, and they begin by writing its binary representation on a blackboard. They then take turns, with Oscar going first, to write a number on the blackboard in binary representation, such that the sum of all written numbers does not exceed $2n$.
 The game ends when there are no valid moves left. Oscar wins if the number of $1$s on the blackboard is odd, and Eric wins if it is even.
 Let $S(N)$ be the sum of all $n \le 2^N$ for which Eric can guarantee winning, assuming optimal play.
@@ -9,7 +10,6 @@ For example, the first few values of $n$ for which Eric can guarantee winning ar
 You are also given that $S(12) = 54532$ and $S(1234) \equiv 690421393 \pmod{1\,000\,000\,007}$.
 Find $S(12\,345\,678)$. Give your answer modulo $1\,000\,000\,007$.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# An infinite game
 """
+An infinite game
+
 Peter is playing a solitaire game on an infinite checkerboard, each square of which can hold an unlimited number of tokens.
 Each move of the game consists of the following steps:
 The board is marked with a line called the dividing line. Initially, every square to the left of the dividing line contains a token, and every square to the right of the dividing line is empty:
@@ -11,7 +12,6 @@ Let $F(n)$ be the maximum number of squares Peter can move a token beyond the di
 You are also given that $F(1)=6$, $F(2)=9$, $F(3)=13$, $F(11)=58$ and $F(123)=1173$.
 Find $F(1234567)$.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

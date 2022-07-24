@@ -1,7 +1,8 @@
 import unittest
 
-# Modulo Summations
 """
+Modulo Summations
+
 
 Let $a_n$ be a sequence recursively defined by:$\quad a_1=1,\quad\displaystyle a_n=\biggl(\sum_{k=1}^{n-1}k\cdot a_k\biggr)\bmod n$.
 
@@ -24,7 +25,6 @@ You are also given that f(104,103)=97158.
 Find f(1012,106).
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

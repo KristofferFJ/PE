@@ -1,7 +1,8 @@
 import unittest
 
-# Squarefree Gaussian Integers
 """
+Squarefree Gaussian Integers
+
 A Gaussian integer is a number z = a + bi where a, b are integers and i2 = -1.
 Gaussian integers are a subset of the complex numbers, and the integers are the subset of Gaussian integers for which b = 0.
 A Gaussian integer unit is one for which a2 + b2 = 1, i.e. one of 1, i, -1, -i.
@@ -23,7 +24,6 @@ For example f(10) = 7 because 1, 1 + i, 1 + 2i, 1 + 3i = (1 + i)(2 
 You are given f(102) = 54, f(104) = 5218 and f(108) = 52126906.
 Find f(1014).
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# Biclinic Integral Quadrilaterals
 """
+Biclinic Integral Quadrilaterals
+
 ABCD is a convex, integer sided quadrilateral with 1 ≤ AB < BC < CD < AD.
 BD has integer length. O is the midpoint of BD. AO has integer length.
 We'll call ABCD a biclinic integral quadrilateral if AO = CO ≤ BO = DO.
@@ -14,7 +15,6 @@ We can verify that B(10 000) = 49 and B(1 000 000) = 38239.
 Find B(10 000 000 000).
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

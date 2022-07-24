@@ -1,7 +1,8 @@
 import unittest
 
-# Coloured Configurations
 """
+Coloured Configurations
+
 Consider graphs built with the units A: 
 and B: , where the units are glued along
 the vertical edges as in the graph .
@@ -11,7 +12,6 @@ Let N(a,b,c) be the number of configurations of type (a,b,c).
 For example, N(1,0,3) = 24, N(0,2,4) = 92928 and N(2,2,3) = 20736.
 Find the last 8 digits of N(25,75,1984).
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

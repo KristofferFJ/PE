@@ -1,7 +1,8 @@
 import unittest
 
-# Exploding sequence
 """
+Exploding sequence
+
 Define the sequence a1, a2, a3, ... as:
 
 Examples:
@@ -20,7 +21,6 @@ B(109, 103, 1015) = 20731563854
 
 Find B(109, 107, 1015).
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

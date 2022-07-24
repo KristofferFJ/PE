@@ -1,7 +1,8 @@
 import unittest
 
-# Tatami-Free Rooms
 """
+Tatami-Free Rooms
+
 Tatami are rectangular mats, used to completely cover the floor of a room, without overlap.
 Assuming that the only type of available tatami has dimensions 1×2, there are obviously some limitations for the shape and size of the rooms that can be covered.
 For this problem, we consider only rectangular rooms with integer dimensions a, b and even size s = a·b.
@@ -19,7 +20,6 @@ Similarly, we can verify that T(1320) = 5 because there are exactly 5 tatami-fre
 In fact, s = 1320 is the smallest room-size s for which T(s) = 5.
 Find the smallest room-size s for which T(s) = 200.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

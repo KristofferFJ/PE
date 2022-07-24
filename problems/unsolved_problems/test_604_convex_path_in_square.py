@@ -1,7 +1,8 @@
 import unittest
 
-# Convex path in square
 """
+Convex path in square
+
 
 Let $F(N)$ be the maximum number of lattice points in an axis-aligned $N\times N$ square that the graph of a single strictly convex increasing function can pass through.
 
@@ -13,7 +14,6 @@ Below is the graph of a function reaching the maximum 3 for $N=3$:
 Find $F(10^{18})$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

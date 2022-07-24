@@ -1,7 +1,8 @@
 import unittest
 
-# Risky moon
 """
+Risky moon
+
 
 A moon could be described by the sphere $C(r)$ with centre $(0,0,0)$ and radius $r$. 
 
@@ -26,7 +27,6 @@ Find $\displaystyle{\sum_{n=1}^{15}M(2^n-1)}$.
 Give your answer rounded to 10 digits behind the decimal point in the form a.bcdefghijk.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

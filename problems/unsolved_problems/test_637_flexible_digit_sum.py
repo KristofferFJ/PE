@@ -1,7 +1,8 @@
 import unittest
 
-# Flexible digit sum
 """
+Flexible digit sum
+
 
 Given any positive integer $n$, we can construct a new integer by inserting plus signs between some of the digits of the base $B$ representation of $n$, and then carrying out the additions.
 
@@ -21,7 +22,6 @@ You are given $g(100,10,3)=3302$.
 Find $g(10^7,10,3)$
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

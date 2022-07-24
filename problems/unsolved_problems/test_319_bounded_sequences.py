@@ -1,7 +1,8 @@
 import unittest
 
-# Bounded Sequences
 """
+Bounded Sequences
+
 
 Let x1, x2,..., xn be a sequence of length n such that:
 
@@ -19,7 +20,6 @@ You are given that t(10) = 86195 and t(20) = 5227991891.
 Find t(1010) and give your answer modulo 109.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# Amazing Mazes!
 """
+Amazing Mazes!
+
 
 An m×n maze is an m×n rectangular grid with walls placed between grid cells such that there is exactly one path from the top-left square to any other square. The following are examples of a 9×12 maze and a 15×20 maze:
 
@@ -20,7 +21,6 @@ E.g. if the answer is 1234567891011 then the answer format would be 1.2346e12.
 
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

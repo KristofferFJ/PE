@@ -1,7 +1,8 @@
 import unittest
 
-# Neighbourly Constraints
 """
+Neighbourly Constraints
+
 
 Let $T(n, m)$ be the number of $m$-tuples of positive integers such that the sum of any two neighbouring elements of the tuple is $\le n$.
 
@@ -22,7 +23,6 @@ You are also given that $T(5, 5)=246$, $T(10, 10^{2}) \equiv 862820094 \pmod{1\,
 Find $T(5000, 10^{12}) \bmod 1\,000\,000\,007$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

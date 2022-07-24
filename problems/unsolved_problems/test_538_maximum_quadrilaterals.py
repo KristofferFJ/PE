@@ -1,7 +1,8 @@
 import unittest
 
-# Maximum quadrilaterals
 """
+Maximum quadrilaterals
+
 Consider a positive integer sequence S = (s1, s2, ..., sn).
 Let f(S) be the perimeter of the maximum-area quadrilateral whose side lengths are 4 elements (si, sj, sk, sl) of S (all i, j, k, l distinct). If there are many quadrilaterals with the same maximum area, then choose the one with the largest perimeter.
 For example, if S = (8, 9, 14, 9, 27), then we can take the elements (9, 14, 9, 27) and form an isosceles trapezium with parallel side lengths 14 and 27 and both leg lengths 9. The area of this quadrilateral is 127.611470879... It can be shown that this is the largest area for any quadrilateral that can be formed using side lengths from S. Therefore, f(S) = 9 + 14 + 9 + 27 = 59.
@@ -13,7 +14,6 @@ It can be shown that f(U5) = 59, f(U10) = 118, f(U150) = 3223.
 It can also be shown that ∑ f(Un) = 234761 for 4 ≤ n ≤ 150.
 Find ∑ f(Un) for 4 ≤ n ≤ 3 000 000.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

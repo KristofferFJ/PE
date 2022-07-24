@@ -1,7 +1,8 @@
 import unittest
 
-# Repeated permutation
 """
+Repeated permutation
+
 
 We define a permutation as an operation that rearranges the order of the elements {1, 2, 3, ..., n}.
 There are n! such permutations, one of which leaves the elements in their initial order.
@@ -23,7 +24,6 @@ Let g(n) be the average value of f2(Pi) over all permutations Pi of length n.g(3
 Find g(350) and write the answer in scientific notation rounded to 10 significant digits, using a lowercase e to separate mantissa and exponent, as in the examples above.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

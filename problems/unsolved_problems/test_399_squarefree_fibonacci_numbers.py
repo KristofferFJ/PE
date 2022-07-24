@@ -1,7 +1,8 @@
 import unittest
 
-# Squarefree Fibonacci Numbers
 """
+Squarefree Fibonacci Numbers
+
 
 The first 15 fibonacci numbers are:
 1,1,2,3,5,8,13,21,34,55,89,144,233,377,610.
@@ -28,7 +29,6 @@ If it happens that the conjecture is false, then the accepted answer to this pro
 
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

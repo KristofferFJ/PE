@@ -1,7 +1,8 @@
 import unittest
 
-# Hypocycloid and Lattice points
 """
+Hypocycloid and Lattice points
+
 A hypocycloid is the curve drawn by a point on a small circle rolling inside a larger circle. The parametric equations of a hypocycloid centered at the origin, and starting at the right most point is given by:
 $$x(t) = (R - r) \cos(t) + r \cos(\frac {R - r} r t)$$
 $$y(t) = (R - r) \sin(t) - r \sin(\frac {R - r} r t)$$
@@ -16,7 +17,6 @@ $S(3, 1) = (|3| + |0|) + (|-1| + |2|) + (|-1| + |0|) + (|-1| + |-2|) = 10$
 $T(3) = 10; T(10) = 524; T(100) = 580442; T(10^3) = 583108600$.
 Find $T(10^6)$.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

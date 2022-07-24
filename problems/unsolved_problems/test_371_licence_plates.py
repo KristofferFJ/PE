@@ -1,7 +1,8 @@
 import unittest
 
-# Licence plates
 """
+Licence plates
+
 
 Oregon licence plates consist of three letters followed by a three digit number (each digit can be from [0..9]).
 While driving to work Seth plays the following game:
@@ -20,7 +21,6 @@ Give your answer rounded to 8 decimal places behind the decimal point.
 Note: We assume that each licence plate seen is equally likely to have any three digit number on it.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

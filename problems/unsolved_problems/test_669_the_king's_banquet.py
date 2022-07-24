@@ -1,7 +1,8 @@
 import unittest
 
-# The King's Banquet
 """
+The King's Banquet
+
 The Knights of the Order of Fibonacci are preparing a grand feast for their king. There are $n$ knights, and each knight is assigned a distinct number from 1 to $n$.
 When the knights sit down at the roundtable for their feast, they follow a peculiar seating rule: two knights can only sit next to each other if their respective numbers sum to a Fibonacci number.
 When the $n$ knights all try to sit down around a circular table with $n$ chairs, they are unable to find a suitable seating arrangement for any $n>2$ despite their best efforts. Just when they are about to give up, they remember that the king will sit on his throne at the table as well.
@@ -11,7 +12,6 @@ Later, several new knights are appointed to the Order, giving 34 knights and cha
 Now suppose there are $n=99\,194\,853\,094\,755\,497$ knights and the same number of chairs at the roundtable (not including the king’s throne). After great trials and tribulations, they are finally able to find the unique seating arrangement for this value of $n$ that satisfies the above rules.
 Find the number of the knight sitting in the $10\,000\,000\,000\,000\,000$th chair from the king’s left.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

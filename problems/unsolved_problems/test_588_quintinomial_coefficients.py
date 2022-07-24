@@ -1,7 +1,8 @@
 import unittest
 
-# Quintinomial coefficients
 """
+Quintinomial coefficients
+
 
 The coefficients in the expansion of $(x+1)^k$ are called binomial coefficients.
 Analoguously the coefficients in the expansion of $(x^4+x^3+x^2+x+1)^k$ are called quintinomial coefficients. (quintus= Latin for fifth).
@@ -21,7 +22,6 @@ You are given $Q(10)=17$ and $Q(100)=35$.
 Find  $\sum_{k=1}^{18}Q(10^k) $.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# Flipping game
 """
+Flipping game
+
 The flipping game is a two player game played on a N by N square board.
 Each square contains a disk with one side white and one side black.
 The game starts with all disks showing their white side.
@@ -16,7 +17,6 @@ For N=5, the first player's eight winning first moves are:
 
 Find W(106).
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# Reciprocal games II
 """
+Reciprocal games II
+
 Tom has built a random generator that is connected to a row of $n$ light bulbs. Whenever the random generator is activated each of the $n$ lights is turned on with the probability of $\frac 1 2$, independently of its former state or the state of the other light bulbs.
 While discussing with his friend Jerry how to use his generator, they invent two different games, they call the reciprocal games:
 Both games consist of $n$ turns. Each turn is started by choosing a number $k$ randomly between (and including) $1$ and $n$, with equal probability of $\frac 1 n$ for each number, while the possible win for that turn is the reciprocal of $k$, that is $\frac 1 k$.
@@ -11,7 +12,6 @@ Let $D(n)=J_B(n)−J_A(n)$. For example, $D(6) = 0.03828125$.
 Find the 7 most significant digits of $D(123456789)$ after removing all leading zeros.
 (If, for example, we had asked for the 7 most significant digits of $D(6)$, the answer would have been 3828125.)
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# Fibonacci Words
 """
+Fibonacci Words
+
 For any two strings of digits, A and B, we define FA,B to be the sequence (A,B,AB,BAB,ABBAB,...) in which each term is the concatenation of the previous two.
 Further, we define DA,B(n) to be the nth digit in the first term of FA,B that contains at least n digits.
 Example:
@@ -21,7 +22,6 @@ and for B the next hundred digits:
 48111745028410270193852110555964462294895493038196 .
 Find ∑n = 0,1,...,17   10n× DA,B((127+19n)×7n) .
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

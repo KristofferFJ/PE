@@ -1,7 +1,8 @@
 import unittest
 
-# Blood tests
 """
+Blood tests
+
 
 Each one of the 25 sheep in a flock must be tested for a rare virus, known to affect 2% of the sheep population.
 An accurate and extremely sensitive PCR test exists for blood samples, producing a clear positive / negative result, but it is very time-consuming and expensive.
@@ -33,7 +34,6 @@ Find ∑ T(10000, p) for p=0.01, 0.02, 0.03, ... 0.50.
 Give your answer rounded to six decimal places.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

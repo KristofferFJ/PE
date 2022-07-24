@@ -1,7 +1,8 @@
 import unittest
 
-# Squares on the line
 """
+Squares on the line
+
 Sam and Tom are trying a game of (partially) covering a given line segment of length $L$ by taking turns in placing unit squares onto the line segment. 
 As illustrated below, the squares may be positioned in two different ways, either "straight" by placing the midpoints of two opposite sides on the line segment, or "diagonal" by placing two opposite corners on the line segment. Newly placed squares may touch other squares, but are not allowed to overlap any other square laid down before.
 The player who is able to place the last unit square onto the line segment wins.
@@ -19,7 +20,6 @@ You are given $f(2,10)=2.61969775$, being reached for $L= 7.82842712$, and $f(10
 
 Find $f(200,500)$, rounded to 8 digits after the decimal point.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# Möbius function and intervals
 """
+Möbius function and intervals
+
 
 The Möbius function, denoted μ(n), is defined as:
 
@@ -20,7 +21,6 @@ For example, C(10) = 13, C(500) = 16676 and C(10 000) = 20155319.
 Find C(20 000 000).
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

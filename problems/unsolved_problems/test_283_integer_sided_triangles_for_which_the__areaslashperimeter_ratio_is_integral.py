@@ -1,7 +1,8 @@
 import unittest
 
-# Integer sided triangles for which the  area/perimeter ratio is integral
 """
+Integer sided triangles for which the  area/perimeter ratio is integral
+
 
 Consider the triangle with sides 6, 8 and 10. It can be seen that the perimeter and the area are both equal to 24. 
 So the area/perimeter ratio is equal to 1.
@@ -12,7 +13,6 @@ So for this triangle the area/perimeter ratio is equal to 2.
 Find the sum of the perimeters of all integer sided triangles for which the area/perimeter ratios are equal to positive integers not exceeding 1000.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# Rigid graphs
 """
+Rigid graphs
+
 Recall that a graph is a collection of vertices and edges connecting the vertices, and that two vertices connected by an edge are called adjacent.
 Graphs can be embedded in Euclidean space by associating each vertex with a point in the Euclidean space.
 A flexible graph is an embedding of a graph where it is possible to move one or more vertices continuously so that the distance between at least two nonadjacent vertices is altered while the distances between each pair of adjacent vertices is kept constant.
@@ -20,7 +21,6 @@ E.g. S(5) = 25021721.
 Find S(100), give your answer modulo 1000000033.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

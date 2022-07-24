@@ -1,7 +1,8 @@
 import unittest
 
-# Squares under a hyperbola
 """
+Squares under a hyperbola
+
 Consider the region constrained by 1 ≤ x and 0 ≤ y ≤ 1/x.
 
 
@@ -19,7 +20,6 @@ It can be seen that the index of S32 is (1,1) as is the index of S50.
 What is the largest n for which the index of Sn is (3,3)?
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

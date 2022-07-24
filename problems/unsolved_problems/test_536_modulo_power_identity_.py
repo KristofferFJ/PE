@@ -1,7 +1,8 @@
 import unittest
 
-# Modulo power identity 
 """
+Modulo power identity 
+
 
 Let S(n) be the sum of all positive integers m not exceeding n having the following property:a m+4 ≡ a (mod m) for all integers a.
 
@@ -13,7 +14,6 @@ You are given S(106) = 22868117.
 Find S(1012).
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

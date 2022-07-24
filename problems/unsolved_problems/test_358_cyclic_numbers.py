@@ -1,7 +1,8 @@
 import unittest
 
-# Cyclic numbers
 """
+Cyclic numbers
+
 A cyclic number with n digits has a very interesting property:
 When it is multiplied by 1, 2, 3, 4, ... n, all the products have exactly the same digits, in the same order, but rotated in a circular fashion!
 
@@ -29,7 +30,6 @@ Note that for cyclic numbers, leading zeros are important.
 There is only one cyclic number for which, the eleven leftmost digits are 00000000137 and the five rightmost digits are 56789 (i.e., it has the form 00000000137...56789 with an unknown number of digits in the middle). Find the sum of all its digits.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

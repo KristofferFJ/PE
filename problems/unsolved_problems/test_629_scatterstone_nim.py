@@ -1,7 +1,8 @@
 import unittest
 
-# Scatterstone Nim
 """
+Scatterstone Nim
+
 Alice and Bob are playing a modified game of Nim called Scatterstone Nim, with Alice going first, alternating turns with Bob. The game begins with an arbitrary set of stone piles with a total number of stones equal to $n$.
 During a player's turn, he/she must pick a pile having at least $2$ stones and perform a split operation, dividing the pile into an arbitrary set of $p$ non-empty, arbitrarily-sized piles where $2 \leq p \leq k$ for some fixed constant $k$. For example, a pile of size $4$ can be split into $\{1, 3\}$ or $\{2, 2\}$, or $\{1, 1, 2\}$ if $k = 3$ and in addition $\{1, 1, 1, 1\}$ if $k = 4$.
 If no valid move is possible on a given turn, then the other player wins the game.
@@ -10,7 +11,6 @@ Let $f(n,k)$ be the number of winning positions for Alice on her first turn, giv
 Let $g(n)$ be the sum of $f(n,k)$ over all $2 \leq k \leq n$. For example, $g(7)=66$ and $g(10)=291$.
 Find $g(200)$ mod $(10^9 + 7)$.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

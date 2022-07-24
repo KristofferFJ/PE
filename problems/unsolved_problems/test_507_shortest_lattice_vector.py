@@ -1,7 +1,8 @@
 import unittest
 
-# Shortest Lattice Vector
 """
+Shortest Lattice Vector
+
 
 Let $t_n$ be the tribonacci numbers defined as:
 $t_0 = t_1 = 0$;
@@ -24,7 +25,6 @@ You are given that $S(1)=32$ and $\sum_{n=1}^{10} S(n)=130762273722$.
 Find $\sum_{n=1}^{20000000} S(n)$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# Nested square roots
 """
+Nested square roots
+
 Consider the term $\small \sqrt{x+\sqrt{y}+\sqrt{z}}$ that is representing a nested square root. $x$, $y$ and $z$ are positive integers and $y$ and $z$ are not allowed to be perfect squares, so the number below the outer square root is irrational. Still it can be shown that for some combinations of $x$, $y$ and $z$ the given term can be simplified into a sum and/or difference of simple square roots of integers, actually denesting the square roots in the initial expression. 
 Here are some examples of this denesting:
 $\small \sqrt{3+\sqrt{2}+\sqrt{2}}=\sqrt{2}+\sqrt{1}=\sqrt{2}+1$
@@ -16,7 +17,6 @@ Nested roots with the same value are not considered different, for example $\sma
 You are given that F(10)=17, F(15)=46, F(20)=86, F(30)=213 and F(100)=2918 and F(5000)=11134074.
 Find F(5000000).
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

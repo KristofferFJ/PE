@@ -1,7 +1,8 @@
 import unittest
 
-# Factorisation triples
 """
+Factorisation triples
+
 
 Let n be a positive integer. An integer triple (a, b, c) is called a factorisation triple of n if:
 
@@ -14,7 +15,6 @@ For example, f(165) = 19, f(100100) = 142 and f(20!) = 4034872.
 Find f(43!).
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

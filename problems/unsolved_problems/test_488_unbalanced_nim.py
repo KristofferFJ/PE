@@ -1,7 +1,8 @@
 import unittest
 
-# Unbalanced Nim
 """
+Unbalanced Nim
+
 Alice and Bob have enjoyed playing Nim every day. However, they finally got bored of playing ordinary three-heap Nim.
 So, they added an extra rule:
 - Must not make two heaps of the same size.
@@ -18,7 +19,6 @@ For example, F(8) = 42, because there are 4 losing positions for the next player
 We can also verify that F(128) = 496062.
 Find the last 9 digits of F(1018).
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

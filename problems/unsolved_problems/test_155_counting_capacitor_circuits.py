@@ -1,7 +1,8 @@
 import unittest
 
-# Counting Capacitor Circuits
 """
+Counting Capacitor Circuits
+
 An electric circuit uses exclusively identical capacitors of the same value C.
 
 The capacitors can be connected in series or in parallel to form sub-units, which can then be connected in series or in parallel with other capacitors or other sub-units to form larger sub-units, and so on up to a final circuit.
@@ -12,7 +13,6 @@ Reminder : When connecting capacitors C1, C2 etc in parallel, the total capacita
 
 whereas when connecting them in series, the overall capacitance is given by: $\dfrac{1}{C_T} = \dfrac{1}{C_1} + \dfrac{1}{C_2} + ...$
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# Pseudorandom sequence
 """
+Pseudorandom sequence
+
 
 Rand48 is a pseudorandom number generator used by some programming languages. It generates a sequence from any given integer $a_0$ using the rule $a_n = (25214903917 \cdot a_{n - 1} + 11) \bmod 2^{48}$.
 
@@ -22,7 +23,6 @@ Now suppose that the string $c$ starts with "PuzzleOne$\dots$".
 Find the starting index of the first occurrence of the substring "LuckyText" in $c$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# Strong Achilles Numbers
 """
+Strong Achilles Numbers
+
 
 A positive integer n is powerful if p2 is a divisor of n for every prime factor p in n.
 
@@ -24,7 +25,6 @@ How many Strong Achilles numbers are there below 1018?
 1 φ denotes Euler's totient function.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# Maximum length of an antichain
 """
+Maximum length of an antichain
+
 Let n be an integer and S(n) be the set of factors of n.
 A subset A of S(n) is called an antichain of S(n) if A contains only one element or if none of the elements of A divides any of the other elements of A.
 For example: S(30) = {1, 2, 3, 5, 6, 10, 15, 30}
@@ -10,7 +11,6 @@ For example: S(30) = {1, 2, 3, 5, 6, 10, 15, 30}
 Let N(n) be the maximum length of an antichain of S(n).
 Find ∑ N(n) for 1 ≤ n ≤ 108
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

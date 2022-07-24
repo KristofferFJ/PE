@@ -1,7 +1,8 @@
 import unittest
 
-# Sum over Bitwise Operators
 """
+Sum over Bitwise Operators
+
 Define
 $$\displaystyle g(m,n) = (m\oplus n)+(m\vee n)+(m\wedge n)$$
 where $\oplus, \vee, \wedge$ are the bitwise XOR, OR and AND operator respectively.
@@ -10,7 +11,6 @@ $$\displaystyle G(N) = \sum_{n=0}^N\sum_{k=0}^n g(k,n-k)$$
 For example, $G(10) = 754$ and $G(10^2) = 583766$.
 Find $G(10^{18})$. Give your answer modulo $1\,000\,000\,007$.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

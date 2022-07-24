@@ -1,7 +1,8 @@
 import unittest
 
-# Searching a triangular array for a sub-triangle having minimum-sum
 """
+Searching a triangular array for a sub-triangle having minimum-sum
+
 In a triangular array of positive and negative integers, we wish to find a sub-triangle such that the sum of the numbers it contains is the smallest possible.
 In the example below, it can be easily verified that the marked triangle satisfies this condition having a sum of −42.
 We wish to make such a triangular array with one thousand rows, so we generate 500500 pseudo-random numbers sk in the range ±219, using a type of random number generator (known as a Linear Congruential Generator) as follows:
@@ -19,7 +20,6 @@ The "sum of a sub-triangle" is defined as the sum of all the elements it contain
 
 Find the smallest possible sub-triangle sum.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

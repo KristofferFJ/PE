@@ -1,7 +1,8 @@
 import unittest
 
-# Hexagonal orchards
 """
+Hexagonal orchards
+
 A hexagonal orchard of order n is a triangular lattice made up of points within a regular hexagon with side n. The following is an example of a hexagonal orchard of order 5:
 
 
@@ -17,7 +18,6 @@ H(5) = 30. H(10) = 138. H(1 000) = 1177848.
 Find H(100 000 000).
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

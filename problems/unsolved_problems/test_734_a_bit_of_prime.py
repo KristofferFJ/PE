@@ -1,7 +1,8 @@
 import unittest
 
-# A bit of prime
 """
+A bit of prime
+
 
 The logical-OR of two bits is 0 if both bits are 0, otherwise it is 1.
 The bitwise-OR of two positive integers performs a logical OR operation on each pair of corresponding bits in the binary expansion of its inputs.
@@ -22,7 +23,6 @@ You are given $T(100, 3) = 3355$ and $T(1000, 10) \equiv 2071632 \pmod{1\,000\,0
 Find $T(10^6,999983)$. Give your answer modulo $1\,000\,000\,007$
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

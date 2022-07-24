@@ -1,7 +1,8 @@
 import unittest
 
-# Jumping frog
 """
+Jumping frog
+
 There are n stones in a pond, numbered 1 to n. Consecutive stones are spaced one unit apart.
 A frog sits on stone 1. He wishes to visit each stone exactly once, stopping on stone n. However, he can only jump from one stone to another if they are at most 3 units apart. In other words, from stone i, he can reach a stone j if 1 ≤ j ≤ n and j is in the set {i-3, i-2, i-1, i+1, i+2, i+3}.
 Let f(n) be the number of ways he can do this. For example, f(6) = 14, as shown below:
@@ -28,7 +29,6 @@ S(1 000) mod 109 = 225031475
 S(1 000 000) mod 109 = 363486179
 Find S(1014) mod 109.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# Efficient exponentiation
 """
+Efficient exponentiation
+
 The most naive way of computing n15 requires fourteen multiplications:
 n × n × ... × n = n15
 But using a "binary" method you can compute it in six multiplications:
@@ -11,7 +12,6 @@ n × n = n2n2 × n = n3n3 × n3 = n6n6 × n6 = n12n12 × n3 = n15
 We shall define m(k) to be the minimum number of multiplications to compute nk; for example m(15) = 5.
 For 1 ≤ k ≤ 200, find ∑ m(k).
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# Slowly converging series
 """
+Slowly converging series
+
 For a non-negative integer $k$, define
 \[
 E_k(q) = \sum\limits_{n = 1}^\infty \sigma_k(n)q^n
@@ -16,7 +17,6 @@ All the above values are given in scientific notation rounded to twelve digits a
 Find the value of $E_{15}(1 - \frac{1}{2^{25}})$.
 Give the answer in scientific notation rounded to twelve digits after the decimal point.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

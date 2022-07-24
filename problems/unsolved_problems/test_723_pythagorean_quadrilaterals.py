@@ -1,7 +1,8 @@
 import unittest
 
-# Pythagorean Quadrilaterals
 """
+Pythagorean Quadrilaterals
+
 A pythagorean triangle with catheti $a$ and $b$ and hypotenuse $c$ is characterized by the well-known equation $a^2+b^2=c^2$. However, this can also be formulated differently:
 When inscribed into a circle with radius $r$, a triangle with sides $a$, $b$ and $c$ is pythagorean, if and only if $a^2+b^2+c^2=8\, r^2$.
 Analogously, we call a quadrilateral $ABCD$ with sides $a$, $b$, $c$ and $d$, inscribed in a circle with radius $r$, a pythagorean quadrilateral, if $a^2+b^2+c^2+d^2=8\, r^2$. 
@@ -14,7 +15,6 @@ Let $\displaystyle S(n)=\sum_{d \vert n} f(\sqrt d)$. For example, $S(325)=S(5^2
 
 Find $S(1411033124176203125)=S(5^6 \cdot 13^3 \cdot 17^2 \cdot 29 \cdot 37 \cdot 41 \cdot 53 \cdot 61)$.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

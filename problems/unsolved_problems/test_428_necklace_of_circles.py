@@ -1,7 +1,8 @@
 import unittest
 
-# Necklace of circles
 """
+Necklace of circles
+
 Let a, b and c be positive numbers.
 Let W, X, Y, Z be four collinear points where |WX| = a, |XY| = b, |YZ| = c and |WZ| = a + b + c.
 Let Cin be the circle having the diameter XY.
@@ -21,7 +22,6 @@ For example, T(1) = 9, T(20) = 732 and T(3000) = 438106.
 Find T(1 000 000 000).
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

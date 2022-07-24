@@ -1,7 +1,8 @@
 import unittest
 
-# Summation of Summations
 """
+Summation of Summations
+
 
 Take a sequence of length $n$. Discard the first term then make a sequence of the partial summations. Continue to do this over and over until we are left with a single term. We define this to be $f(n)$.
 
@@ -35,7 +36,6 @@ You are also given $f(20) = 742296999 $ modulo $1\,000\,000\,007$
 Find $f(10^8)$. Give your answer modulo $1\,000\,000\,007$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

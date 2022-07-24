@@ -1,7 +1,8 @@
 import unittest
 
-# Prime summations
 """
+Prime summations
+
 It is possible to write ten as the sum of primes in exactly five different ways:
 7 + 3
 5 + 5
@@ -10,7 +11,6 @@ It is possible to write ten as the sum of primes in exactly five different ways:
 2 + 2 + 2 + 2 + 2
 What is the first value which can be written as the sum of primes in over five thousand different ways?
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

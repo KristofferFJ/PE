@@ -1,7 +1,8 @@
 import unittest
 
-# Product of Head Counts
 """
+Product of Head Counts
+
 
 Alice enlists the help of some friends to generate a random number, using a single unfair coin. She and her friends sit around a table and, starting with Alice, they take it in turns to toss the coin. Everyone keeps a count of how many heads they obtain individually. The process ends as soon as Alice obtains a Head. At this point, Alice multiplies all her friends' Head counts together to obtain her random number.
 
@@ -24,7 +25,6 @@ You are given that $c(100, 40) \equiv 986699437 \text{ } (\text{mod } 10^9+7)$.
 Find $c(10000000, 4000000) \mod 10^9+7$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# Lattice points enclosed by parabola and line
 """
+Lattice points enclosed by parabola and line
+
 
 For integers a and b, we define D(a, b) as the domain enclosed by the parabola y = x2 and the line y = a·x + b:D(a, b) = { (x, y) | x2 ≤ y ≤ a·x + b }.
 
@@ -17,7 +18,6 @@ We can verify that S(5) = 344 and S(100) = 26709528.
 Find S(1012). Give your answer mod 108.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# First Sort II
 """
+First Sort II
+
 Consider the following algorithm for sorting a list:
 For example, the list { 4 1 3 2 } is sorted as follows:
 Let F(L) be the number of times step 2a is executed to sort list L. For example, F({ 4 1 3 2 }) = 5.
@@ -14,7 +15,6 @@ For n = 4 we have:
 Let R(k) = min(Q(n, k)) over all n for which Q(n, k) is defined.
 Find R(1212).
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# Rounded Square Roots
 """
+Rounded Square Roots
+
 We define the rounded-square-root of a positive integer n as the square root of n rounded to the nearest integer.
 The following procedure (essentially Heron's method adapted to integer arithmetic) finds the rounded-square-root of n:
 Let d be the number of digits of the number n.
@@ -25,7 +26,6 @@ Give your answer rounded to 10 decimal places.
 Note: The symbols $\lfloor x \rfloor$ and $\lceil x \rceil$ represent the floor function and ceiling function respectively.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

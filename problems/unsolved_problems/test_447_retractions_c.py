@@ -1,7 +1,8 @@
 import unittest
 
-# Retractions C
 """
+Retractions C
+
 
 For every integer $n>1$, the family of functions $f_{n,a,b}$ is defined 
 by  
@@ -18,7 +19,6 @@ Find $F(10^{14})$.
 Give your answer modulo $1\,000\,000\,007$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

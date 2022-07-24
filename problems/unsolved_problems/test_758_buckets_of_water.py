@@ -1,7 +1,8 @@
 import unittest
 
-# Buckets of Water
 """
+Buckets of Water
+
 
 There are 3 buckets labelled $S$ (small) of 3 litres, $M$ (medium) of 5 litres and $L$ (large) of 8 litres.
 Initially $S$ and $M$ are full of water and $L$ is empty.
@@ -24,7 +25,6 @@ Find the sum of $P(2^{p^5}-1, 2^{q^5}-1)$ for all pairs of prime numbers $p,q$ s
 Give your answer modulo $1\,000\,000\,007$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

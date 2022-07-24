@@ -1,7 +1,8 @@
 import unittest
 
-# Integral median
 """
+Integral median
+
 
 ABC is an integral sided triangle with sides a≤b≤c.
 mc is the median connecting C and the midpoint of AB. 
@@ -11,7 +12,6 @@ F(10)=3 and F(50)=165.
 Find F(100000).
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

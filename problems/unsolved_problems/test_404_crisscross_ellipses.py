@@ -1,7 +1,8 @@
 import unittest
 
-# Crisscross Ellipses
 """
+Crisscross Ellipses
+
 
 Ea is an ellipse with an equation of the form x2 + 4y2 = 4a2.
 Ea' is the rotated image of Ea by θ degrees counterclockwise around the origin O(0, 0) for 0° < θ < 90°.
@@ -19,7 +20,6 @@ It can be verified that C(103) = 7, C(104) = 106 and C(106) = 11845.
 Find C(1017).
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

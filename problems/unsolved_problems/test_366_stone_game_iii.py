@@ -1,7 +1,8 @@
 import unittest
 
-# Stone Game III
 """
+Stone Game III
+
 
 Two players, Anton and Bernhard, are playing the following game.
 There is one pile of n stones.
@@ -29,7 +30,6 @@ Find  ∑ M(n) for n≤1018.
 Give your answer modulo 108.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

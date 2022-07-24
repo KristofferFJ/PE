@@ -1,7 +1,8 @@
 import unittest
 
-# 2011 nines
 """
+2011 nines
+
 
 Consider the real number $\sqrt 2 + \sqrt 3$.
 When we calculate the even powers of $\sqrt 2 + \sqrt 3$
@@ -32,7 +33,6 @@ Let $N(p,q)$ be the minimal value of $n$ such that $C(p,q,n) \ge 2011$.
 Find $\displaystyle \sum N(p,q) \,\, \text{ for } p+q \le 2011$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

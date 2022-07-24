@@ -1,7 +1,8 @@
 import unittest
 
-# Colouring a Loop
 """
+Colouring a Loop
+
 A certain type of flexible tile comes in three different sizes - 1×1, 1×2, and 1×3 - and in $k$ different colours. There is an unlimited number of tiles available in each combination of size and colour.
 These are used to tile a closed loop of width $2$ and length (circumference) $n$, where $n$ is a positive integer, subject to the following conditions:
 For example, the following is an acceptable tiling of a $2\times 23$ loop with $k=4$ (blue, green, red and yellow):
@@ -10,7 +11,6 @@ Let $F_k(n)$ be the number of ways the $2\times n$ loop can be tiled subject to 
 For example, $F_4(3) = 104$, $F_5(7) = 3327300$, and $F_6(101)\equiv 75309980 \pmod{1\,000\,004\,321}$.
 Find $F_{10}(10\,004\,003\,002\,001) \bmod 1\,000\,004\,321$.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

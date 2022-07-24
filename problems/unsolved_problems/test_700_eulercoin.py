@@ -1,7 +1,8 @@
 import unittest
 
-# Eulercoin
 """
+Eulercoin
+
 Leonhard Euler was born on 15 April 1707.
 Consider the sequence 1504170715041707n mod 4503599627370517.
 An element of this sequence is defined to be an Eulercoin if it is strictly smaller than all previously found Eulercoins.
@@ -9,7 +10,6 @@ For example, the first term is 1504170715041707 which is the first Eulercoin.  T
 The sum of the first 2 Eulercoins is therefore 1513083232796311.
 Find the sum of all Eulercoins.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

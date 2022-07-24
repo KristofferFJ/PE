@@ -1,7 +1,8 @@
 import unittest
 
-# Retractions A
 """
+Retractions A
+
 
 For every integer $n>1$, the family of functions $f_{n,a,b}$ is defined 
 by  
@@ -18,7 +19,6 @@ Find $\displaystyle \sum_{k=1}^{9\,999\,999} R(\binom {10\,000\,000} k)$.
 Give your answer modulo $1\,000\,000\,007$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

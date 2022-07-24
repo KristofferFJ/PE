@@ -1,10 +1,9 @@
 # CIRCULAR PRIMES
 # Hvilke primtal under 10**6 er primtal for alle ciffernes permutationer?
-
-from library.primes import primes_bool_up_to
+from library.primes import Primes
 
 num = 10**6
-list = primes_bool_up_to(num)
+list = Primes.primes_bool_up_to(num)
 plist = [i for i in range(len(list)) if list[i]]
 
 count = 0

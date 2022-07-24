@@ -1,7 +1,8 @@
 import unittest
 
-# Nontransitive sets of dice
 """
+Nontransitive sets of dice
+
 
 Consider the following set of dice with nonstandard pips:
 
@@ -32,7 +33,6 @@ For N = 7 we find there are 9780 such sets.
 How many are there for N = 30 ?
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

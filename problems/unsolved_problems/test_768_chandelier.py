@@ -1,7 +1,8 @@
 import unittest
 
-# Chandelier
 """
+Chandelier
+
 A certain type of chandelier contains a circular ring of $n$ evenly spaced candleholders.
 If only one candle is fitted, then the chandelier will be imbalanced. However, if a second identical candle is placed in the opposite candleholder (assuming $n$ is even) then perfect balance will be achieved and the chandelier will hang level.
 Let $f(n,m)$ be the number of ways of arranging $m$ identical candles in distinct sockets of a chandelier with $n$ candleholders such that the chandelier is perfectly balanced.
@@ -9,7 +10,6 @@ For example, $f(4, 2) = 2$: assuming the chandelier's four candleholders are ali
 You are given that $f(12,4) = 15$ and $f(36, 6) = 876$.
 Find $f(360, 20)$.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

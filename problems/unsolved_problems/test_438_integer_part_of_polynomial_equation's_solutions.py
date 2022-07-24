@@ -1,7 +1,8 @@
 import unittest
 
-# Integer part of polynomial equation's solutions
 """
+Integer part of polynomial equation's solutions
+
 
 For an n-tuple of integers t = (a1, ..., an), let (x1, ..., xn) be the solutions of the polynomial equation xn + a1xn-1 + a2xn-2 + ... + an-1x + an = 0.
 
@@ -17,7 +18,6 @@ For n = 4 we can verify that ∑ S(t) = 2087 for all n-tuples t which satisfy 
 Find ∑ S(t) for n = 7.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

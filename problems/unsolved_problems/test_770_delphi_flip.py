@@ -1,7 +1,8 @@
 import unittest
 
-# Delphi Flip
 """
+Delphi Flip
+
 
 A and B play a game. A has originally $1$ gram of gold and B has an unlimited amount.
 Each round goes as follows:
@@ -15,7 +16,6 @@ Define $g(X)$ to be the smallest value of $n$ so that A can guarantee to have at
 Find $g(1.9999)$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# Largest integer divisible by two primes
 """
+Largest integer divisible by two primes
+
 
 The largest integer ≤ 100 that is only divisible by both the primes 2 and 3 is 96, as 96=32*3=25*3.
 For two distinct primes p and q let M(p,q,N) be the largest positive integer ≤N only divisible
@@ -20,7 +21,6 @@ S(100)=2262.
 Find S(10 000 000).
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

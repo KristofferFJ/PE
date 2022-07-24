@@ -1,7 +1,8 @@
 import unittest
 
-# Counting summations
 """
+Counting summations
+
 It is possible to write five as a sum in exactly six different ways:
 4 + 1
 3 + 2
@@ -11,7 +12,6 @@ It is possible to write five as a sum in exactly six different ways:
 1 + 1 + 1 + 1 + 1
 How many different ways can one hundred be written as a sum of at least two positive integers?
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# Seventeen Points
 """
+Seventeen Points
+
 This problem uses half open interval notation where $[a,b)$ represents $a \le x < b$.
 A real number, $x_1$, is chosen in the interval $[0,1)$.
 A second real number, $x_2$, is chosen such that each of $[0,\frac{1}{2})$ and $[\frac{1}{2},1)$ contains exactly one of $(x_1, x_2)$.
@@ -10,7 +11,6 @@ Define $F(n)$ to be the minimal value of the sum $x_1 + x_2 + ... + x_n$ of a tu
 Surprisingly, no more than $17$ points can be chosen by this procedure. 
 Find $F(17)$ and give your answer rounded to 12 decimal places.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

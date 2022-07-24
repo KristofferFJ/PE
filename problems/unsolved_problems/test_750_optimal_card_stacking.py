@@ -1,7 +1,8 @@
 import unittest
 
-# Optimal Card Stacking
 """
+Optimal Card Stacking
+
 
 Card Stacking is a game on a computer starting with an array of $N$ cards labelled $1,2,\ldots,N$.
 A stack of cards can be moved by dragging horizontally with the mouse to another stack but only when the resulting stack is in sequence. The goal of the game is to combine the cards into a single stack using minimal total drag distance.
@@ -24,7 +25,6 @@ Find $G(976)$.
 Note: $G(N)$ is not defined for all values of $N$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

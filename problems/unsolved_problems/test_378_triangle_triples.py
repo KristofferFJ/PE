@@ -1,7 +1,8 @@
 import unittest
 
-# Triangle Triples
 """
+Triangle Triples
+
 Let $T(n)$ be the nth triangle number, so $T(n) = \dfrac{n(n + 1)}{2}$.
 Let $dT(n)$ be the number of divisors of $T(n)$.
 E.g.: $T(7) = 28$ and $dT(7) = 6$.
@@ -10,7 +11,6 @@ $Tr(20) = 14$, $Tr(100) = 5772$, and $Tr(1000) = 11174776$.
 Find $Tr(60 000 000)$. 
 Give the last 18 digits of your answer.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

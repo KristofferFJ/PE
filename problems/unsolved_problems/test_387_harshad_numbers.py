@@ -1,7 +1,8 @@
 import unittest
 
-# Harshad Numbers
 """
+Harshad Numbers
+
 A Harshad or Niven number is a number that is divisible by the sum of its digits.
 201 is a Harshad number because it is divisible by 3 (the sum of its digits.)
 When we truncate the last digit from 201, we get 20, which is a Harshad number.
@@ -16,7 +17,6 @@ Let's call such primes strong, right truncatable Harshad primes.
 You are given that the sum of the strong, right truncatable Harshad primes less than 10000 is 90619.
 Find the sum of the strong, right truncatable Harshad primes less than 1014.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

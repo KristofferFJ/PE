@@ -1,7 +1,8 @@
 import unittest
 
-# Palindromic sequences
 """
+Palindromic sequences
+
 
 Given an irrational number $\alpha$, let $S_\alpha(n)$ be the sequence $S_\alpha(n)=\lfloor {\alpha \cdot n} \rfloor - \lfloor {\alpha \cdot (n-1)} \rfloor$ for $n \ge 1$. 
 ($\lfloor ... \rfloor$ is the floor-function.)
@@ -20,7 +21,6 @@ Let $T=\{2,3,5,6,7,8,10,...,1000\}$ be the set of positive integers, not exceedi
 Calculate the sum of $H_{100}(\sqrt \beta)$ for  $\beta \in T$. Give the last 15 digits of your answer.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

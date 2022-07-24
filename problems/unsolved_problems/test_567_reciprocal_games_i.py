@@ -1,7 +1,8 @@
 import unittest
 
-# Reciprocal games I
 """
+Reciprocal games I
+
 Tom has built a random generator that is connected to a row of $n$ light bulbs. Whenever the random generator is activated each of the $n$ lights is turned on with the probability of $\frac 1 2$, independently of its former state or the state of the other light bulbs.
 While discussing with his friend Jerry how to use his generator, they invent two different games, they call the reciprocal games:
 Both games consist of $n$ turns. Each turn is started by choosing a number $k$ randomly between (and including) $1$ and $n$, with equal probability of $\frac 1 n$ for each number, while the possible win for that turn is the reciprocal of $k$, that is $\frac 1 k$.
@@ -10,7 +11,6 @@ For each turn in game B, after $k$ has been randomly selected, Tom keeps reactiv
 Let $\displaystyle S(m)=\sum_{n=1}^m (J_A(n)+J_B(n))$. For example $S(6)=7.58932292$, rounded to 8 decimal places.
 Find S(123456789), rounded to 8 decimal places.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

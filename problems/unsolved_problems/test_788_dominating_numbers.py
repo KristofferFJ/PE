@@ -1,7 +1,8 @@
 import unittest
 
-# Dominating Numbers
 """
+Dominating Numbers
+
 
 A dominating number is a positive integer that has more than half of its digits equal.
 
@@ -16,7 +17,6 @@ For example, $D(4) = 603$ and $D(10) = 21893256$.
 Find $D(2022)$. Give your answer modulo $1\,000\,000\,007$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

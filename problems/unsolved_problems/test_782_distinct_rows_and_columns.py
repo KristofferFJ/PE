@@ -1,7 +1,8 @@
 import unittest
 
-# Distinct Rows and Columns
 """
+Distinct Rows and Columns
+
 The complexity of an $n\times n$ binary matrix is the number of distinct rows and columns.
 
 For example, consider the $3\times 3$ matrices
@@ -19,7 +20,6 @@ You are given $C(5) = 64$, $C(10) = 274$ and $C(20) = 1150$.
 
 Find $C(10^4)$.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

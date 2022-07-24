@@ -1,7 +1,8 @@
 import unittest
 
-# Kakuro
 """
+Kakuro
+
 The above is an example of a cryptic kakuro (also known as cross sums, or even sums cross) puzzle, with its final solution on the right. (The common rules of kakuro puzzles can be found easily on numerous internet sites. Other related information can also be currently found at krazydad.com whose author has provided the puzzle data for this challenge.)
 The downloadable text file (kakuro200.txt) contains the description of 200 such puzzles, a mix of 5x5 and 6x6 types. The first puzzle in the file is the above example which is coded as follows:
 6,X,X,(vCC),(vI),X,X,X,(hH),B,O,(vCA),(vJE),X,(hFE,vD),O,O,O,O,(hA),O,I,(hJC,vB),O,O,(hJC),H,O,O,O,X,X,X,(hJE),O,O,X
@@ -16,7 +17,6 @@ The required answer to each puzzle is based on the value of each letter necessar
 You are given that the sum of the answers for the first 10 puzzles in the file is 64414157580.
 Find the sum of the answers for the 200 puzzles.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

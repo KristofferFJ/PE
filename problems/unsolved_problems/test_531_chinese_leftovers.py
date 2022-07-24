@@ -1,7 +1,8 @@
 import unittest
 
-# Chinese leftovers
 """
+Chinese leftovers
+
 
 Let g(a,n,b,m) be the smallest non-negative solution x to the system:x = a mod nx = b mod m
 if such a solution exists, otherwise 0.
@@ -19,7 +20,6 @@ Let f(n,m)=g(φ(n),n,φ(m),m)
 Find ∑ f(n,m) for 1000000 ≤ n < m < 1005000
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

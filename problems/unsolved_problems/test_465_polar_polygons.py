@@ -1,7 +1,8 @@
 import unittest
 
-# Polar polygons
 """
+Polar polygons
+
 The kernel of a polygon is defined by the set of points from which the entire polygon's boundary is visible. We define a polar polygon as a polygon for which the origin is strictly contained inside its kernel.
 For this problem, a polygon can have collinear consecutive vertices. However, a polygon still cannot have self-intersection and cannot have zero area.
 For example, only the first of the following is a polar polygon (the kernels of the second, third, and fourth do not strictly contain the origin, and the fifth does not have a kernel at all):
@@ -13,7 +14,6 @@ Note that polygons should be counted as different if they have different set of 
 For example, P(1) = 131, P(2) = 1648531, P(3) = 1099461296175 and P(343) mod 1 000 000 007 = 937293740.
 Find P(713) mod 1 000 000 007.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

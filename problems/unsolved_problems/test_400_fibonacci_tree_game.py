@@ -1,7 +1,8 @@
 import unittest
 
-# Fibonacci tree game
 """
+Fibonacci tree game
+
 
 A Fibonacci tree is a binary tree recursively defined as:
 
@@ -20,7 +21,6 @@ For example, f(5) = 1 and f(10) = 17.
 Find f(10000). Give the last 18 digits of your answer.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

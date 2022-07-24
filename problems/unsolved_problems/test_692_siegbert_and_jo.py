@@ -1,7 +1,8 @@
 import unittest
 
-# Siegbert and Jo
 """
+Siegbert and Jo
+
 
 Siegbert and Jo take turns playing a game with a heap of $N$ pebbles:
 1. Siegbert is the first to take some pebbles. He can take as many pebbles as he wants. (Between 1 and $N$ inclusive.)
@@ -22,7 +23,6 @@ $G(13)=43$.
 Find $G(23416728348467685)$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

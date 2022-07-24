@@ -1,7 +1,8 @@
 import unittest
 
-# Factors of Two in Binomial Coefficients
 """
+Factors of Two in Binomial Coefficients
+
 
 Define $g(n, m)$ to be the largest integer $k$ such that $2^k$ divides $\binom{n}m$. 
 For example, $\binom{12}5 = 792 = 2^3 \cdot 3^2 \cdot 11$, hence $g(12, 5) = 3$. 
@@ -14,7 +15,6 @@ Let $S(N)$ = $\displaystyle\sum_{n=1}^N{F(n)}$. You are given that $S(100) = 389
 Find $S(10^{16})$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

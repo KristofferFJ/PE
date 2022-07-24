@@ -1,7 +1,8 @@
 import unittest
 
-# Marsh Crossing
 """
+Marsh Crossing
+
 
 Frodo and Sam need to travel 100 leagues due East from point A to point B. On normal terrain, they can cover 10 leagues per day, and so the journey would take 10 days. However, their path is crossed by a long marsh which runs exactly South-West to North-East, and walking through the marsh will slow them down. The marsh is 50 leagues wide at all points, and the mid-point of AB is located in the middle of the marsh. A map of the region is shown in the diagram below:
 
@@ -15,7 +16,6 @@ If Frodo and Sam were to head directly East for point B, they would travel exact
 Find the shortest possible time required to travel from point A to B, and give your answer in days, rounded to 10 decimal places.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# Standing on the shoulders of trolls
 """
+Standing on the shoulders of trolls
+
 
 $N$ trolls are in a hole that is $D_N$ cm deep. The $n$-th troll is characterized by:
 
@@ -32,7 +33,6 @@ You are given that $Q(5) = 401$ and $Q(15)=941$.
 
 Find $Q(1000)$.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

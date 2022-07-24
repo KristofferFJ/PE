@@ -1,7 +1,8 @@
 import unittest
 
-# Rudin-Shapiro sequence
 """
+Rudin-Shapiro sequence
+
 Define the sequence a(n) as the number of adjacent pairs of ones in the binary expansion of n (possibly overlapping).
 E.g.: a(5) = a(1012) = 0, a(6) = a(1102) = 1, a(7) = a(1112) = 2
 Define the sequence b(n) = (-1)a(n).
@@ -21,7 +22,6 @@ F(n)=F(n-1)+F(n-2) for n>1.
 Define GF(t)=g(F(t),F(t-1)).
 Find $\sum$ GF(t) for 2≤t≤45.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

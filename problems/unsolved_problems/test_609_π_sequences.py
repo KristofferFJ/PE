@@ -1,7 +1,8 @@
 import unittest
 
-# π sequences
 """
+π sequences
+
 
 For every $n \ge 1$ the prime-counting function $\pi(n)$ is equal to the number of primes
 not exceeding $n$.
@@ -23,7 +24,6 @@ You are given: P(10)=3×8×9×3=648 and P(100)=31038676032.
 Find $P(10^8)$. Give your answer modulo 1000000007. 
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

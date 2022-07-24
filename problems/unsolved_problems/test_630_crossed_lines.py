@@ -1,7 +1,8 @@
 import unittest
 
-# Crossed lines
 """
+Crossed lines
+
 
 Given a set, $L$, of unique lines, let $M(L)$ be the number of lines in the set and let $S(L)$ be the sum over every line of the number of times that line is crossed by another line in the set.  For example, two sets of three lines are shown below:
 
@@ -26,7 +27,6 @@ For example, $M(L_3) = 3$ and $S(L_3) = 6$.  Also $M(L_{100}) = 4948$ and $S(L_{
 Find $S(L_{2500})$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

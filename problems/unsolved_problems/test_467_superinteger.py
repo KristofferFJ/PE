@@ -1,7 +1,8 @@
 import unittest
 
-# Superinteger
 """
+Superinteger
+
 An integer s is called a superinteger of another integer n if the digits of n form a subsequence of the digits of s.
 For example, 2718281828 is a superinteger of 18828, while 314159 is not a superinteger of 151.
 
@@ -17,7 +18,6 @@ C10 = 4689135679
 Let f(n) be the smallest positive integer that is a common superinteger of Pn and Cn. For example, f(10) = 2357246891352679, and f(100) mod 1 000 000 007 = 771661825.
 Find f(10 000) mod 1 000 000 007.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# Low-Prime Chessboard Nim
 """
+Low-Prime Chessboard Nim
+
 The game may start with any arrangement of $c$ coins in squares on the board. It is possible at any time for more than one coin to occupy the same square on the board at the same time. The coins are distinguishable, so swapping two coins gives a different arrangement if (and only if) they are on different squares.
 On a given turn, the player must choose a coin and move it either left or up $2$, $3$, $5$, or $7$ spaces in a single direction. The only restriction is that the coin cannot move off the edge of the board.
 The game ends when a player is unable to make a valid move, thereby granting the other player the victory.
@@ -9,7 +10,6 @@ Assuming that Alice goes first and that both players are playing optimally, let 
 For example, $M(3, 1) = 4$, $M(3, 2) = 40$, and $M(9, 3) = 450304$.
 What are the last $9$ digits of $M(10\,000\,019, 100)$?
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

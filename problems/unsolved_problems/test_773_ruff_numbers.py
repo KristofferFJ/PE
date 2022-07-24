@@ -1,7 +1,8 @@
 import unittest
 
-# Ruff Numbers
 """
+Ruff Numbers
+
 
 Let $S_k$ be the set containing 2 and 5 and the first $k$ primes that end in 7. For example, $S_3 = \{2,5,7,17,37\}$.
 
@@ -11,7 +12,6 @@ If $N_k$ is the product of the numbers in $S_k$ then define $F(k)$ to be the sum
 
 Find $F(97)$, give your answer modulo $1\,000\,000\,007$.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# 5-Smooth Pairs
 """
+5-Smooth Pairs
+
 5-smooth numbers are numbers whose largest prime factor doesn't exceed 5.
 5-smooth numbers are also called Hamming numbers.
 Let $\Omega(a)$ be the count of prime factors of $a$ (counted with multiplicity).
@@ -11,7 +12,6 @@ Let $f(n)$ be the number of pairs, $(p,q)$, of Hamming numbers such that $\Omega
 You are given $f(10)=4$ (the pairs are $(4,9),(5,5),(6,6),(9,4)$) and $f(10^2)=3629$.
 Find $f(10^7) \bmod 1\,000\,000\,007$.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

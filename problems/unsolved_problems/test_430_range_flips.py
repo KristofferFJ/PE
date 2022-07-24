@@ -1,7 +1,8 @@
 import unittest
 
-# Range flips
 """
+Range flips
+
 N disks are placed in a row, indexed 1 to N from left to right.
 Each disk has a black side and white side. Initially all disks show their white side.
 At each turn, two, not necessarily distinct, integers A and B between 1 and N (inclusive) are chosen uniformly at random.
@@ -13,7 +14,6 @@ We can verify that E(3, 1) = 10/9, E(3, 2) = 5/3, E(10, 4) ≈ 5.157 and E(100, 
 Find E(1010, 4000).
 Give your answer rounded to 2 decimal places behind the decimal point.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

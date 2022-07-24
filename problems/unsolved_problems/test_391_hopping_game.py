@@ -1,7 +1,8 @@
 import unittest
 
-# Hopping Game
 """
+Hopping Game
+
 Let $s_k$ be the number of 1’s when writing the numbers from 0 to $k$ in binary.
 For example, writing 0 to 5 in binary, we have $0, 1, 10, 11, 100, 101$. There are seven 1’s, so $s_5 = 7$.
 The sequence $S = \{s_k : k \ge 0\}$ starts $\{0, 1, 2, 4, 5, 7, 9, 12, ...\}$.
@@ -16,7 +17,6 @@ Let $M(n)$ be the highest number that the first player could choose at the start
 It can be verified that $\sum{M(n)^3} = 8150$ for $1 \le n \le 20$.
 Find $\sum{M(n)^3}$ for $1 \le n \le 1000$.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

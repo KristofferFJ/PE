@@ -1,7 +1,8 @@
 import unittest
 
-# Maximum Integer Partition Product
 """
+Maximum Integer Partition Product
+
 An integer partition of a number n is a way of writing n as a sum of positive integers.
 Partitions that differ only in the order of their summands are considered the same.
 A partition of n into distinct parts is a partition of n in which every part occurs at most once.
@@ -16,7 +17,6 @@ It can be verified that
 Find ∑ f(n)·m(n) for 1 ≤ n ≤ 1014.
 Give your answer modulo 982451653, the 50 millionth prime.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

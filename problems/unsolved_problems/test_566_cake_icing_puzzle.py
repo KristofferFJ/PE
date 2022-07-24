@@ -1,7 +1,8 @@
 import unittest
 
-# Cake Icing Puzzle
 """
+Cake Icing Puzzle
+
 Adam plays the following game with his birthday cake.
 He cuts a piece forming a circular sector of 60 degrees and flips the piece upside down, with the icing on the bottom.
 He then rotates the cake by 60 degrees counterclockwise, cuts an adjacent 60 degree piece and flips it upside down.
@@ -14,7 +15,6 @@ You are given that F(9, 10, 11) = 60, F(10, 14, 16) = 506, F(15, 16, 1
 You are also given G(11) = 60, G(14) = 58020 and G(17) = 1269260.
 Find G(53).
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

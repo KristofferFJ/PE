@@ -1,7 +1,8 @@
 import unittest
 
-# Heighway Dragon
 """
+Heighway Dragon
+
 Let D0 be the two-letter string "Fa".  For n≥1, derive Dn from Dn-1 by the string-rewriting rules:
 "a" → "aRbFR"
 "b" → "LFaLb"
@@ -11,7 +12,6 @@ Then Dn is an exotic drawing known as the Heighway Dragon of order n.  For examp
 What is the position of the cursor after 1012 steps in D50 ?
 Give your answer in the form x,y with no spaces.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

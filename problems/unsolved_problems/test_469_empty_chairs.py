@@ -1,7 +1,8 @@
 import unittest
 
-# Empty chairs
 """
+Empty chairs
+
 
 In a room N chairs are placed around a round table.
 Knights enter the room one by one and choose at random an available empty chair.
@@ -16,7 +17,6 @@ We can verify that E(4) = 1/2 and E(6) = 5/9.
 Find E(1018). Give your answer rounded to fourteen decimal places in the form 0.abcdefghijklmn.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

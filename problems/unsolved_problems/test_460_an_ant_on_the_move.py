@@ -1,7 +1,8 @@
 import unittest
 
-# An ant on the move
 """
+An ant on the move
+
 
 On the Euclidean plane, an ant travels from point A(0, 1) to point B(d, 1) for an integer d.
 
@@ -25,7 +26,6 @@ We can verify that F(10) ≈ 4.668187834 and F(100) ≈ 9.217221972.
 Find F(10000). Give your answer rounded to nine decimal places.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

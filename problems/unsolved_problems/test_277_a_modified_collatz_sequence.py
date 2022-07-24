@@ -1,7 +1,8 @@
 import unittest
 
-# A Modified Collatz sequence
 """
+A Modified Collatz sequence
+
 
 A modified Collatz sequence of integers is obtained from a starting value $a_1$ in the following way:
 
@@ -28,7 +29,6 @@ In fact, $1004064$ is the smallest possible $a_1 > 10^6$ that begins with the se
 What is the smallest $a_1 > 10^{15}$ that begins with the sequence "UDDDUdddDDUDDddDdDddDDUDDdUUDd"?
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# Binary Quadratic Form
 """
+Binary Quadratic Form
+
 
 The number 209 can be expressed as $a^2 + 3ab + b^2$ in two distinct ways:
 
@@ -19,7 +20,6 @@ You are given that $f(10^5, 4) = 237$ and $f(10^8, 6) = 59517$.
 Find $f(10^{15}, 40)$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# 123 Numbers
 """
+123 Numbers
+
 
 We define 123-numbers as follows:
 
@@ -20,7 +21,6 @@ Let $F(n)$ be the $n$-th 123-number. For example $F(4)=11$, $F(10)=31$, $F(40)=1
 Find $F(111\,111\,111\,111\,222\,333)$. Give your answer modulo $123\,123\,123$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

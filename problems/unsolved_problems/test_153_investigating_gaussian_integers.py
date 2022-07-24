@@ -1,7 +1,8 @@
 import unittest
 
-# Investigating Gaussian Integers
 """
+Investigating Gaussian Integers
+
 As we all know the equation x2=-1 has no solutions for real x.
 
 If we however introduce the imaginary number i this equation has two solutions: x=i and x=-i.
@@ -38,7 +39,6 @@ For divisors with positive real parts, then, we have: $\sum \limits_{n = 1}^{5} 
 For $\sum \limits_{n = 1}^{10^5} {s(n)} = 17924657155$.
 What is $\sum \limits_{n = 1}^{10^8} {s(n)}$?
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# Circumscribed Circles
 """
+Circumscribed Circles
+
 
 Every triangle has a circumscribed circle that goes through the three vertices.
 Consider all integer sided triangles for which the radius of the circumscribed circle is integral as well.
@@ -15,7 +16,6 @@ S(100)=4950 and S(1200)=1653605.
 Find S(107).
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

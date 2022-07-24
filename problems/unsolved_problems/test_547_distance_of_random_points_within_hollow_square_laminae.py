@@ -1,7 +1,8 @@
 import unittest
 
-# Distance of random points within hollow square laminae
 """
+Distance of random points within hollow square laminae
+
 Assuming that two points are chosen randomly (with uniform distribution) within a rectangle, it is possible to determine the expected value of the distance between these two points.
 For example, the expected distance between two random points in a unit square is about 0.521405, while the expected distance between two random points in a rectangle with side lengths 2 and 3 is about 1.317067.
 Now we define a hollow square lamina of size n to be an integer sized square with side length n ≥ 3 consisting of n2 unit squares from which a rectangle consisting of x × y unit squares (1 ≤ x,y ≤ n - 2) within the original square has been removed.
@@ -13,7 +14,6 @@ Let S(n) be the sum of the expected distance between two points chosen randomly 
 For example, S(3) = 1.6514 and S(4) = 19.6564, rounded to four digits after the decimal point.
 Find S(40) rounded to four digits after the decimal point.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

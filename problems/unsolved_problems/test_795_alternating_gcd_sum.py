@@ -1,7 +1,8 @@
 import unittest
 
-# Alternating GCD Sum
 """
+Alternating GCD Sum
+
 
 For a positive integer $n$, the function $g(n)$ is defined as
 
@@ -16,7 +17,6 @@ Let $\displaystyle G(N) = \sum_{n=1}^N g(n)$. You are given $G(1234) = 2194708$.
 Find $G(12345678)$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

@@ -1,7 +1,8 @@
 import unittest
 
-# Triangle on parabola
 """
+Triangle on parabola
+
 
 On the parabola y = x2/k, three points A(a, a2/k), B(b, b2/k) and C(c, c2/k) are chosen.
 
@@ -13,7 +14,6 @@ For example, F(1, 10) = 41 and F(10, 100) = 12492.
 Find F(106, 109).
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

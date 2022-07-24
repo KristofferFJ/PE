@@ -1,7 +1,8 @@
 import unittest
 
-# Cyclic paths on Sierpiński graphs
 """
+Cyclic paths on Sierpiński graphs
+
 - A Sierpiński graph of order-1 (S1) is an equilateral triangle.
 - Sn+1 is obtained from Sn by positioning three copies of Sn so that every pair of copies has one common corner.
 
@@ -16,7 +17,6 @@ C(10 000) mod 138 = 617720485
 Find C(C(C(10 000))) mod 138.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

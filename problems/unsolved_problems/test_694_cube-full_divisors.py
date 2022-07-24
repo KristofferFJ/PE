@@ -1,7 +1,8 @@
 import unittest
 
-# Cube-full Divisors
 """
+Cube-full Divisors
+
 
 A positive integer $n$ is considered cube-full, if for every prime $p$ that divides $n$, so does $p^3$. Note that $1$ is considered cube-full.
 
@@ -18,7 +19,6 @@ You are given $S(16) =  19$, $S(100) = 126$ and $S(10000) = 13344$.
 Find $S(10^{18})$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

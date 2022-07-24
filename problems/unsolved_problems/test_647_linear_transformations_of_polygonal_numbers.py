@@ -1,7 +1,8 @@
 import unittest
 
-# Linear Transformations of Polygonal Numbers
 """
+Linear Transformations of Polygonal Numbers
+
 
 It is possible to find positive integers $A$ and $B$ such that given any triangular number, $T_n$, then $AT_n +B$ is always a triangular number. We define $F_3(N)$ to be the sum of $(A+B)$ over all such possible pairs $(A,B)$ with $\max(A,B)\le N$. For example $F_3(100) = 184$.
 
@@ -18,7 +19,6 @@ Similarly we define $F_k(N)$ for odd $k$. You are given $\sum_{k} F_k(10^3) = 14
 Find $\sum_{k} F_k(10^{12})$ where the sum is over all odd $k = 3,5,7,\ldots$
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

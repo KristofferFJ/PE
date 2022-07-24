@@ -1,7 +1,8 @@
 import unittest
 
-# Distinct Colourings of a Rubik's Cube
 """
+Distinct Colourings of a Rubik's Cube
+
 
 The well-known Rubik's Cube puzzle has many fascinating mathematical properties. The 2×2×2 variant has 8 cubelets with a total of 24 visible faces, each with a coloured sticker. Successively turning faces will rearrange the cubelets, although not all arrangements of cubelets are reachable without dismantling the puzzle.
 
@@ -18,7 +19,6 @@ For example, with two colours available, there are 183 essentially distinct colo
 How many essentially distinct colourings are there with 10 different colours available?
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

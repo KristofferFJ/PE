@@ -1,7 +1,8 @@
 import unittest
 
-# Special subset sums: optimum
 """
+Special subset sums: optimum
+
 Let S(A) represent the sum of elements in set A of size n. We shall call it a special sum set if for any two non-empty disjoint subsets, B and C, the following properties are true:
 If S(A) is minimised for a given n, we shall call it an optimum special sum set. The first five optimum special sum sets are given below.
 n = 1: {1}n = 2: {1, 2}n = 3: {2, 3, 4}n = 4: {3, 5, 6, 7}n = 5: {6, 9, 11, 12, 13}
@@ -10,7 +11,6 @@ By applying this "rule" we would expect the optimum set for n = 6 to be A = {11,
 Given that A is an optimum special sum set for n = 7, find its set string.
 NOTE: This problem is related to Problem 105 and Problem 106.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

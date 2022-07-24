@@ -1,7 +1,8 @@
 import unittest
 
-# Fermat Equation
 """
+Fermat Equation
+
 Fermat's Last Theorem states that no three positive integers $a$, $b$, $c$ satisfy the equation 
 $$a^n+b^n=c^n$$
 for any integer value of $n$ greater than 2.
@@ -11,7 +12,6 @@ For a prime $p$, we define $F(p)$ as the number of integer solutions to this equ
 You are given $F(5) = 12$ and $F(7) = 0$.
 Find the sum of $F(p)$ over all primes $p$ less than $6\,000\,000$.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

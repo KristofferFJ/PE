@@ -1,7 +1,8 @@
 import unittest
 
-# Super Ramvok
 """
+Super Ramvok
+
 Consider a single game of Ramvok:
 Let t represent the maximum number of turns the game lasts. If t = 0, then the game ends immediately. Otherwise, on each turn i, the player rolls a die. After rolling, if i < t the player can either stop the game and receive a prize equal to the value of the current roll, or discard the roll and try again next turn. If i = t, then the roll cannot be discarded and the prize must be accepted. Before the game begins, t is chosen by the player, who must then pay an up-front cost ct for some constant c. For c = 0, t can be chosen to be infinite (with an up-front cost of 0). Let R(d, c) be the expected profit (i.e. net gain) that the player receives from a single game of optimally-played Ramvok, given a fair d-sided die and cost constant c. For example, R(4, 0.2) = 2.65. Assume that the player has sufficient funds for paying any/all up-front costs.
 Now consider a game of Super Ramvok:
@@ -10,7 +11,6 @@ Let S(d, c) be the expected profit that the player receives from an optimally-pl
 Let F(n) = ∑ 4≤d≤n∑ 0≤c≤n S(d, c).
 Calculate F(20), rounded to the nearest integer.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

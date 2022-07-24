@@ -1,7 +1,8 @@
 import unittest
 
-# Silver dollar game
 """
+Silver dollar game
+
 One variant of N.G. de Bruijn's silver dollar game can be described as follows:
 On a strip of squares a number of coins are placed, at most one coin per square. Only one coin, called the silver dollar, has any value. Two players take turns making moves. At each turn a player must make either a regular or a special move.
 A regular move consists of selecting one coin and moving it one or more squares to the left. The coin cannot move out of the strip or jump on or over another coin.
@@ -13,7 +14,6 @@ You are given that W(10,2) = 324 and W(100,10) = 1514704946113500.
 Find W(1 000 000, 100) modulo the semiprime 1000 036 000 099 (= 1 000 003 · 1 000 033).
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

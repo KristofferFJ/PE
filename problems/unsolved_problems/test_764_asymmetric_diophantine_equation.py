@@ -1,7 +1,8 @@
 import unittest
 
-# Asymmetric Diophantine Equation
 """
+Asymmetric Diophantine Equation
+
 
 Consider the following Diophantine equation:
 $$16x^2+y^4=z^2$$
@@ -20,7 +21,6 @@ You are also given that $S(10^4)=112851$ (with 26 solutions), and $S(10^7)\equiv
 Find $S(10^{16})$. Give your answer modulo $10^9$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

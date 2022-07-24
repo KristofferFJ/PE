@@ -1,7 +1,8 @@
 import unittest
 
-# Nim Square
 """
+Nim Square
+
 
 Alice and Bob play the game Nim Square.
 Nim Square is just like ordinary three-heap normal play Nim, but the players may only remove a square number of stones from a heap.
@@ -12,7 +13,6 @@ If 0≤a≤b≤c≤29 then the number of losing positions for the next player is
 Find the number of losing positions for the next player if 0≤a≤b≤c≤100 000.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

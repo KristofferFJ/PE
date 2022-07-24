@@ -1,7 +1,8 @@
 import unittest
 
-# Mixtures
 """
+Mixtures
+
 Let us consider mixtures of three substances: A, B and C. A mixture can be described by a ratio of the amounts of A, B, and C in it, i.e., (a : b : c). For example, a mixture described by the ratio (2 : 3 : 5) contains 20% A, 30% B and 50% C.
 For the purposes of this problem, we cannot separate the individual components from a mixture. However, we can combine different amounts of different mixtures to form mixtures with new ratios.
 For example, say we have three mixtures with ratios (3 : 0 : 2), (3 : 6 : 11) and (3 : 3 : 4). By mixing 10 units of the first, 20 units of the second and 30 units of the third, we get a new mixture with ratio (6 : 5 : 9), since:
@@ -18,7 +19,6 @@ Let E(n) be the number of subsets of M(n) which can produce the mixture with rat
 We can verify that E(1) = 103, E(2) = 520447, E(10) mod 118 = 82608406 and E(500) mod 118 = 13801403.
 Find E(10 000 000) mod 118.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

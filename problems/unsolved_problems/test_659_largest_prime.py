@@ -1,7 +1,8 @@
 import unittest
 
-# Largest prime
 """
+Largest prime
+
 
 Consider the sequence  $n^2+3$ with $n \ge 1$.  
 If we write down the first terms of this sequence we get:
@@ -16,7 +17,6 @@ Let $P(k)$ be the largest prime  that divides any two successive terms of the se
 Find the last 18 digits of $\displaystyle \sum_{k=1}^{10\,000\,000} P(k)$.
 
 """
-
 
 class Test(unittest.TestCase):
     def test(self):

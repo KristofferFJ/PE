@@ -1,7 +1,8 @@
 import unittest
 
-# A Kempner-like series
 """
+A Kempner-like series
+
 The  harmonic series  $1 + \dfrac{1}{2} + \dfrac{1}{3} + \dfrac{1}{4} + ...$ is well known to be divergent.
 If we however omit from this series every term where the denominator has a 9 in it, the series remarkably enough converges to approximately 22.9206766193.
 This modified harmonic series is called the Kempner series.
@@ -14,7 +15,6 @@ This series converges as well.
 Find the value the series converges to.
 Give your answer rounded to 10 digits behind the decimal point.
 """
-
 
 class Test(unittest.TestCase):
     def test(self):
