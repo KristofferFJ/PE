@@ -8,6 +8,7 @@ The ordered set of three 4-digit numbers: 8128, 2882, 8281, has three interestin
 Find the sum of the only ordered set of six cyclic 4-digit numbers for which each polygonal type: triangle, square, pentagonal, hexagonal, heptagonal, and octagonal, is represented by a different number in the set.
 """
 
+
 class Test(unittest.TestCase):
     def test(self):
         pass
