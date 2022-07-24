@@ -61,6 +61,10 @@ class Common:
     def sum_of_digits(n):
         return sum([int(m) for m in str(n)])
 
+    @staticmethod
+    def read_from_resources(filename: str):
+        return open("../../resources/" + filename + ".txt", "r")
+
 
 class Test(unittest.TestCase):
     def test_sum_of_digits(self):
